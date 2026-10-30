@@ -2181,10 +2181,10 @@
   "found_at": [
    {
     "level": "CLT_ZevlorsAppeal_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "야영지",
+    "region_en": "Campsite",
+    "region_key": "CAMP_SUB",
+    "region_method": "sublevel name",
     "position": [
      -0.6,
      0.0,
@@ -2240,10 +2240,10 @@
   "found_at": [
    {
     "level": "CLT_ZevlorsAppeal_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "야영지",
+    "region_en": "Campsite",
+    "region_key": "CAMP_SUB",
+    "region_method": "sublevel name",
     "position": [
      -0.6,
      0.0,
@@ -13151,10 +13151,10 @@
   "found_at": [
    {
     "level": "WLD_VillageSubs_C",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "황폐한 마을",
+    "region_en": "Blighted Village",
+    "region_key": "FOR_ForestVillage_SUB",
+    "region_method": "sublevel name",
     "position": [
      15.01,
      1.7,
@@ -15397,10 +15397,10 @@
    },
    {
     "level": "BGO_UC_CazadorChapel_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "카사도어의 던전",
+    "region_en": "Cazador's Dungeon",
+    "region_key": "LOW_CazadorsPalace_Dungeon_SUB",
+    "region_method": "sublevel name",
     "position": [
      -56.33,
      5.86,
@@ -30582,10 +30582,10 @@
   "found_at": [
    {
     "level": "CTY_CazSideRooms_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자르 궁전",
+    "region_en": "Szarr Palace",
+    "region_key": "LOW_CazadorsPalace_Mansion_SUB",
+    "region_method": "sublevel name",
     "position": [
      176.82,
      43.99,
@@ -32827,10 +32827,10 @@
   "found_at": [
    {
     "level": "CTY_CazSideRooms_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자르 궁전",
+    "region_en": "Szarr Palace",
+    "region_key": "LOW_CazadorsPalace_Mansion_SUB",
+    "region_method": "sublevel name",
     "position": [
      145.52,
      43.99,
@@ -38009,10 +38009,10 @@
   "found_at": [
    {
     "level": "BGH_ArtistHouse_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자나스의 장원",
+    "region_en": "Jannath's Estate",
+    "region_key": "LOW_OskarsBeloved_House_SUB",
+    "region_method": "sublevel name",
     "position": [
      -92.38,
      58.28,
@@ -40260,10 +40260,10 @@
    },
    {
     "level": "CMP_CentralCampfire_Day",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "야영지",
+    "region_en": "Campsite",
+    "region_key": "CAMP_SUB",
+    "region_method": "sublevel name",
     "position": [
      -0.13,
      0.03,
@@ -40417,10 +40417,10 @@
   "found_at": [
    {
     "level": "BGO_UC_CazadorChapel_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "카사도어의 던전",
+    "region_en": "Cazador's Dungeon",
+    "region_key": "LOW_CazadorsPalace_Dungeon_SUB",
+    "region_method": "sublevel name",
     "position": [
      -3.93,
      -10.12,
@@ -40513,10 +40513,10 @@
    },
    {
     "level": "CMP_Minthara_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "야영지",
+    "region_en": "Campsite",
+    "region_key": "CAMP_SUB",
+    "region_method": "sublevel name",
     "position": [
      1.09,
      0.98,
@@ -57222,10 +57222,10 @@
    },
    {
     "level": "BGO_UC_CazadorChapel_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "카사도어의 던전",
+    "region_en": "Cazador's Dungeon",
+    "region_key": "LOW_CazadorsPalace_Dungeon_SUB",
+    "region_method": "sublevel name",
     "position": [
      -57.7,
      8.21,
@@ -57413,10 +57413,10 @@
   "found_at": [
    {
     "level": "BGO_UC_CazadorChapel_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "카사도어의 던전",
+    "region_en": "Cazador's Dungeon",
+    "region_key": "LOW_CazadorsPalace_Dungeon_SUB",
+    "region_method": "sublevel name",
     "position": [
      -62.27,
      8.21,
@@ -58565,10 +58565,10 @@
   "found_at": [
    {
     "level": "BGO_UC_CazadorChapel_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "카사도어의 던전",
+    "region_en": "Cazador's Dungeon",
+    "region_key": "LOW_CazadorsPalace_Dungeon_SUB",
+    "region_method": "sublevel name",
     "position": [
      -1.99,
      -10.04,
@@ -58755,10 +58755,10 @@
   "found_at": [
    {
     "level": "CTY_CazSideRooms_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자르 궁전",
+    "region_en": "Szarr Palace",
+    "region_key": "LOW_CazadorsPalace_Mansion_SUB",
+    "region_method": "sublevel name",
     "position": [
      176.82,
      43.99,
@@ -59541,10 +59541,10 @@
   "found_at": [
    {
     "level": "CTY_CazSideRooms_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자르 궁전",
+    "region_en": "Szarr Palace",
+    "region_key": "LOW_CazadorsPalace_Mansion_SUB",
+    "region_method": "sublevel name",
     "position": [
      133.48,
      43.99,
@@ -59624,10 +59624,10 @@
   "found_at": [
    {
     "level": "CTY_CazSideRooms_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자르 궁전",
+    "region_en": "Szarr Palace",
+    "region_key": "LOW_CazadorsPalace_Mansion_SUB",
+    "region_method": "sublevel name",
     "position": [
      145.52,
      43.99,
@@ -59707,10 +59707,10 @@
   "found_at": [
    {
     "level": "CTY_CazSideRooms_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자르 궁전",
+    "region_en": "Szarr Palace",
+    "region_key": "LOW_CazadorsPalace_Mansion_SUB",
+    "region_method": "sublevel name",
     "position": [
      158.04,
      44.0,
@@ -59790,10 +59790,10 @@
   "found_at": [
    {
     "level": "CTY_CazSideRooms_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자르 궁전",
+    "region_en": "Szarr Palace",
+    "region_key": "LOW_CazadorsPalace_Mansion_SUB",
+    "region_method": "sublevel name",
     "position": [
      153.86,
      44.95,
@@ -83162,10 +83162,10 @@
   "found_at": [
    {
     "level": "BGH_ArtistHouse_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자나스의 장원",
+    "region_en": "Jannath's Estate",
+    "region_key": "LOW_OskarsBeloved_House_SUB",
+    "region_method": "sublevel name",
     "position": [
      -96.75,
      67.22,
@@ -83486,10 +83486,10 @@
   "found_at": [
    {
     "level": "BGH_ArtistHouse_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자나스의 장원",
+    "region_en": "Jannath's Estate",
+    "region_key": "LOW_OskarsBeloved_House_SUB",
+    "region_method": "sublevel name",
     "position": [
      -104.83,
      54.27,
@@ -83815,10 +83815,10 @@
   "found_at": [
    {
     "level": "BGH_ArtistHouse_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자나스의 장원",
+    "region_en": "Jannath's Estate",
+    "region_key": "LOW_OskarsBeloved_House_SUB",
+    "region_method": "sublevel name",
     "position": [
      -107.92,
      54.26,
@@ -84490,10 +84490,10 @@
   "found_at": [
    {
     "level": "BGH_ArtistHouse_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자나스의 장원",
+    "region_en": "Jannath's Estate",
+    "region_key": "LOW_OskarsBeloved_House_SUB",
+    "region_method": "sublevel name",
     "position": [
      -98.0,
      66.25,
@@ -84901,10 +84901,10 @@
   "found_at": [
    {
     "level": "BGH_ArtistHouse_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "자나스의 장원",
+    "region_en": "Jannath's Estate",
+    "region_key": "LOW_OskarsBeloved_House_SUB",
+    "region_method": "sublevel name",
     "position": [
      -111.09,
      55.35,
@@ -108409,10 +108409,10 @@
   "found_at": [
    {
     "level": "SCL_MoonriseDungeon_E_ART",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "달오름 탑 감옥",
+    "region_en": "Moonrise Towers Prison",
+    "region_key": "MOO_Prison_SUB",
+    "region_method": "sublevel name",
     "position": [
      -128.16,
      34.73,
@@ -108433,10 +108433,10 @@
    },
    {
     "level": "SCL_MoonriseDungeon_E_ART",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "달오름 탑 감옥",
+    "region_en": "Moonrise Towers Prison",
+    "region_key": "MOO_Prison_SUB",
+    "region_method": "sublevel name",
     "position": [
      -124.14,
      24.5,
@@ -112882,10 +112882,10 @@
   "found_at": [
    {
     "level": "SCL_Mausoleum_E",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "라이스윈 영묘",
+    "region_en": "Reithwin Mausoleum",
+    "region_key": "SHA_Temple_SUB_Mausoleum",
+    "region_method": "sublevel name",
     "position": [
      66.13,
      -29.1,
@@ -117298,10 +117298,10 @@
   "found_at": [
    {
     "level": "SCL_Foundation_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "라이스윈 통행료 징수소",
+    "region_en": "Reithwin Tollhouse",
+    "region_key": "TWN_Tollhouse_SUB",
+    "region_method": "sublevel name",
     "position": [
      -102.08,
      0.82,
@@ -126932,10 +126932,10 @@
   "found_at": [
    {
     "level": "WLD_Underdark_C",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "언더다크",
+    "region_en": "Underdark",
+    "region_key": "UND_Underdark_SUB",
+    "region_method": "sublevel name",
     "position": [
      -71.63,
      41.89,

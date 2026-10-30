@@ -141,7 +141,7 @@ function show(b) {
   const text = lang === "ko" ? b.c || b.ce : b.ce;
   const rows = b.pl.map((p) => {
     const who = ui === "en" ? p.ke : p.k || p.ke;
-    return `<tr${p.cs ? ' class="cs"' : ""}><td>${esc(region(p))}${p.cs ? ` <small>(${T("cutscene")})</small>` : ""}</td><td>${esc(HOW[p.h]?.[ui === "en" ? 1 : 0] || p.h)}${who ? " · " + esc(who) : ""}</td>
+    return `<tr${p.cs ? ' class="cs"' : ""}><td>${esc(region(p))} <small>(${esc(val(p.a))})</small>${p.cs ? ` <small>(${T("cutscene")})</small>` : ""}</td><td>${esc(HOW[p.h]?.[ui === "en" ? 1 : 0] || p.h)}${who ? " · " + esc(who) : ""}</td>
     <td><code>${esc(p.l)}${p.xyz ? " (" + p.xyz.map((v) => v.toFixed(0)).join(", ") + ")" : ""}</code></td><td><code>${esc(p.m)}</code></td></tr>`;
   }).join("");
   const shops = b.s.map((s) => (ui === "en" ? s.e : s.k));

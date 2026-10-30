@@ -195,6 +195,17 @@ SUBLEVEL_REGION = {
     "IRN_IronThrone_C": "IRN_IronThrone_SUB", "WLD_UnderdarkSubs_C": "UND_Underdark_SUB", "WLD_SharTemple_E": "SHA_Temple_SUB",
     # graveyard catacombs: a placed book is BOOK_LOW_Graveyard_WishOfProtection_000, triggers name the GraveKeeper
     "CTY_Catacombs_A": "LOW_Graveyard_SUB",
+    # evidence per level: placed object / trigger names
+    "BGH_ArtistHouse_A": "LOW_OskarsBeloved_House_SUB",       # BOOK_LOW_Oskar'sBeloved_*, Atelier/BedChamber triggers
+    "BGO_UC_CazadorChapel_A": "LOW_CazadorsPalace_Dungeon_SUB",  # S_LOW_CazadorsPalace_Crypt_Desk
+    "CTY_CazSideRooms_A": "LOW_CazadorsPalace_Mansion_SUB",   # Caz side rooms: Attic / UnderChamber
+    "SCL_MoonriseDungeon_E_ART": "MOO_Prison_SUB",            # RegionTrigger_MoonriseDungeon
+    "SCL_Mausoleum_E": "SHA_Temple_SUB_Mausoleum",            # ATM_SCL_Mausoleum, Isobel/CentralTomb triggers
+    "SCL_Foundation_A": "TWN_Tollhouse_SUB",                  # S_TWN_Tollhouse_DeadMasonApprentice, TOL_Basement
+    "WLD_Underdark_C": "UND_Underdark_SUB",
+    "WLD_VillageSubs_C": "FOR_ForestVillage_SUB",             # MillBasement / SmithBasement / ThayanCellar triggers
+    "CLT_ZevlorsAppeal_A": "CAMP_SUB", "CMP_CentralCampfire_Day": "CAMP_SUB",  # S_CAMP_* camp scenes
+    "CMP_Minthara_A": "CAMP_SUB",
 }
 # Sublevels with no matching subregion key that take a main level's display name instead
 # (EPI_Campfire_A holds RegionTrigger_EPI_Camp; EPI_Main_A is "Reunion Camp").
@@ -704,6 +715,8 @@ def series_keys(s):
 
 by_series = defaultdict(list)
 for s in site:
+    for p in s["pl"]:
+        p["a"] = act_of(p["l"])
     s["ac"] = sorted({act_of(p["l"]) for p in s["pl"] if not p["cs"]} | {act_of(lv) for lv in s.pop("_sl", [])})
     k, n = series_keys(s)
     if k:

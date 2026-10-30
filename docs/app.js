@@ -77,7 +77,7 @@ function show(b) {
     </div>
     <div class="chips">${b.tg.map((t) => `<span class="chip" data-f="f-tg" data-v="${esc(t)}">#${esc(t)}</span>`).join("")}</div>
     <div class="toggle"><button data-lang="ko" class="${lang === "ko" ? "on" : ""}">한국어</button> <button data-lang="en" class="${lang === "en" ? "on" : ""}">English</button></div>
-    <div class="page ${esc(bg)}" style="background-image:url('assets/${BG[bg]?.[1] || "Book_BG_B1"}.webp')"><div class="txt">${rich(text).replace(/\n{3,}/g, "\n\n") || "<i>(내용 없음)</i>"}</div></div>
+    <div class="page ${esc(bg)}" style="background-image:url('assets/${BG[bg]?.[1] || "Book_BG_B1"}.webp')"><div class="txt">${rich(text).replace(/\n{3,}/g, "\n\n") || "<i>(내용 없음)</i>"}<span class="end"></span><span class="pad"></span></div></div>
     <div class="pager" hidden><button data-turn="-1">◀ 이전</button><span id="pg"></span><button data-turn="1">다음 ▶</button></div>
     ${b.u.length ? `<p>미확인 제목: ${esc(b.u.join(" / "))}</p>` : ""}
     <section><h3>발견 장소 (${b.pl.length})</h3>${rows ? `<table><tr><th>지역</th><th>방식</th><th>레벨 (좌표)</th><th>지역 판정</th></tr>${rows}</table>` : "<p class='empty'>맵 배치 없음</p>"}</section>
@@ -104,7 +104,10 @@ function turn(d) {
   if (!t || !pager) return;
   const g = getComputedStyle(t).columnGap; // "13%" of the box width, or a px value
   const step = t.clientWidth + (g.endsWith("%") ? t.clientWidth * parseFloat(g) / 100 : parseFloat(g));
-  const pages = Math.max(1, Math.round((t.scrollWidth + step - t.clientWidth) / step));
+  // the column holding the end marker decides the page count; the trailing .pad column lets the
+  // last spread scroll fully even when it has a single column of text
+  const end = t.querySelector(".end").getBoundingClientRect().left - t.getBoundingClientRect().left + t.scrollLeft;
+  const pages = Math.max(1, Math.floor(end / step) + 1);
   spread = Math.min(Math.max(spread + d, 0), pages - 1);
   t.scrollLeft = spread * step;
   pager.hidden = pages < 2;

@@ -228,14 +228,31 @@ function turn(d) {
   // last spread scroll fully even when it has a single column of text
   const end = t.querySelector(".end").getBoundingClientRect().left - t.getBoundingClientRect().left + t.scrollLeft;
   const pages = Math.max(1, Math.floor(end / step) + 1);
+  const before = spread;
   spread = Math.min(Math.max(spread + d, 0), pages - 1);
   t.scrollLeft = spread * step;
   pager.hidden = pages < 2;
   pager.querySelector('[data-turn="-1"]').disabled = spread === 0;
   pager.querySelector('[data-turn="1"]').disabled = spread === pages - 1;
   $("pg").textContent = `${spread + 1} / ${pages}`;
+  return spread !== before;
 }
 addEventListener("resize", () => turn(0));
+
+// Mouse wheel over a two-page book turns the page; at the first or last spread the page scrolls as usual.
+let wheelAt = 0;
+$("detail").addEventListener("wheel", (e) => {
+  if (!e.target.closest(".page.None") || !e.deltaY) return;
+  const d = e.deltaY > 0 ? 1 : -1, now = Date.now();
+  if (now - wheelAt < 250) { e.preventDefault(); return; } // one turn per wheel gesture
+  if (turn(d)) { wheelAt = now; e.preventDefault(); }
+}, { passive: false });
+
+// Left/right arrow keys turn the page unless a text box or select has focus.
+addEventListener("keydown", (e) => {
+  if (!["ArrowLeft", "ArrowRight"].includes(e.key) || (e.target instanceof Element && e.target.closest("input, select, textarea"))) return;
+  if (document.querySelector(".page.None") && turn(e.key === "ArrowRight" ? 1 : -1)) e.preventDefault();
+});
 
 document.querySelectorAll("[data-ui]").forEach((b) => b.addEventListener("click", () => {
   ui = lang = b.dataset.ui;

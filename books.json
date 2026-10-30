@@ -40007,10 +40007,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "웜의 망루",
-    "region_en": "Wyrm's Lookout",
-    "region_key": "INT_Intermezzo_SUB",
-    "region_method": "sublevel name",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -12.43,
      0.62,
@@ -40609,10 +40609,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "웜의 망루",
-    "region_en": "Wyrm's Lookout",
-    "region_key": "INT_Intermezzo_SUB",
-    "region_method": "sublevel name",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -13.99,
      0.62,
@@ -132407,10 +132407,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "웜의 망루",
-    "region_en": "Wyrm's Lookout",
-    "region_key": "INT_Intermezzo_SUB",
-    "region_method": "sublevel name",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -14.67,
      0.73,
@@ -132518,10 +132518,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "웜의 망루",
-    "region_en": "Wyrm's Lookout",
-    "region_key": "INT_Intermezzo_SUB",
-    "region_method": "sublevel name",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -15.33,
      0.62,
@@ -132626,10 +132626,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "웜의 망루",
-    "region_en": "Wyrm's Lookout",
-    "region_key": "INT_Intermezzo_SUB",
-    "region_method": "sublevel name",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -2.94,
      1.87,
@@ -132749,10 +132749,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "웜의 망루",
-    "region_en": "Wyrm's Lookout",
-    "region_key": "INT_Intermezzo_SUB",
-    "region_method": "sublevel name",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -12.29,
      0.62,
@@ -132861,10 +132861,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "웜의 망루",
-    "region_en": "Wyrm's Lookout",
-    "region_key": "INT_Intermezzo_SUB",
-    "region_method": "sublevel name",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      9.05,
      0.62,
@@ -132970,10 +132970,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "웜의 망루",
-    "region_en": "Wyrm's Lookout",
-    "region_key": "INT_Intermezzo_SUB",
-    "region_method": "sublevel name",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -14.71,
      0.62,
@@ -133083,10 +133083,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "웜의 망루",
-    "region_en": "Wyrm's Lookout",
-    "region_key": "INT_Intermezzo_SUB",
-    "region_method": "sublevel name",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      5.99,
      0.84,

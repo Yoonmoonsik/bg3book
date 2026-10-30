@@ -206,7 +206,6 @@ SUBLEVEL_REGION = {
     "WLD_VillageSubs_C": "FOR_ForestVillage_SUB",             # MillBasement / SmithBasement / ThayanCellar triggers
     "CLT_ZevlorsAppeal_A": "CAMP_SUB", "CMP_CentralCampfire_Day": "CAMP_SUB",  # S_CAMP_* camp scenes
     "CMP_Minthara_A": "CAMP_SUB",
-    "INT_CIN_GortashOffice_A": "INT_Intermezzo_SUB",          # Gortash's office is at Wyrm's Lookout (user)
 }
 # Levels holding several places: an item counts only when it lies inside one of these zone triggers.
 LEVEL_ZONES = {"SCL_VillageSubs_E": {"ATM_SCL_VillageSubs_MasonGuildCellar": "TWN_MasonsGuild_SUB",

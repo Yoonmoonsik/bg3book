@@ -13951,10 +13951,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "웜의 망루",
-    "region_en": "Wyrm's Lookout",
-    "region_key": "INT_Intermezzo_SUB",
-    "region_method": "sublevel name",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -30.38,
      3.82,
@@ -25002,6 +25002,24 @@
    },
    {
     "table": "EquipmentTrader_Scrolls",
+    "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
+    "trader_ko": "병참 장교 탈리",
+    "trader_en": "Quartermaster Talli",
+    "level": "SCL_Main_A",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands"
+   },
+   {
+    "table": "EquipmentTrader_Scrolls",
+    "trader": "S_GOB_Quartermaster",
+    "trader_ko": "로아 문글로우",
+    "trader_en": "Roah Moonglow",
+    "level": "WLD_Main_A",
+    "region_ko": "파괴된 성소",
+    "region_en": "Shattered Sanctum"
+   },
+   {
+    "table": "EquipmentTrader_Scrolls",
     "trader": "S_LOW_SteepsTrader_BooksAndScrolls",
     "trader_ko": "낸시 그레타",
     "trader_en": "Nansi Gretta",
@@ -25017,24 +25035,6 @@
     "level": "CTY_Main_A",
     "region_ko": "아랫 도시",
     "region_en": "Lower City"
-   },
-   {
-    "table": "EquipmentTrader_Scrolls",
-    "trader": "S_GOB_Quartermaster",
-    "trader_ko": "로아 문글로우",
-    "trader_en": "Roah Moonglow",
-    "level": "WLD_Main_A",
-    "region_ko": "파괴된 성소",
-    "region_en": "Shattered Sanctum"
-   },
-   {
-    "table": "EquipmentTrader_Scrolls",
-    "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
-    "trader_ko": "병참 장교 탈리",
-    "trader_en": "Quartermaster Talli",
-    "level": "SCL_Main_A",
-    "region_ko": "그림자 저주에 물든 땅",
-    "region_en": "Shadow-Cursed Lands"
    },
    {
     "table": "GOB_Festivities_Trader",

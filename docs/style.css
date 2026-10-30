@@ -33,6 +33,10 @@ main { padding: 16px 24px 40px; min-width: 0; }
 .page.None { padding: 7% 9%; column-count: 2; column-gap: 14%; }
 @media (max-width: 820px) { .page.None { column-count: 1; } }
 .page.GithDisc, .page.TabletA, .page.TabletB, .page.TabletC { padding: 18% 18%; text-align: center; color: #f0e4cf; }
+/* gith_disc_bg is 813x900; text sits inside the lightning ring (x 17-74%, y 16-60% of the image).
+   Padding percentages are of the width, so the vertical ones are scaled by 900/813. */
+.page.GithDisc { aspect-ratio: 813 / 900; max-width: 620px; min-height: 0; padding: 17.7% 26% 44% 17%;
+  overflow-y: auto; font-size: 15px; line-height: 1.6; text-shadow: 0 0 6px #000a; }
 .page.ScrollA, .page.ScrollB { padding: 16% 16%; }
 .toggle { margin-top: 4px; }
 .toggle button { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 4px 12px; cursor: pointer; font: inherit; font-size: 13px; }

@@ -162,17 +162,22 @@ for f in glob.glob(U + "/*/Mods/*/Localization/Levels.lsf"):
         LEVEL_NAMES[k.val("UUID")] = handle(k.val("Content"))
 
 
+NEAREST_MAX = 30  # metres; farther than this the nearest subregion name is not used
+
+
 def region_of(level, p):
     r = region_in(level, p, REGIONS.get(level, []))
     if r and r["method"] == "inside":
         return r
-    # Sublevels (BGO_WyrmsCrossing_C, CTY_LowerCity_A ...) have no subregion triggers of their own;
-    # try every level's boxes, accepting only a point that lies inside one.
-    other = region_in(level, p, [b for lv, bs in REGIONS.items() if lv != level for b in bs])
+    # Sublevels (BGO_WyrmsCrossing_C, CTY_LowerCity_A ...) have no subregion triggers of their own.
+    # Each main level has its own coordinate space (CTY_Main_A's Lower City box overlaps WLD_Main_A
+    # coordinates), so only the main level of the same prefix is tried, and only a point inside a box counts.
+    main = [lv for lv in REGIONS if lv != level and lv.split("_")[0] == level.split("_")[0] and "_Main" in lv]
+    other = region_in(level, p, [b for lv in main for b in REGIONS[lv]])
     if other and other["method"] == "inside":
-        other["method"] = "inside (other level)"
+        other["method"] = "inside (main level)"
         return other
-    if r:
+    if r and float(r["method"].split()[1].rstrip("m")) <= NEAREST_MAX:
         return r
     h = LEVEL_NAMES.get(level, "")
     return {"ko": txt(h, KO), "en": txt(h, EN), "key": level, "method": "level name only"} if h else None

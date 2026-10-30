@@ -8453,10 +8453,10 @@
   "found_at": [
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -55.19,
      33.45,
@@ -8474,10 +8474,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "창고",
-    "region_en": "Storage",
-    "region_key": "DEN_Storage_SUB",
-    "region_method": "nearest 101m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      113.51,
      38.87,
@@ -8516,10 +8516,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -34.49,
      32.04,
@@ -8558,10 +8558,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -33.82,
      32.04,
@@ -8600,10 +8600,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 112m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      208.35,
      26.29,
@@ -8621,10 +8621,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 140m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      47.26,
      39.61,
@@ -8642,10 +8642,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 196m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -91.26,
      19.68,
@@ -8663,10 +8663,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -272.0,
      23.33,
@@ -8684,10 +8684,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 115m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      196.53,
      24.89,
@@ -8705,10 +8705,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 164m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      48.15,
      40.37,
@@ -8726,10 +8726,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 232m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -109.5,
      20.49,
@@ -8747,10 +8747,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "지하 통로",
-    "region_en": "Underground Passage",
-    "region_key": "DEN_Tunnel_SUB",
-    "region_method": "nearest 213m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -653.68,
      0.0,
@@ -8831,10 +8831,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -187.94,
      20.33,
@@ -8852,10 +8852,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 190m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      221.11,
      15.95,
@@ -8873,10 +8873,10 @@
    },
    {
     "level": "BGH_SteelWatchFoundry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      38.98,
      0.63,
@@ -9041,10 +9041,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "창고",
-    "region_en": "Storage",
-    "region_key": "DEN_Storage_SUB",
-    "region_method": "nearest 101m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      113.51,
      38.87,
@@ -9062,10 +9062,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "윗 도시",
-    "region_en": "Upper City",
-    "region_key": "END_HighHall_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      382.79,
      34.38,
@@ -9086,7 +9086,7 @@
     "region_ko": "윗 도시",
     "region_en": "Upper City",
     "region_key": "END_HighHall_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      234.94,
      -0.56,
@@ -9314,10 +9314,10 @@
    },
    {
     "level": "CTY_LowerCity_A",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City",
+    "region_key": "LOW_City_SUB",
+    "region_method": "inside (main level)",
     "position": [
      10.66,
      17.28,
@@ -9356,10 +9356,10 @@
    },
    {
     "level": "CTY_LowerCity_A",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City",
+    "region_key": "LOW_City_SUB",
+    "region_method": "inside (main level)",
     "position": [
      8.36,
      20.41,
@@ -9377,10 +9377,10 @@
    },
    {
     "level": "CTY_LowerCity_A",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City",
+    "region_key": "LOW_City_SUB",
+    "region_method": "inside (main level)",
     "position": [
      10.68,
      17.94,
@@ -9401,7 +9401,7 @@
     "region_ko": "아랫 도시",
     "region_en": "Lower City",
     "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      -200.61,
      20.64,
@@ -9422,7 +9422,7 @@
     "region_ko": "아랫 도시",
     "region_en": "Lower City",
     "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      35.62,
      39.84,
@@ -9464,7 +9464,7 @@
     "region_ko": "아랫 도시",
     "region_en": "Lower City",
     "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      56.31,
      14.73,
@@ -9485,7 +9485,7 @@
     "region_ko": "아랫 도시",
     "region_en": "Lower City",
     "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      40.17,
      39.77,
@@ -9506,7 +9506,7 @@
     "region_ko": "아랫 도시",
     "region_en": "Lower City",
     "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      -85.04,
      20.46,
@@ -9566,10 +9566,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      35.62,
      39.84,
@@ -9629,10 +9629,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      8.36,
      20.41,
@@ -9692,10 +9692,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      40.17,
      39.77,
@@ -9713,10 +9713,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      56.31,
      14.73,
@@ -9755,10 +9755,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      10.66,
      17.28,
@@ -9776,10 +9776,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      10.68,
      17.94,
@@ -9797,10 +9797,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      35.62,
      39.84,
@@ -9839,10 +9839,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry_B",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      8.36,
      20.41,
@@ -9860,10 +9860,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry_B",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      10.66,
      17.28,
@@ -9923,10 +9923,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      40.17,
      39.77,
@@ -9944,10 +9944,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      56.31,
      14.73,
@@ -9965,10 +9965,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry_B",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      10.68,
      17.94,
@@ -10196,10 +10196,10 @@
    },
    {
     "level": "BGH_Countinghouse_C",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      2.9,
      -8.36,
@@ -10217,10 +10217,10 @@
    },
    {
     "level": "WLD_OwlbearCave_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      36.9,
      -7.54,
@@ -10238,10 +10238,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "바알 신전",
-    "region_en": "Bhaal Temple",
-    "region_key": "LOW_BhaalTemple_Temple_SUB",
-    "region_method": "nearest 216m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      47.9,
      24.08,
@@ -10259,10 +10259,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "바알 신전",
-    "region_en": "Bhaal Temple",
-    "region_key": "LOW_BhaalTemple_Temple_SUB",
-    "region_method": "nearest 244m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -117.62,
      22.14,
@@ -10301,10 +10301,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "nearest 119m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      142.89,
      59.39,
@@ -10322,10 +10322,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "칠흑 호수 동굴",
-    "region_en": "Ebonlake Grotto",
-    "region_key": "UND_MyconidCircle_SUB",
-    "region_method": "nearest 38m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      51.17,
      42.85,
@@ -10343,10 +10343,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "회합 서재",
-    "region_en": "Enclave Library",
-    "region_key": "DEN_SecretLibrary_SUB",
-    "region_method": "nearest 169m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -305.08,
      24.1,
@@ -10364,10 +10364,10 @@
    },
    {
     "level": "BGH_Countinghouse_C",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      0.7,
      -0.32,
@@ -10406,10 +10406,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "바실리스크 게이트 막사",
-    "region_en": "Basilisk Gate Barracks",
-    "region_key": "LOW_BasiliskGate_Barracks_SUB",
-    "region_method": "nearest 85m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      75.09,
      46.32,
@@ -10427,10 +10427,10 @@
    },
    {
     "level": "CTY_MusicStore_Basement_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City",
+    "region_key": "LOW_City_SUB",
+    "region_method": "inside (main level)",
     "position": [
      9.65,
      4.16,
@@ -10451,7 +10451,7 @@
     "region_ko": "윗 도시",
     "region_en": "Upper City",
     "region_key": "END_HighHall_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      236.53,
      -0.64,
@@ -10511,10 +10511,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -150.93,
      24.51,
@@ -10574,10 +10574,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "지하 통로",
-    "region_en": "Underground Passage",
-    "region_key": "DEN_Tunnel_SUB",
-    "region_method": "nearest 211m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -651.09,
      -0.05,
@@ -10595,10 +10595,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "칠흑 호수 동굴",
-    "region_en": "Ebonlake Grotto",
-    "region_key": "UND_MyconidCircle_SUB",
-    "region_method": "nearest 38m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      50.73,
      42.87,
@@ -10619,7 +10619,7 @@
     "region_ko": "윗 도시",
     "region_en": "Upper City",
     "region_key": "END_HighHall_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      235.05,
      -0.64,
@@ -10637,10 +10637,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 173m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      286.27,
      18.52,
@@ -10658,10 +10658,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 196m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -91.26,
      19.68,
@@ -10679,10 +10679,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -34.49,
      32.04,
@@ -10700,10 +10700,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -34.11,
      32.04,
@@ -10742,10 +10742,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "회합 서재",
-    "region_en": "Enclave Library",
-    "region_key": "DEN_SecretLibrary_SUB",
-    "region_method": "nearest 168m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -305.61,
      24.1,
@@ -10763,10 +10763,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 173m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      286.27,
      18.52,
@@ -10784,10 +10784,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -55.19,
      33.45,
@@ -11015,10 +11015,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 139m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -119.34,
      16.65,
@@ -11036,10 +11036,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      17.72,
      11.0,
@@ -11120,10 +11120,10 @@
    },
    {
     "level": "SCL_RuinsBattlefield_G",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -162.82,
      38.63,
@@ -11141,10 +11141,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "칠흑 호수",
-    "region_en": "Ebonlake",
-    "region_key": "UND_EbonLake_SUB",
-    "region_method": "nearest 248m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -665.0,
      0.34,
@@ -11183,10 +11183,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 186m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      0.59,
      33.73,
@@ -11204,10 +11204,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -494.38,
      0.13,
@@ -11267,10 +11267,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "자르 궁전",
-    "region_en": "Szarr Palace",
-    "region_key": "LOW_CazadorsPalace_Mansion_SUB",
-    "region_method": "nearest 36m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -1291.43,
      46.43,
@@ -11288,10 +11288,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "라이스윈 통행료 징수소",
+    "region_en": "Reithwin Tollhouse",
+    "region_key": "TWN_Tollhouse_SUB",
+    "region_method": "nearest 30m",
     "position": [
      -119.29,
      27.96,
@@ -11309,10 +11309,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "라이스윈 통행료 징수소",
+    "region_en": "Reithwin Tollhouse",
+    "region_key": "TWN_Tollhouse_SUB",
+    "region_method": "nearest 28m",
     "position": [
      -125.56,
      25.32,
@@ -11330,10 +11330,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 186m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -0.02,
      33.75,
@@ -11351,10 +11351,10 @@
    },
    {
     "level": "BGO_CIN_Ruins_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -141.53,
      -28.7,
@@ -11414,10 +11414,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "지하 통로",
-    "region_en": "Underground Passage",
-    "region_key": "DEN_Tunnel_SUB",
-    "region_method": "nearest 195m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -634.57,
      0.04,
@@ -11435,10 +11435,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      17.72,
      11.0,
@@ -11456,10 +11456,10 @@
    },
    {
     "level": "BGH_Countinghouse_C",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -12.81,
      -7.13,
@@ -11480,7 +11480,7 @@
     "region_ko": "윗 도시",
     "region_en": "Upper City",
     "region_key": "END_HighHall_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      234.85,
      -0.64,
@@ -11498,10 +11498,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관 - 지하실",
-    "region_en": "Last Light Inn - Cellar",
-    "region_key": "HAV_Haven_SUB_Cellar",
-    "region_method": "nearest 115m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      133.53,
      2.18,
@@ -11519,10 +11519,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙",
-    "region_en": "Fraygo's Flophouse",
-    "region_key": "WYR_Flophouse_SUB",
-    "region_method": "nearest 110m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -27.19,
      45.37,
@@ -11582,10 +11582,10 @@
    },
    {
     "level": "CTY_LodgeBasement_A",
-    "region_ko": "장밋빛 아침 수도원",
-    "region_en": "Rosymorn Monastery",
-    "region_key": "CRE_Monastery_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City",
+    "region_key": "LOW_City_SUB",
+    "region_method": "inside (main level)",
     "position": [
      25.71,
      1.22,
@@ -11603,10 +11603,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "마인드 플레이어 군체",
-    "region_en": "Mind Flayer Colony",
-    "region_key": "COL_Colony_SUB",
-    "region_method": "nearest 138m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      656.94,
      19.43,
@@ -11624,10 +11624,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -150.93,
      24.51,
@@ -11645,10 +11645,10 @@
    },
    {
     "level": "TUT_Avernus_C",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "지옥의 노틸로이드",
+    "region_en": "A Nautiloid in Hell",
+    "region_key": "TUT_Avernus_C",
+    "region_method": "level name only",
     "position": [
      55.85,
      17.21,
@@ -11666,10 +11666,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -55.19,
      33.45,
@@ -11687,10 +11687,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "매캐한 공방",
-    "region_en": "Acrid Workshop",
-    "region_key": "HAG_HagLair_SUB_Workshop",
-    "region_method": "nearest 107m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -329.38,
      16.15,
@@ -11708,10 +11708,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "창고",
-    "region_en": "Storage",
-    "region_key": "DEN_Storage_SUB",
-    "region_method": "nearest 237m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -26.29,
      37.25,
@@ -11729,10 +11729,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 105m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      85.7,
      1.59,
@@ -11750,10 +11750,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 187m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -133.83,
      6.45,
@@ -11771,10 +11771,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "웜 바위 감옥",
-    "region_en": "Wyrm's Rock Prison",
-    "region_key": "WYR_Prison_SUB",
-    "region_method": "nearest 323m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      93.73,
      -7.88,
@@ -11792,10 +11792,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "웜의 길",
-    "region_en": "The Wyrmway",
-    "region_key": "WYR_Wyrmway_SUB",
-    "region_method": "nearest 484m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -1340.69,
      3.74,
@@ -11876,10 +11876,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "핏빛 물약",
-    "region_en": "Crimson Draughts",
-    "region_key": "LOW_BloodMerchant_SUB",
-    "region_method": "nearest 54m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -1560.14,
      0.0,
@@ -11897,10 +11897,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "핏빛 물약",
-    "region_en": "Crimson Draughts",
-    "region_key": "LOW_BloodMerchant_SUB",
-    "region_method": "nearest 54m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -1560.14,
      0.0,
@@ -11939,10 +11939,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -170.01,
      37.27,
@@ -12002,10 +12002,10 @@
    },
    {
     "level": "SCL_VillageSubs_E",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      83.22,
      -0.42,
@@ -12065,10 +12065,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "장밋빛 아침 수도원",
-    "region_en": "Rosymorn Monastery",
-    "region_key": "CRE_Monastery_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      26.86,
      1.34,
@@ -12086,10 +12086,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "장밋빛 아침 수도원",
-    "region_en": "Rosymorn Monastery",
-    "region_key": "CRE_Monastery_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      22.22,
      1.34,
@@ -12338,10 +12338,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "젠타림 지하 기지",
-    "region_en": "Zhentarim Basement",
-    "region_key": "PLA_ZhentDungeon_SUB",
-    "region_method": "nearest 263m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      157.55,
      5.67,
@@ -12359,10 +12359,10 @@
    },
    {
     "level": "BGH_House_of_Grief",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -21.2,
      4.2,
@@ -12380,10 +12380,10 @@
    },
    {
     "level": "BGH_SteelWatchFoundry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      27.3,
      1.1,
@@ -12401,10 +12401,10 @@
    },
    {
     "level": "BGO_JungleOfChult_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -16.45,
      18.39,
@@ -12485,10 +12485,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "핏빛 물약",
-    "region_en": "Crimson Draughts",
-    "region_key": "LOW_BloodMerchant_SUB",
-    "region_method": "nearest 41m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -1562.41,
      0.03,
@@ -12569,10 +12569,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관",
-    "region_en": "Last Light Inn",
-    "region_key": "HAV_Haven_SUB",
-    "region_method": "nearest 165m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      91.22,
      52.41,
@@ -12737,10 +12737,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "지하 통로",
-    "region_en": "Underground Passage",
-    "region_key": "DEN_Tunnel_SUB",
-    "region_method": "nearest 211m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -651.09,
      -0.05,
@@ -12758,10 +12758,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 112m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      208.35,
      26.29,
@@ -12863,10 +12863,10 @@
    },
    {
     "level": "BGH_Countinghouse_C",
-    "region_ko": "철 왕좌",
-    "region_en": "Iron Throne",
-    "region_key": "IRN_IronThrone_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -26.74,
      -6.43,
@@ -12887,7 +12887,7 @@
     "region_ko": "칠흑 호수 동굴",
     "region_en": "Ebonlake Grotto",
     "region_key": "UND_MyconidCircle_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      75.23,
      35.61,
@@ -12947,10 +12947,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 149m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      141.1,
      1.3,
@@ -12968,10 +12968,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -434.97,
      11.63,
@@ -13010,10 +13010,10 @@
    },
    {
     "level": "BGH_House_of_Grief",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -14.48,
      4.2,
@@ -13073,10 +13073,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -223.46,
      15.31,
@@ -13094,10 +13094,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 107m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      2.1,
      31.93,
@@ -13262,10 +13262,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -30.38,
      3.82,
@@ -13283,10 +13283,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -255.74,
      22.0,
@@ -13304,10 +13304,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙",
-    "region_en": "Fraygo's Flophouse",
-    "region_key": "WYR_Flophouse_SUB",
-    "region_method": "nearest 167m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -68.55,
      46.85,
@@ -13327,8 +13327,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 114m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -20.2,
      46.68,
@@ -13367,10 +13367,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -115.89,
      5.4,
@@ -13388,10 +13388,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -19.54,
      24.24,
@@ -13409,10 +13409,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -20.94,
      24.47,
@@ -13451,10 +13451,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      11.75,
      7.05,
@@ -13514,10 +13514,10 @@
    },
    {
     "level": "BGH_SorcerersSundries_A_ART",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      3.42,
      1.35,
@@ -13535,10 +13535,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      2.61,
      27.57,
@@ -13556,10 +13556,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      2.61,
      27.57,
@@ -13577,10 +13577,10 @@
    },
    {
     "level": "CRE_Main_A",
-    "region_ko": "장밋빛 아침 수도원",
-    "region_en": "Rosymorn Monastery",
-    "region_key": "CRE_Monastery_SUB",
-    "region_method": "nearest 281m",
+    "region_ko": "기스양키 양성소",
+    "region_en": "Githyanki Crèche",
+    "region_key": "CRE_Main_A",
+    "region_method": "level name only",
     "position": [
      -134.09,
      53.98,
@@ -13619,10 +13619,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "지하 통로",
-    "region_en": "Underground Passage",
-    "region_key": "DEN_Tunnel_SUB",
-    "region_method": "nearest 264m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -667.33,
      -1.89,
@@ -13682,10 +13682,10 @@
    },
    {
     "level": "BGH_SteelWatchFoundry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      27.3,
      1.1,
@@ -13766,10 +13766,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "윗 도시",
-    "region_en": "Upper City",
-    "region_key": "END_HighHall_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      386.91,
      34.41,
@@ -13829,10 +13829,10 @@
    },
    {
     "level": "BGH_PhilgraveMansion_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      13.55,
      5.15,
@@ -13852,8 +13852,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 133m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      20.98,
      77.88,
@@ -13892,10 +13892,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 196m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -91.26,
      19.68,
@@ -13934,10 +13934,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      11.75,
      7.05,
@@ -13955,10 +13955,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 112m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      208.35,
      26.29,
@@ -13976,10 +13976,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -55.19,
      33.45,
@@ -13997,10 +13997,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -27.47,
      24.35,
@@ -14018,10 +14018,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -27.47,
      24.35,
@@ -14060,10 +14060,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관 - 지하실",
-    "region_en": "Last Light Inn - Cellar",
-    "region_key": "HAV_Haven_SUB_Cellar",
-    "region_method": "nearest 115m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      133.53,
      2.18,
@@ -14081,10 +14081,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -23.89,
      26.39,
@@ -14102,10 +14102,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -23.89,
      26.39,
@@ -14207,10 +14207,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 110m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      14.18,
      39.71,
@@ -14228,10 +14228,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "샤리스의 포옹 지하실",
-    "region_en": "Sharess' Caress Basement",
-    "region_key": "WYR_SharessCaress_Basement_SUB",
-    "region_method": "nearest 119m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      93.67,
      57.0,
@@ -14249,10 +14249,10 @@
    },
    {
     "level": "BGO_MerchantHouseBasement_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      18.76,
      2.21,
@@ -14312,10 +14312,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "매캐한 공방",
-    "region_en": "Acrid Workshop",
-    "region_key": "HAG_HagLair_SUB_Workshop",
-    "region_method": "nearest 119m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -298.75,
      15.86,
@@ -14333,10 +14333,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 107m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      2.1,
      31.93,
@@ -14398,8 +14398,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 82m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -32.04,
      45.28,
@@ -14461,8 +14461,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 122m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -34.09,
      73.05,
@@ -14501,10 +14501,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "하이베리의 지하실",
-    "region_en": "Highberry's Basement",
-    "region_key": "LOW_SerialKiller_HighberrysHouse_Basement_SUB",
-    "region_method": "nearest 163m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -712.38,
      33.02,
@@ -14543,10 +14543,10 @@
    },
    {
     "level": "BGH_FigaroCosmeticShop_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      7.08,
      10.53,
@@ -14564,10 +14564,10 @@
    },
    {
     "level": "BGH_FigaroCosmeticShop_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      6.32,
      5.28,
@@ -14585,10 +14585,10 @@
    },
    {
     "level": "BGO_HouseOfHope_C",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -27.09,
      6.75,
@@ -14606,10 +14606,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      21.19,
      1.34,
@@ -14627,10 +14627,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      24.72,
      1.54,
@@ -14648,10 +14648,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      22.54,
      1.78,
@@ -14669,10 +14669,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      18.65,
      1.43,
@@ -14690,10 +14690,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      20.06,
      0.46,
@@ -14711,10 +14711,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "아울베어 둥지",
+    "region_en": "Owlbear Nest",
+    "region_key": "FOR_OwlBear_SUB",
+    "region_method": "nearest 24m",
     "position": [
      -328.33,
      -7.5,
@@ -14732,10 +14732,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관",
-    "region_en": "Last Light Inn",
-    "region_key": "HAV_Haven_SUB",
-    "region_method": "nearest 158m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      92.21,
      57.48,
@@ -14753,10 +14753,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      29.3,
      36.36,
@@ -14879,10 +14879,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "샤의 시련",
-    "region_en": "Gauntlet of Shar",
-    "region_key": "SHA_Temple_SUB",
-    "region_method": "nearest 95m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -824.58,
      8.96,
@@ -14900,10 +14900,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -487.51,
      3.85,
@@ -14921,10 +14921,10 @@
    },
    {
     "level": "BGO_SteelWatchLabControlCenter_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      68.0,
      -0.25,
@@ -14984,10 +14984,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "하이베리의 지하실",
-    "region_en": "Highberry's Basement",
-    "region_key": "LOW_SerialKiller_HighberrysHouse_Basement_SUB",
-    "region_method": "nearest 181m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -717.21,
      33.02,
@@ -15005,10 +15005,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "샤의 시련",
-    "region_en": "Gauntlet of Shar",
-    "region_key": "SHA_Temple_SUB",
-    "region_method": "nearest 116m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -851.87,
      8.72,
@@ -15047,10 +15047,10 @@
    },
    {
     "level": "BGH_FigaroCosmeticShop_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      7.0,
      10.43,
@@ -15068,10 +15068,10 @@
    },
    {
     "level": "BGH_FigaroCosmeticShop_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      6.28,
      5.36,
@@ -15089,10 +15089,10 @@
    },
    {
     "level": "CTY_MusicStore_Basement_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City",
+    "region_key": "LOW_City_SUB",
+    "region_method": "inside (main level)",
     "position": [
      3.97,
      4.36,
@@ -15110,10 +15110,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      20.88,
      1.45,
@@ -15131,10 +15131,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      22.56,
      1.86,
@@ -15152,10 +15152,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "장밋빛 아침 수도원",
-    "region_en": "Rosymorn Monastery",
-    "region_key": "CRE_Monastery_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      22.64,
      1.35,
@@ -15173,10 +15173,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      18.1,
      1.43,
@@ -15194,10 +15194,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      20.12,
      0.46,
@@ -15215,10 +15215,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      24.73,
      1.63,
@@ -15236,10 +15236,10 @@
    },
    {
     "level": "SCL_VillageSubs_E",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      73.15,
      5.0,
@@ -15257,10 +15257,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 33m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      15.94,
      43.85,
@@ -15278,10 +15278,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관 - 지하실",
-    "region_en": "Last Light Inn - Cellar",
-    "region_key": "HAV_Haven_SUB_Cellar",
-    "region_method": "nearest 115m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      133.53,
      2.18,
@@ -15299,10 +15299,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 43m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      205.07,
      26.25,
@@ -15320,10 +15320,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 197m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      44.77,
      35.64,
@@ -15341,10 +15341,10 @@
    },
    {
     "level": "BGO_BlacksmithCellar_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -110.45,
      1.41,
@@ -15364,8 +15364,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 114m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -20.12,
      47.24,
@@ -15385,8 +15385,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 115m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -20.37,
      47.24,
@@ -15406,8 +15406,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 115m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -20.63,
      47.24,
@@ -15425,10 +15425,10 @@
    },
    {
     "level": "BGO_WyrmsCrossing_C",
-    "region_ko": "영계",
-    "region_en": "Astral Plane",
-    "region_key": "CRE_AstralPlane_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -6.48,
      49.73,
@@ -15446,10 +15446,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -174.86,
      18.16,
@@ -15467,10 +15467,10 @@
    },
    {
     "level": "WLD_GoblinCamp_D",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      52.95,
      34.32,
@@ -15488,10 +15488,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "라이스윈 석공 길드",
+    "region_en": "Reithwin Masons' Guild",
+    "region_key": "TWN_MasonsGuild_SUB",
+    "region_method": "nearest 23m",
     "position": [
      -118.11,
      26.86,
@@ -15530,10 +15530,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "버려진 은신처",
-    "region_en": "Abandoned Refuge",
-    "region_key": "UND_DuergarCamp_SUB",
-    "region_method": "nearest 180m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -538.61,
      27.61,
@@ -15551,10 +15551,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -433.97,
      15.71,
@@ -15593,10 +15593,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -222.5,
      2.19,
@@ -15635,10 +15635,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -223.41,
      1.23,
@@ -15656,10 +15656,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "웜 바위 감옥",
-    "region_en": "Wyrm's Rock Prison",
-    "region_key": "WYR_Prison_SUB",
-    "region_method": "nearest 300m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      63.57,
      -12.29,
@@ -15700,8 +15700,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 130m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -20.26,
      44.02,
@@ -15721,8 +15721,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 133m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      20.98,
      77.88,
@@ -15761,10 +15761,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "자르 궁전",
-    "region_en": "Szarr Palace",
-    "region_key": "LOW_CazadorsPalace_Mansion_SUB",
-    "region_method": "nearest 42m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -1308.09,
      56.63,
@@ -15803,10 +15803,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "바알 신전",
-    "region_en": "Bhaal Temple",
-    "region_key": "LOW_BhaalTemple_Temple_SUB",
-    "region_method": "nearest 245m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -116.23,
      22.14,
@@ -15824,10 +15824,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "바알 신전",
-    "region_en": "Bhaal Temple",
-    "region_key": "LOW_BhaalTemple_Temple_SUB",
-    "region_method": "nearest 262m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -154.18,
      16.66,
@@ -15887,10 +15887,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -163.34,
      22.1,
@@ -15908,10 +15908,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관",
-    "region_en": "Last Light Inn",
-    "region_key": "HAV_Haven_SUB",
-    "region_method": "nearest 117m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      57.57,
      42.96,
@@ -15929,10 +15929,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -145.72,
      27.12,
@@ -15971,10 +15971,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -52.43,
      33.03,
@@ -15992,10 +15992,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 44m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      204.2,
      26.3,
@@ -16034,10 +16034,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -152.51,
      24.46,
@@ -16097,10 +16097,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "nearest 120m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      155.41,
      69.32,
@@ -16118,10 +16118,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "버려진 은신처",
-    "region_en": "Abandoned Refuge",
-    "region_key": "UND_DuergarCamp_SUB",
-    "region_method": "nearest 106m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -581.57,
      19.0,
@@ -16163,7 +16163,7 @@
     "region_ko": "아랫 도시",
     "region_en": "Lower City",
     "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      -255.01,
      25.5,
@@ -16349,10 +16349,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -169.31,
      37.5,
@@ -16370,10 +16370,10 @@
    },
    {
     "level": "BGO_UC_CazadorChapel_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -56.33,
      5.86,
@@ -16412,10 +16412,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "하이베리의 지하실",
-    "region_en": "Highberry's Basement",
-    "region_key": "LOW_SerialKiller_HighberrysHouse_Basement_SUB",
-    "region_method": "nearest 168m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -712.09,
      33.55,
@@ -16433,10 +16433,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      19.47,
      1.15,
@@ -16454,10 +16454,10 @@
    },
    {
     "level": "CRE_Main_A",
-    "region_ko": "장밋빛 아침 수도원",
-    "region_en": "Rosymorn Monastery",
-    "region_key": "CRE_Monastery_SUB",
-    "region_method": "nearest 202m",
+    "region_ko": "기스양키 양성소",
+    "region_en": "Githyanki Crèche",
+    "region_key": "CRE_Main_A",
+    "region_method": "level name only",
     "position": [
      -43.56,
      52.32,
@@ -16475,10 +16475,10 @@
    },
    {
     "level": "BGH_FigaroCosmeticShop_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      3.85,
      5.29,
@@ -16496,10 +16496,10 @@
    },
    {
     "level": "BGH_FigaroCosmeticShop_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      3.85,
      5.28,
@@ -16517,10 +16517,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙",
-    "region_en": "Fraygo's Flophouse",
-    "region_key": "WYR_Flophouse_SUB",
-    "region_method": "nearest 89m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -44.77,
      60.6,
@@ -16538,10 +16538,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙",
-    "region_en": "Fraygo's Flophouse",
-    "region_key": "WYR_Flophouse_SUB",
-    "region_method": "nearest 89m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -44.8,
      60.66,
@@ -16559,10 +16559,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙",
-    "region_en": "Fraygo's Flophouse",
-    "region_key": "WYR_Flophouse_SUB",
-    "region_method": "nearest 76m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      15.23,
      43.34,
@@ -16664,10 +16664,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관 - 지하실",
-    "region_en": "Last Light Inn - Cellar",
-    "region_key": "HAV_Haven_SUB_Cellar",
-    "region_method": "nearest 88m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      106.93,
      0.43,
@@ -16706,10 +16706,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -487.51,
      3.85,
@@ -16727,10 +16727,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 104m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      81.23,
      -0.37,
@@ -16748,10 +16748,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 110m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      19.75,
      39.76,
@@ -16769,10 +16769,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙",
-    "region_en": "Fraygo's Flophouse",
-    "region_key": "WYR_Flophouse_SUB",
-    "region_method": "nearest 115m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -39.05,
      46.91,
@@ -16790,10 +16790,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "웜 바위 감옥",
-    "region_en": "Wyrm's Rock Prison",
-    "region_key": "WYR_Prison_SUB",
-    "region_method": "nearest 323m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      90.06,
      -7.89,
@@ -16813,8 +16813,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 46m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -15.84,
      38.98,
@@ -16832,10 +16832,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "웜 바위 감옥",
-    "region_en": "Wyrm's Rock Prison",
-    "region_key": "WYR_Prison_SUB",
-    "region_method": "nearest 150m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      32.66,
      15.84,
@@ -16855,8 +16855,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 107m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -18.33,
      84.94,
@@ -16874,10 +16874,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "샤리스의 포옹 지하실",
-    "region_en": "Sharess' Caress Basement",
-    "region_key": "WYR_SharessCaress_Basement_SUB",
-    "region_method": "nearest 127m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      59.13,
      0.0,
@@ -16916,10 +16916,10 @@
    },
    {
     "level": "BGO_WyrmsCrossing_C",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      42.03,
      46.41,
@@ -16937,10 +16937,10 @@
    },
    {
     "level": "CRE_Main_A",
-    "region_ko": "티플링 은신처",
-    "region_en": "Tiefling Hideout",
-    "region_key": "DEN_Hideout_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "기스양키 양성소",
+    "region_en": "Githyanki Crèche",
+    "region_key": "CRE_Main_A",
+    "region_method": "level name only",
     "position": [
      74.11,
      24.67,
@@ -16979,10 +16979,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "자르 궁전",
-    "region_en": "Szarr Palace",
-    "region_key": "LOW_CazadorsPalace_Mansion_SUB",
-    "region_method": "nearest 35m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -1297.43,
      46.43,
@@ -17042,10 +17042,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "자르 궁전",
-    "region_en": "Szarr Palace",
-    "region_key": "LOW_CazadorsPalace_Mansion_SUB",
-    "region_method": "nearest 36m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -1242.13,
      55.55,
@@ -17063,10 +17063,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 77m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -27.16,
      43.83,
@@ -17126,10 +17126,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "바알 신전",
-    "region_en": "Bhaal Temple",
-    "region_key": "LOW_BhaalTemple_Temple_SUB",
-    "region_method": "nearest 276m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -116.9,
      23.05,
@@ -17147,10 +17147,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "바실리스크 게이트 막사",
-    "region_en": "Basilisk Gate Barracks",
-    "region_key": "LOW_BasiliskGate_Barracks_SUB",
-    "region_method": "nearest 68m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      100.11,
      41.8,
@@ -17189,10 +17189,10 @@
    },
    {
     "level": "END_Main",
-    "region_ko": "변이 웅덩이",
-    "region_en": "Morphic Pool",
-    "region_key": "END_MorphicPool_SUB",
-    "region_method": "nearest 84m",
+    "region_ko": "하이 홀",
+    "region_en": "High Hall",
+    "region_key": "END_Main",
+    "region_method": "level name only",
     "position": [
      -913.26,
      -13.79,
@@ -17210,10 +17210,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -252.01,
      36.63,
@@ -17231,10 +17231,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -77.2,
      2.45,
@@ -17252,10 +17252,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -249.77,
      31.11,
@@ -17273,10 +17273,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 83m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      211.25,
      24.81,
@@ -17294,10 +17294,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 44m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      205.45,
      26.28,
@@ -17315,10 +17315,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "이소벨의 방",
-    "region_en": "Isobel's Room",
-    "region_key": "HAV_IsobelRoom_SUB",
-    "region_method": "nearest 91m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -146.65,
      22.38,
@@ -17336,10 +17336,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "파괴된 성소",
-    "region_en": "Shattered Sanctum",
-    "region_key": "GOB_ThroneRoom_SUB",
-    "region_method": "nearest 38m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      262.84,
      50.54,
@@ -17357,10 +17357,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "회합 서재",
-    "region_en": "Enclave Library",
-    "region_key": "DEN_SecretLibrary_SUB",
-    "region_method": "nearest 168m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -305.74,
      24.1,
@@ -17378,10 +17378,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "매캐한 공방",
-    "region_en": "Acrid Workshop",
-    "region_key": "HAG_HagLair_SUB_Workshop",
-    "region_method": "nearest 119m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -298.75,
      15.86,
@@ -17420,10 +17420,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "라이스윈 통행료 징수소",
+    "region_en": "Reithwin Tollhouse",
+    "region_key": "TWN_Tollhouse_SUB",
+    "region_method": "nearest 21m",
     "position": [
      -127.74,
      28.38,
@@ -17462,10 +17462,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관 - 지하실",
-    "region_en": "Last Light Inn - Cellar",
-    "region_key": "HAV_Haven_SUB_Cellar",
-    "region_method": "nearest 115m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      133.53,
      2.18,
@@ -17483,10 +17483,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      44.63,
      46.37,
@@ -17504,10 +17504,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 90m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      183.25,
      37.14,
@@ -17525,10 +17525,10 @@
    },
    {
     "level": "BGH_SorcerersSundries_A_ART",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -3.0,
      1.62,
@@ -17546,10 +17546,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      6.38,
      27.84,
@@ -17567,10 +17567,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      6.38,
      27.84,
@@ -17588,10 +17588,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "드래곤의 성소",
-    "region_en": "Dragon's Sanctum",
-    "region_key": "WYR_Wyrmway_SUB_DragonArena",
-    "region_method": "nearest 38m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      633.92,
      23.17,
@@ -17609,10 +17609,10 @@
    },
    {
     "level": "BGO_WyrmsCrossing_C",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      107.96,
      45.44,
@@ -17672,10 +17672,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관",
-    "region_en": "Last Light Inn",
-    "region_key": "HAV_Haven_SUB",
-    "region_method": "nearest 194m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      129.24,
      54.93,
@@ -17693,10 +17693,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 129m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      8.21,
      33.53,
@@ -17735,10 +17735,10 @@
    },
    {
     "level": "CTY_LodgeBasement_A",
-    "region_ko": "장밋빛 아침 수도원",
-    "region_en": "Rosymorn Monastery",
-    "region_key": "CRE_Monastery_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City",
+    "region_key": "LOW_City_SUB",
+    "region_method": "inside (main level)",
     "position": [
      24.66,
      1.24,
@@ -17756,10 +17756,10 @@
    },
    {
     "level": "SCL_RuinsBattlefield_G",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -163.3,
      38.09,
@@ -17798,10 +17798,10 @@
    },
    {
     "level": "BGH_Countinghouse_C",
-    "region_ko": "철 왕좌",
-    "region_en": "Iron Throne",
-    "region_key": "IRN_IronThrone_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -26.74,
      -6.43,
@@ -17819,10 +17819,10 @@
    },
    {
     "level": "BGH_SteelWatchFoundry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      41.03,
      2.18,
@@ -17842,8 +17842,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 115m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -20.51,
      46.66,
@@ -17882,10 +17882,10 @@
    },
    {
     "level": "SCL_RuinsBattlefield_G",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -138.31,
      39.26,
@@ -17966,10 +17966,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      18.16,
      1.43,
@@ -17987,10 +17987,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      25.12,
      1.43,
@@ -18008,10 +18008,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      21.74,
      1.34,
@@ -18050,10 +18050,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "지하 도시 폐허",
-    "region_en": "Undercity Ruins",
-    "region_key": "LOW_UndercityRuins_SUB",
-    "region_method": "nearest 246m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -266.53,
      13.34,
@@ -18071,10 +18071,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "지하 도시 폐허",
-    "region_en": "Undercity Ruins",
-    "region_key": "LOW_UndercityRuins_SUB",
-    "region_method": "nearest 241m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -257.55,
      13.03,
@@ -18092,10 +18092,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "지하 도시 폐허",
-    "region_en": "Undercity Ruins",
-    "region_key": "LOW_UndercityRuins_SUB",
-    "region_method": "nearest 238m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -264.9,
      13.05,
@@ -18113,10 +18113,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "지하 도시 폐허",
-    "region_en": "Undercity Ruins",
-    "region_key": "LOW_UndercityRuins_SUB",
-    "region_method": "nearest 235m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -259.37,
      13.23,
@@ -18134,10 +18134,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "창고",
-    "region_en": "Storage",
-    "region_key": "DEN_Storage_SUB",
-    "region_method": "nearest 295m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -84.22,
      38.81,
@@ -18155,10 +18155,10 @@
    },
    {
     "level": "BGH_CountingHouseVault_B",
-    "region_ko": "철 왕좌",
-    "region_en": "Iron Throne",
-    "region_key": "IRN_IronThrone_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -1.33,
      34.84,
@@ -18176,10 +18176,10 @@
    },
    {
     "level": "BGH_SorcerersSundries_A_ART",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -2.18,
      1.38,
@@ -18197,10 +18197,10 @@
    },
    {
     "level": "BGH_SorcerersSundries_A_ART",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      2.25,
      5.35,
@@ -18218,10 +18218,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      9.92,
      31.56,
@@ -18239,10 +18239,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -3.01,
      27.59,
@@ -18260,10 +18260,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -3.01,
      27.59,
@@ -18302,10 +18302,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "드래곤의 성소",
-    "region_en": "Dragon's Sanctum",
-    "region_key": "WYR_Wyrmway_SUB_DragonArena",
-    "region_method": "nearest 273m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      361.84,
      0.09,
@@ -18365,10 +18365,10 @@
    },
    {
     "level": "CTY_LodgeBasement_A",
-    "region_ko": "장밋빛 아침 수도원",
-    "region_en": "Rosymorn Monastery",
-    "region_key": "CRE_Monastery_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City",
+    "region_key": "LOW_City_SUB",
+    "region_method": "inside (main level)",
     "position": [
      26.03,
      1.19,
@@ -18389,7 +18389,7 @@
     "region_ko": "아랫 도시",
     "region_en": "Lower City",
     "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      -5.44,
      2.72,
@@ -18407,10 +18407,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      65.71,
      18.66,
@@ -18428,10 +18428,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 103m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      0.85,
      32.94,
@@ -18470,10 +18470,10 @@
    },
    {
     "level": "BGO_Sharran_Grotto",
-    "region_ko": "영계",
-    "region_en": "Astral Plane",
-    "region_key": "CRE_AstralPlane_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      7.6,
      31.95,
@@ -18491,10 +18491,10 @@
    },
    {
     "level": "CRE_Main_A",
-    "region_ko": "장밋빛 아침 수도원",
-    "region_en": "Rosymorn Monastery",
-    "region_key": "CRE_Monastery_SUB",
-    "region_method": "nearest 53m",
+    "region_ko": "기스양키 양성소",
+    "region_en": "Githyanki Crèche",
+    "region_key": "CRE_Main_A",
+    "region_method": "level name only",
     "position": [
      104.59,
      22.62,
@@ -18533,10 +18533,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "바알 신전",
-    "region_en": "Bhaal Temple",
-    "region_key": "LOW_BhaalTemple_Temple_SUB",
-    "region_method": "nearest 274m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -33.41,
      26.54,
@@ -18554,10 +18554,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관",
-    "region_en": "Last Light Inn",
-    "region_key": "HAV_Haven_SUB",
-    "region_method": "nearest 135m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      28.41,
      57.94,
@@ -18575,10 +18575,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -148.0,
      31.63,
@@ -18596,10 +18596,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -210.02,
      31.49,
@@ -18617,10 +18617,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "라이스윈 통행료 징수소",
+    "region_en": "Reithwin Tollhouse",
+    "region_key": "TWN_Tollhouse_SUB",
+    "region_method": "nearest 26m",
     "position": [
      -95.35,
      36.64,
@@ -18659,10 +18659,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 161m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      0.68,
      41.55,
@@ -18680,10 +18680,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "창고",
-    "region_en": "Storage",
-    "region_key": "DEN_Storage_SUB",
-    "region_method": "nearest 45m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      246.54,
      23.95,
@@ -18827,10 +18827,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 68m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      47.13,
      7.46,
@@ -18848,10 +18848,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "창고",
-    "region_en": "Storage",
-    "region_key": "DEN_Storage_SUB",
-    "region_method": "nearest 261m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -49.46,
      38.44,
@@ -18869,10 +18869,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 171m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      72.04,
      22.78,
@@ -18890,10 +18890,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 171m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      72.04,
      22.78,
@@ -18911,10 +18911,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 171m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      72.04,
      22.78,
@@ -18932,10 +18932,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 172m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      80.81,
      26.86,
@@ -18953,10 +18953,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관",
-    "region_en": "Last Light Inn",
-    "region_key": "HAV_Haven_SUB",
-    "region_method": "nearest 133m",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      72.93,
      55.56,
@@ -18974,10 +18974,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 82m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      209.06,
      24.7,
@@ -18995,10 +18995,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 197m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      44.02,
      35.63,
@@ -19016,10 +19016,10 @@
    },
    {
     "level": "BGO_BlacksmithCellar_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -109.18,
      1.41,
@@ -19037,10 +19037,10 @@
    },
    {
     "level": "BGO_SteelWatchLabControlCenter_B",
-    "region_ko": "장밋빛 아침 수도원",
-    "region_en": "Rosymorn Monastery",
-    "region_key": "CRE_Monastery_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      30.72,
      0.72,
@@ -19058,10 +19058,10 @@
    },
    {
     "level": "BGO_SteelWatchLabControlCenter_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      31.26,
      -8.3,
@@ -19100,10 +19100,10 @@
    },
    {
     "level": "SCL_RuinsBattlefield_G",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -202.55,
      32.86,
@@ -19121,10 +19121,10 @@
    },
    {
     "level": "SCL_RuinsBattlefield_G",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -202.96,
      32.38,
@@ -19142,10 +19142,10 @@
    },
    {
     "level": "SCL_RuinsBattlefield_G",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -165.5,
      39.26,
@@ -19163,10 +19163,10 @@
    },
    {
     "level": "SCL_RuinsBattlefield_G",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -165.18,
      38.11,
@@ -19184,10 +19184,10 @@
    },
    {
     "level": "SCL_RuinsBattlefield_G",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -137.44,
      39.22,
@@ -19205,10 +19205,10 @@
    },
    {
     "level": "SCL_RuinsBattlefield_G",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -203.5,
      33.01,
@@ -19226,10 +19226,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "라이스윈 통행료 징수소",
+    "region_en": "Reithwin Tollhouse",
+    "region_key": "TWN_Tollhouse_SUB",
+    "region_method": "nearest 25m",
     "position": [
      -83.18,
      23.93,
@@ -19247,10 +19247,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 196m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -91.26,
      19.68,
@@ -19268,10 +19268,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "지하 통로",
-    "region_en": "Underground Passage",
-    "region_key": "DEN_Tunnel_SUB",
-    "region_method": "nearest 258m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -663.41,
      -2.07,
@@ -19289,10 +19289,10 @@
    },
    {
     "level": "CMP_CTY_Slums_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -58.92,
      8.19,
@@ -19331,10 +19331,10 @@
    },
    {
     "level": "BGH_Countinghouse_C",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -12.81,
      -7.13,
@@ -19376,7 +19376,7 @@
     "region_ko": "아랫 도시",
     "region_en": "Lower City",
     "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      -256.32,
      25.25,
@@ -19415,10 +19415,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "하이베리의 지하실",
-    "region_en": "Highberry's Basement",
-    "region_key": "LOW_SerialKiller_HighberrysHouse_Basement_SUB",
-    "region_method": "nearest 181m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -717.21,
      33.02,
@@ -19436,10 +19436,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "하이베리의 지하실",
-    "region_en": "Highberry's Basement",
-    "region_key": "LOW_SerialKiller_HighberrysHouse_Basement_SUB",
-    "region_method": "nearest 177m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -712.38,
      33.02,
@@ -19457,10 +19457,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "하이베리의 지하실",
-    "region_en": "Highberry's Basement",
-    "region_key": "LOW_SerialKiller_HighberrysHouse_Basement_SUB",
-    "region_method": "nearest 181m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -723.84,
      34.13,
@@ -19478,10 +19478,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -304.16,
      24.1,
@@ -19499,10 +19499,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -305.16,
      24.1,
@@ -19520,10 +19520,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -302.7,
      24.1,
@@ -19541,10 +19541,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -304.65,
      24.1,
@@ -19562,10 +19562,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -305.66,
      24.1,
@@ -19583,10 +19583,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -302.2,
      24.1,
@@ -19604,10 +19604,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -303.67,
      24.1,
@@ -19625,10 +19625,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -303.19,
      24.1,
@@ -19646,10 +19646,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -301.66,
      24.1,
@@ -19667,10 +19667,10 @@
    },
    {
     "level": "BGH_FigaroCosmeticShop_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      6.95,
      10.32,
@@ -19688,10 +19688,10 @@
    },
    {
     "level": "BGH_FigaroCosmeticShop_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      6.35,
      5.47,
@@ -19709,10 +19709,10 @@
    },
    {
     "level": "BGO_HouseOfHope_C",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -26.31,
      6.75,
@@ -19751,10 +19751,10 @@
    },
    {
     "level": "CTY_MusicStore_Basement_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City",
+    "region_key": "LOW_City_SUB",
+    "region_method": "inside (main level)",
     "position": [
      3.78,
      4.12,
@@ -19772,10 +19772,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      20.78,
      1.34,
@@ -19793,10 +19793,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      24.74,
      1.43,
@@ -19814,10 +19814,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      18.5,
      1.51,
@@ -19835,10 +19835,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      22.5,
      1.66,
@@ -19856,10 +19856,10 @@
    },
    {
     "level": "INT_CIN_Office_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      20.11,
      0.56,
@@ -19877,10 +19877,10 @@
    },
    {
     "level": "SCL_VillageSubs_E",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      73.29,
      4.78,
@@ -19898,10 +19898,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 173m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      286.27,
      18.52,
@@ -19961,10 +19961,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 90m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      183.31,
      37.14,
@@ -20003,10 +20003,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "칠흑 호수",
-    "region_en": "Ebonlake",
-    "region_key": "UND_EbonLake_SUB",
-    "region_method": "nearest 262m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -647.75,
      -0.52,
@@ -20024,10 +20024,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "희망의 저택",
-    "region_en": "House of Hope",
-    "region_key": "LOW_HouseOfHope_SUB",
-    "region_method": "nearest 65m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -6546.46,
      8.36,
@@ -20045,10 +20045,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "웜 바위 감옥",
-    "region_en": "Wyrm's Rock Prison",
-    "region_key": "WYR_Prison_SUB",
-    "region_method": "nearest 297m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      8.19,
      -5.26,
@@ -20069,7 +20069,7 @@
     "region_ko": "윗 도시",
     "region_en": "Upper City",
     "region_key": "END_HighHall_SUB",
-    "region_method": "inside (other level)",
+    "region_method": "inside (main level)",
     "position": [
      235.52,
      -0.64,
@@ -20087,10 +20087,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -55.33,
      22.03,
@@ -20129,10 +20129,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "웜 바위 감옥",
-    "region_en": "Wyrm's Rock Prison",
-    "region_key": "WYR_Prison_SUB",
-    "region_method": "nearest 297m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      8.42,
      -5.75,
@@ -20150,10 +20150,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "발더의 목소리 지하실",
-    "region_en": "Baldur's Mouth Basement",
-    "region_key": "LOW_BaldursMouth_Basement_SUB",
-    "region_method": "nearest 243m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -980.27,
      43.12,
@@ -20171,10 +20171,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "발더의 목소리 지하실",
-    "region_en": "Baldur's Mouth Basement",
-    "region_key": "LOW_BaldursMouth_Basement_SUB",
-    "region_method": "nearest 243m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -980.38,
      43.12,
@@ -20192,10 +20192,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      38.53,
      2.23,
@@ -20276,10 +20276,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -110.58,
      5.46,
@@ -20318,10 +20318,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "언더다크",
-    "region_en": "Underdark",
-    "region_key": "UND_Underdark_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      44.63,
      46.37,
@@ -20339,10 +20339,10 @@
    },
    {
     "level": "BGO_HouseOfHope_C",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -35.38,
      5.85,
@@ -20362,8 +20362,8 @@
     "level": "BGO_Main_A",
     "region_ko": "웜 건널목",
     "region_en": "Wyrm's Crossing",
-    "region_key": "WYR_Bridge_SUB",
-    "region_method": "nearest 107m",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -18.33,
      84.94,
@@ -20381,10 +20381,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙",
-    "region_en": "Fraygo's Flophouse",
-    "region_key": "WYR_Flophouse_SUB",
-    "region_method": "nearest 137m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -31.2,
      45.45,
@@ -20465,10 +20465,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      38.33,
      2.23,
@@ -20486,10 +20486,10 @@
    },
    {
     "level": "BGH_FigaroCosmeticShop_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      7.14,
      10.8,
@@ -20507,10 +20507,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -173.8,
      23.0,
@@ -20549,10 +20549,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지",
-    "region_en": "Sunlit Wetlands",
-    "region_key": "HAG_Swamp_SUB",
-    "region_method": "nearest 149m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      141.1,
      1.3,
@@ -20570,10 +20570,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못",
-    "region_en": "Sacred Pool",
-    "region_key": "DEN_SacredPond_SUB",
-    "region_method": "nearest 49m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      283.1,
      21.72,
@@ -20591,10 +20591,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "지하 통로",
-    "region_en": "Underground Passage",
-    "region_key": "DEN_Tunnel_SUB",
-    "region_method": "nearest 269m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -666.55,
      -1.4,
@@ -20612,10 +20612,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "지하 통로",
-    "region_en": "Underground Passage",
-    "region_key": "DEN_Tunnel_SUB",
-    "region_method": "nearest 292m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -684.83,
      -1.4,
@@ -20633,10 +20633,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -27.47,
      24.35,
@@ -20675,10 +20675,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "칠흑 호수",
-    "region_en": "Ebonlake",
-    "region_key": "UND_EbonLake_SUB",
-    "region_method": "nearest 281m",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -666.74,
      -0.67,
@@ -20696,10 +20696,10 @@
    },
    {
     "level": "WLD_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "황야",
+    "region_en": "Wilderness",
+    "region_key": "WLD_Main_A",
+    "region_method": "level name only",
     "position": [
      -24.75,
      24.6,
@@ -20738,10 +20738,10 @@
    },
    {
     "level": "BGH_SorcerersSundries_A_ART",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -17.58,
      2.02,
@@ -20759,10 +20759,10 @@
    },
    {
     "level": "BGH_SorcerersSundries_A_ART",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -5.25,
      4.24,
@@ -20927,10 +20927,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      6.78,
      30.45,
@@ -20948,10 +20948,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -10.07,
      28.23,
@@ -20969,10 +20969,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      6.78,
      30.45,
@@ -20990,10 +20990,10 @@
    },
    {
     "level": "END_CIN_GameFinale_TheHerosRevelry_B",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -10.07,
      28.23,
@@ -21095,10 +21095,10 @@
    },
    {
     "level": "BGH_Countinghouse_C",
-    "region_ko": "철 왕좌",
-    "region_en": "Iron Throne",
-    "region_key": "IRN_IronThrone_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -26.74,
      -6.43,
@@ -21116,10 +21116,10 @@
    },
    {
     "level": "CTY_Catacombs_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City",
+    "region_key": "LOW_City_SUB",
+    "region_method": "inside (main level)",
     "position": [
      2.31,
      2.98,
@@ -21158,10 +21158,10 @@
    },
    {
     "level": "SCL_VillageSubs_E",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      18.67,
      -0.91,
@@ -21200,10 +21200,10 @@
    },
    {
     "level": "CRE_Main_A",
-    "region_ko": "티플링 은신처",
-    "region_en": "Tiefling Hideout",
-    "region_key": "DEN_Hideout_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "기스양키 양성소",
+    "region_en": "Githyanki Crèche",
+    "region_key": "CRE_Main_A",
+    "region_method": "level name only",
     "position": [
      74.13,
      35.76,
@@ -21221,10 +21221,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "발더의 목소리 지하실",
-    "region_en": "Baldur's Mouth Basement",
-    "region_key": "LOW_BaldursMouth_Basement_SUB",
-    "region_method": "nearest 246m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -965.88,
      43.12,
@@ -21326,10 +21326,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -147.37,
      40.27,
@@ -21347,10 +21347,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      20.27,
      1.51,
@@ -21389,10 +21389,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      -1.56,
      1.41,
@@ -21452,10 +21452,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 40m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      60.2,
      41.55,
@@ -21536,10 +21536,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 38m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      58.27,
      41.68,
@@ -21620,10 +21620,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "물의 여왕의 집",
-    "region_en": "Water Queen's House",
-    "region_key": "LOW_WaterQueensHouse_SUB",
-    "region_method": "nearest 472m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      -413.06,
      1.08,
@@ -21704,10 +21704,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -147.4,
      38.53,
@@ -21788,10 +21788,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "바실리스크 게이트 막사",
-    "region_en": "Basilisk Gate Barracks",
-    "region_key": "LOW_BasiliskGate_Barracks_SUB",
-    "region_method": "nearest 44m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      124.79,
      46.84,
@@ -21809,10 +21809,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "바실리스크 게이트 막사",
-    "region_en": "Basilisk Gate Barracks",
-    "region_key": "LOW_BasiliskGate_Barracks_SUB",
-    "region_method": "nearest 51m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      96.83,
      42.66,
@@ -21830,10 +21830,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 62m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      81.45,
      43.04,
@@ -21872,10 +21872,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 35m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      55.26,
      41.62,
@@ -22082,10 +22082,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -35.17,
      18.18,
@@ -22166,10 +22166,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "바실리스크 게이트 막사",
-    "region_en": "Basilisk Gate Barracks",
-    "region_key": "LOW_BasiliskGate_Barracks_SUB",
-    "region_method": "nearest 55m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      122.48,
      45.48,
@@ -22187,10 +22187,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 41m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      57.96,
      41.57,
@@ -22229,10 +22229,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 47m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      62.33,
      41.57,
@@ -22250,10 +22250,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 45m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      59.48,
      41.57,
@@ -22313,10 +22313,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 41m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      57.92,
      41.57,
@@ -22334,10 +22334,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "칠흑 호수 동굴",
-    "region_en": "Ebonlake Grotto",
-    "region_key": "UND_MyconidCircle_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      63.2,
      46.77,
@@ -22355,10 +22355,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙",
-    "region_en": "Fraygo's Flophouse",
-    "region_key": "WYR_Flophouse_SUB",
-    "region_method": "nearest 96m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      -32.31,
      46.42,
@@ -22376,10 +22376,10 @@
    },
    {
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙",
-    "region_en": "Fraygo's Flophouse",
-    "region_key": "WYR_Flophouse_SUB",
-    "region_method": "nearest 79m",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing",
+    "region_key": "BGO_Main_A",
+    "region_method": "level name only",
     "position": [
      16.97,
      43.03,
@@ -22439,10 +22439,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 40m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      53.41,
      42.9,
@@ -22460,10 +22460,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 65m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      84.3,
      41.63,
@@ -22523,10 +22523,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 61m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      78.91,
      42.16,
@@ -22649,10 +22649,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "포도주 축제",
-    "region_en": "Wine Festival",
-    "region_key": "LOW_SerialKiller_WineFestival_SUB",
-    "region_method": "nearest 82m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      42.79,
      49.06,
@@ -22733,10 +22733,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      19.81,
      1.96,
@@ -22754,10 +22754,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -147.38,
      40.27,
@@ -22775,10 +22775,10 @@
    },
    {
     "level": "CTY_Main_A",
-    "region_ko": "소서러 잡화점 금고실",
-    "region_en": "Sorcerous Vault",
-    "region_key": "LOW_SorcerousSundries_Cellar_SUB",
-    "region_method": "nearest 55m",
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate",
+    "region_key": "CTY_Main_A",
+    "region_method": "level name only",
     "position": [
      316.96,
      2.37,
@@ -22796,10 +22796,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      19.95,
      1.48,
@@ -22817,10 +22817,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "야영지",
-    "region_en": "Campsite",
-    "region_key": "CAMP_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "",
+    "region_en": "",
+    "region_key": "",
+    "region_method": "no subregion trigger in level",
     "position": [
      20.11,
      1.96,
@@ -22838,10 +22838,10 @@
    },
    {
     "level": "SCL_Main_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (other level)",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands",
+    "region_key": "SCL_Main_A",
+    "region_method": "level name only",
     "position": [
      -147.36,
      39.86,
@@ -22864,7 +22864,7 @@
     "trader": "S_DEN_Apprentice",
     "trader_ko": "네티",
     "level": "GLO_SpellVocalComponent",
-    "region_ko": "장밋빛 아침 수도원"
+    "region_ko": ""
    },
    {
     "table": "DEN_Apprentice",
@@ -22878,14 +22878,14 @@
     "trader": "S_DEN_ServantPlight_005",
     "trader_ko": "애런",
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못"
+    "region_ko": "황야"
    },
    {
     "table": "DEN_Stargazer",
     "trader": "S_GLO_Stargazer",
     "trader_ko": "나디라",
     "level": "WLD_Main_A",
-    "region_ko": "신성한 연못"
+    "region_ko": "황야"
    },
    {
     "table": "END_CircusTrader",
@@ -22896,17 +22896,17 @@
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
-    "trader": "S_WYR_Danthelon",
-    "trader_ko": "엔탈 단텔론",
-    "level": "BGO_Main_A",
-    "region_ko": "영계"
-   },
-   {
-    "table": "EquipmentTrader_RevivifyScrolls",
     "trader": "S_CRE_Quartermistress",
     "trader_ko": "아자크니르 지라",
     "level": "CRE_Main_A",
     "region_ko": "일릭 양성소"
+   },
+   {
+    "table": "EquipmentTrader_RevivifyScrolls",
+    "trader": "S_WYR_Danthelon",
+    "trader_ko": "엔탈 단텔론",
+    "level": "BGO_Main_A",
+    "region_ko": "웜 건널목"
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
@@ -22931,13 +22931,6 @@
    },
    {
     "table": "EquipmentTrader_Scrolls",
-    "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
-    "trader_ko": "병참 장교 탈리",
-    "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관"
-   },
-   {
-    "table": "EquipmentTrader_Scrolls",
     "trader": "S_GOB_Quartermaster",
     "trader_ko": "로아 문글로우",
     "level": "WLD_Main_A",
@@ -22951,32 +22944,39 @@
     "region_ko": "아랫 도시"
    },
    {
+    "table": "EquipmentTrader_Scrolls",
+    "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
+    "trader_ko": "병참 장교 탈리",
+    "level": "SCL_Main_A",
+    "region_ko": "그림자 저주에 물든 땅"
+   },
+   {
     "table": "GOB_Festivities_Trader",
     "trader": "S_GOB_Festivities_Trader",
     "trader_ko": "상인 그라트",
     "level": "WLD_Main_A",
-    "region_ko": "화창한 습지"
+    "region_ko": "황야"
    },
    {
     "table": "GOB_PainPriest",
     "trader": "S_GOB_PainPriest",
     "trader_ko": "압디라크",
     "level": "WLD_Main_A",
-    "region_ko": "윗 도시"
+    "region_ko": "황야"
    },
    {
     "table": "HAV_HarperQuarterMaster",
     "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
     "trader_ko": "병참 장교 탈리",
     "level": "SCL_Main_A",
-    "region_ko": "최후의 빛 여관"
+    "region_ko": "그림자 저주에 물든 땅"
    },
    {
     "table": "LOW_BaldursMouth_Paperboy_Broadsheets",
     "trader": "S_WYR_Posthouse_BroadsheetSeller",
     "trader_ko": "릴리 빈바텀",
     "level": "BGO_Main_A",
-    "region_ko": "아랫 도시"
+    "region_ko": "웜 건널목"
    },
    {
     "table": "LOW_MysticCarrion_Trade",
@@ -22997,63 +22997,63 @@
     "trader": "S_LOW_TempleGuardian",
     "trader_ko": "험블토즈 목사",
     "level": "CTY_Main_A",
-    "region_ko": "바실리스크 게이트 막사"
+    "region_ko": "발더스 게이트"
    },
    {
     "table": "PLA_Tollhouse_SuppliesTrader",
     "trader": "S_PLA_Refugee_003",
     "trader_ko": "사이렐",
     "level": "WLD_Main_A",
-    "region_ko": "창고"
+    "region_ko": "황야"
    },
    {
     "table": "SHA_Necromancer",
     "trader": "S_SHA_Necromancer",
     "trader_ko": "발타자르",
     "level": "SCL_Main_A",
-    "region_ko": "샤의 시련"
+    "region_ko": "그림자 저주에 물든 땅"
    },
    {
     "table": "UND_SocietyOfBrilliance_Hobgoblin",
     "trader": "S_GLO_SocietyOfBrilliance_Hobgoblin",
     "trader_ko": "블러그",
     "level": "WLD_Main_A",
-    "region_ko": "칠흑 호수 동굴"
+    "region_ko": "황야"
    },
    {
     "table": "WYR_Circus_FacePainter",
     "trader": "S_WYR_Circus_FacePainter",
     "trader_ko": "미라 자라",
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙"
+    "region_ko": "웜 건널목"
    },
    {
     "table": "WYR_Circus_Ringmaster",
     "trader": "S_WYR_Circus_Ringmaster",
     "trader_ko": "루크리셔스",
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙"
+    "region_ko": "웜 건널목"
    },
    {
     "table": "WYR_Circus_Sculptor",
     "trader": "S_WYR_Circus_Sculptor",
     "trader_ko": "보니",
     "level": "BGO_Main_A",
-    "region_ko": "프레이고의 여인숙"
+    "region_ko": "웜 건널목"
    },
    {
     "table": "WYR_Danthelon_Trader",
     "trader": "S_WYR_Danthelon",
     "trader_ko": "엔탈 단텔론",
     "level": "BGO_Main_A",
-    "region_ko": "영계"
+    "region_ko": "웜 건널목"
    },
    {
     "table": "WYR_Ironhand_Merchant",
     "trader": "S_WYR_Ironhand_Merchant",
     "trader_ko": "범프나겔",
     "level": "BGO_Main_A",
-    "region_ko": "풍차 지하실"
+    "region_ko": "웜 건널목"
    }
   ],
   "loot_holders": [

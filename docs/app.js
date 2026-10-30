@@ -13,7 +13,7 @@ const I18N = {
   },
   en: {
     title: "BG3 Book Library", sub: "Readable books, notes and tablets in Baldur's Gate 3", unit: "entries",
-    q: "Search title, text or place (EN/KO)", "f-ty": "Type", "f-a": "Source", "f-bg": "Background", "f-r": "Region", "f-tg": "Tag",
+    q: "Search title, text or place", "f-ty": "Type", "f-a": "Source", "f-bg": "Background", "f-r": "Region", "f-tg": "Tag",
     all: "All", reset: "Reset filters", shown: (n) => `${n} shown`, more: (n) => `… ${n} more (narrow with search or filters)`,
     pick: "Pick a book from the list.", none: "(no text)", unknown: "Unidentified title", noSource: "Source not found",
     places: "Found at", region: "Region", how: "How", level: "Level (coords)", method: "Region match", noPlace: "Not placed on a map",
@@ -58,9 +58,10 @@ const val = (v) => (ui === "en" ? VALUE_EN[v] || v : v);
 // tags are "한국어 (English)"
 const tag = (t) => { const m = t.match(/^(.*) \((.*)\)$/); return m ? (ui === "en" ? m[2] : m[1]) : t; };
 const bgName = (k) => BG[k]?.[ui === "en" ? 1 : 0] || k;
-const title = (b) => (ui === "en" ? b.te[0] || b.t[0] : b.t[0] || b.te[0]) || b.id;
-const subtitle = (b) => (ui === "en" ? b.t : b.te).join(" / ");
-const region = (p) => (ui === "en" ? p.re || p.r : p.r || p.re) || p.l;
+// English UI shows no Korean; Korean UI may show English beside it
+const title = (b) => (ui === "en" ? b.te[0] : b.t[0] || b.te[0]) || b.id;
+const subtitle = (b) => (ui === "en" ? [] : b.te).join(" / ");
+const region = (p) => (ui === "en" ? p.re : p.r || p.re) || p.l;
 const regions = (b) => [...new Set(b.pl.map(region).filter(Boolean))];
 
 function label(sel, v) {
@@ -81,6 +82,7 @@ function fillFilters() {
 
 function applyUi() {
   document.documentElement.lang = ui;
+  document.title = T("title");
   document.querySelectorAll("[data-i18n]").forEach((el) => (el.textContent = T(el.dataset.i18n)));
   document.querySelectorAll("[data-ui]").forEach((b) => b.classList.toggle("on", b.dataset.ui === ui));
   $("q").placeholder = T("q");
@@ -119,9 +121,10 @@ function show(b) {
   current = b;
   document.querySelectorAll("#list li").forEach((li) => li.classList.toggle("on", li.dataset.id === b.id));
   const bg = b.bg[0] || "None";
-  const text = lang === "ko" ? b.c || b.ce : b.ce || b.c;
+  if (ui === "en") lang = "en";
+  const text = lang === "ko" ? b.c || b.ce : b.ce;
   const rows = b.pl.map((p) => {
-    const who = ui === "en" ? p.ke || p.k : p.k || p.ke;
+    const who = ui === "en" ? p.ke : p.k || p.ke;
     return `<tr><td>${esc(region(p))}</td><td>${esc(HOW[p.h]?.[ui === "en" ? 1 : 0] || p.h)}${who ? " · " + esc(who) : ""}</td>
     <td><code>${esc(p.l)}${p.xyz ? " (" + p.xyz.map((v) => v.toFixed(0)).join(", ") + ")" : ""}</code></td><td><code>${esc(p.m)}</code></td></tr>`;
   }).join("");
@@ -135,13 +138,13 @@ function show(b) {
       ${b.bg.map((g) => `<span class="chip" data-f="f-bg" data-v="${esc(g)}">${T("bg")}: ${esc(bgName(g))}</span>`).join("")}
     </div>
     <div class="chips">${b.tg.map((t) => `<span class="chip" data-f="f-tg" data-v="${esc(t)}">#${esc(tag(t))}</span>`).join("")}</div>
-    <div class="toggle"><button data-lang="ko" class="${lang === "ko" ? "on" : ""}">한국어</button> <button data-lang="en" class="${lang === "en" ? "on" : ""}">English</button></div>
+    ${ui === "en" ? "" : `<div class="toggle"><button data-lang="ko" class="${lang === "ko" ? "on" : ""}">한국어</button> <button data-lang="en" class="${lang === "en" ? "on" : ""}">English</button></div>`}
     <div class="page ${esc(bg)}" style="background-image:url('assets/${BG[bg]?.[2] || "Book_BG_B1"}.webp')"><div class="txt">${rich(text).replace(/\n{3,}/g, "\n\n") || `<i>${T("none")}</i>`}<span class="end"></span><span class="pad"></span></div></div>
     <div class="pager" hidden><button data-turn="-1">${T("prev")}</button><span id="pg"></span><button data-turn="1">${T("next")}</button></div>
-    ${b.u.length ? `<p>${T("unknown")}: ${esc(b.u.join(" / "))}</p>` : ""}
+    ${b.u.length && ui === "ko" ? `<p>${T("unknown")}: ${esc(b.u.join(" / "))}</p>` : ""}
     <section><h3>${T("places")} (${b.pl.length})</h3>${rows ? `<table><tr><th>${T("region")}</th><th>${T("how")}</th><th>${T("level")}</th><th>${T("method")}</th></tr>${rows}</table>` : `<p class='empty'>${T("noPlace")}</p>`}</section>
     ${shops.length ? `<section><h3>${T("shops")}</h3><p>${shops.map(esc).join("<br>")}</p></section>` : ""}
-    ${b.os.length ? `<section><h3>${T("osiris")}</h3><p>${b.os.map(esc).join("<br>")}</p></section>` : ""}
+    ${b.os.length ? `<section><h3>${T("osiris")}</h3><p>${(ui === "en" ? b.oe : b.os).map(esc).join("<br>")}</p></section>` : ""}
     ${b.tt.length ? `<section><h3>${T("tables")}</h3><p><code>${b.tt.map(esc).join(", ")}</code></p></section>` : ""}
     <section><h3>${T("data")}</h3><dl>
       <dt>BookId</dt><dd><code>${esc(b.id)}</code></dd>

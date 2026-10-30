@@ -5774,6 +5774,7 @@
     "goal": "Act1_DEN_AdventurersQuest",
     "target": "_Player);",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_DEN_AdventurerNote_a07e15dd-2a7d-4c65-a981-0e6510266168, _Player);",
     "object": "S_DEN_AdventurerNote"
@@ -6761,6 +6762,7 @@
     "goal": "Act1_DEN_HarpyMeal",
     "target": "S_DEN_CharmedKid_3b92c689-6024-4446-a6c9-584e9e8d77ca",
     "target_ko": "머콘",
+    "target_en": "Mirkon",
     "level": "WLD_Main_A",
     "line": "ToInventory(S_DEN_HarpyKidStory_aeb815a0-a504-422e-ac60-8c2f6a588c1b,S_DEN_CharmedKid_3b92c689-6024-4446-a6c9-584e9e8d77ca,1,0,1);",
     "object": "S_DEN_HarpyKidStory"
@@ -7444,6 +7446,7 @@
     "goal": "Act1_DEN_Journal",
     "target": "_Char",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_DEN_ShadowDruidsLetter_b0da8ce3-139f-425b-bbce-ae67663b8a2c, _Char, 1, 1, 1);",
     "object": "S_DEN_ShadowDruidsLetter"
@@ -7452,6 +7455,7 @@
     "goal": "Act1_DEN_ShadowDruid",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_DEN_ShadowDruidsLetter_b0da8ce3-139f-425b-bbce-ae67663b8a2c, _Player, 1, 1, 0);",
     "object": "S_DEN_ShadowDruidsLetter"
@@ -7460,6 +7464,7 @@
     "goal": "Act1_DEN_ShadowDruid",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_DEN_ShadowDruidsLetter_b0da8ce3-139f-425b-bbce-ae67663b8a2c, _Player, 1, 1, 0);",
     "object": "S_DEN_ShadowDruidsLetter"
@@ -7526,6 +7531,7 @@
     "goal": "Act1_DEN_Journal",
     "target": "_Char",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_DEN_ShadowMeetingNote_fbe59587-8dec-440c-94d2-2748727c4cf5, _Char, 1, 1, 1);",
     "object": "S_DEN_ShadowMeetingNote"
@@ -7534,6 +7540,7 @@
     "goal": "Act1_DEN_ShadowDruid",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_DEN_ShadowMeetingNote_fbe59587-8dec-440c-94d2-2748727c4cf5, _Player, 1, 1, 0);",
     "object": "S_DEN_ShadowMeetingNote"
@@ -7542,6 +7549,7 @@
     "goal": "Act1_DEN_ShadowDruid",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_DEN_ShadowMeetingNote_fbe59587-8dec-440c-94d2-2748727c4cf5, _Player, 1, 1, 0);",
     "object": "S_DEN_ShadowMeetingNote"
@@ -7605,6 +7613,7 @@
     "goal": "Act1_DEN_ShadowDruid",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_DEN_ShadowTenetsBook_87cad28c-6d41-4532-9289-38ab96ee30f5, _Player, 1, 1, 0);",
     "object": "S_DEN_ShadowTenetsBook"
@@ -7613,6 +7622,7 @@
     "goal": "Act1_DEN_ShadowDruid",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_DEN_ShadowTenetsBook_87cad28c-6d41-4532-9289-38ab96ee30f5, _Player, 1, 1, 0);",
     "object": "S_DEN_ShadowTenetsBook"
@@ -7977,6 +7987,7 @@
     "via": "DB_VoloSignBook",
     "target": "_Char",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "DB_VoloSignBook((ITEMROOT)BOOK_Book_B_VoloCGBN_f5eb9707-169e-47ce-bb3d-5d25d6fa8aa6,(ITEMROOT)BOOK_Book_B_VoloCGBN_Signed_A_8c5f1f1a-1bd5-408f-a072-cd7c8991dd39);",
     "region_ko": ""
@@ -8045,6 +8056,7 @@
     "via": "DB_VoloSignBook",
     "target": "_Char",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "DB_VoloSignBook((ITEMROOT)BOOK_Book_B_VoloCGBN_f5eb9707-169e-47ce-bb3d-5d25d6fa8aa6,(ITEMROOT)BOOK_Book_B_VoloCGBN_Signed_A_8c5f1f1a-1bd5-408f-a072-cd7c8991dd39);",
     "region_ko": ""
@@ -8138,6 +8150,7 @@
     "via": "DB_VoloSignBook",
     "target": "_Char",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "DB_VoloSignBook((ITEMROOT)BOOK_Book_A_VoloGBG_49871a48-7f07-4310-84ef-e890983ea5c3,(ITEMROOT)BOOK_Book_A_VoloGBG_Signed_A_88b9f7e6-afc6-4e86-a31b-41e8dc5dfd1a);",
     "region_ko": ""
@@ -8278,6 +8291,7 @@
     "via": "DB_VoloSignBook",
     "target": "_Char",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "DB_VoloSignBook((ITEMROOT)BOOK_Book_A_VoloGBG_49871a48-7f07-4310-84ef-e890983ea5c3,(ITEMROOT)BOOK_Book_A_VoloGBG_Signed_A_88b9f7e6-afc6-4e86-a31b-41e8dc5dfd1a);",
     "region_ko": ""
@@ -8396,6 +8410,7 @@
     "via": "DB_VoloSignBook",
     "target": "_Char",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "DB_VoloSignBook((ITEMROOT)BOOK_Book_F_VoloGSS_14d9b664-b4e4-4e22-a83f-7fafd09f61f5,(ITEMROOT)BOOK_Book_F_VoloGSS_Signed_A_79c95480-dfc6-4b1e-953a-b269fb609c80);",
     "region_ko": ""
@@ -8463,6 +8478,7 @@
     "via": "direct",
     "target": "_Char",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "TemplateAddTo(BOOK_Book_F_VoloGSS_Signed_A_79c95480-dfc6-4b1e-953a-b269fb609c80,_Char,1,1);",
     "region_ko": ""
@@ -8473,6 +8489,7 @@
     "via": "DB_VoloSignBook",
     "target": "_Char",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "DB_VoloSignBook((ITEMROOT)BOOK_Book_F_VoloGSS_14d9b664-b4e4-4e22-a83f-7fafd09f61f5,(ITEMROOT)BOOK_Book_F_VoloGSS_Signed_A_79c95480-dfc6-4b1e-953a-b269fb609c80);",
     "region_ko": ""
@@ -10487,6 +10504,7 @@
     "goal": "BG3_EPI_SaveGamePatches",
     "target": "S_EPI_ChestOfGearBanishment_fe6caedc-1122-4041-aec7-d8cc1b1fa49e",
     "target_ko": "나무 궤짝",
+    "target_en": "Wooden Chest",
     "level": "EPI_Campfire_A",
     "line": "ToInventory(S_EPI_Letter_EmperorPlayerMF_646bc376-97dc-420c-8804-318c29b73e47, S_EPI_ChestOfGearBanishment_fe6caedc-1122-4041-aec7-d8cc1b1fa49e, 1, 0, 0);",
     "object": "S_EPI_Letter_EmperorPlayerMF"
@@ -13147,6 +13165,7 @@
     "goal": "Act3_WYR_Posthouse",
     "target": "_Character",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_FOR_Courier_Letter3_0cca612d-0e08-48fe-8011-ca050aa5569b, _Character, 1, 0, 1);",
     "object": "S_FOR_Courier_Letter3"
@@ -14128,6 +14147,7 @@
     "goal": "FOR_DangerousBook",
     "target": "_Player);",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_FOR_ThayanJournal_9339e000-6be5-45c3-868d-7e686c7d2b69, _Player);",
     "object": "S_FOR_ThayanJournal"
@@ -14136,6 +14156,7 @@
     "goal": "Z_GLO_Act3_DebugSetup",
     "target": "_Player);",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_FOR_ThayanJournal_9339e000-6be5-45c3-868d-7e686c7d2b69, _Player);",
     "object": "S_FOR_ThayanJournal"
@@ -20073,6 +20094,7 @@
     "goal": "BG3_Act1_SavegamePatches",
     "target": "S_DEN_HarpyNest_a5c87ab6-b38b-4c2b-bf4f-a1f5f391f79f);",
     "target_ko": "하피 둥지",
+    "target_en": "Harpy Nest",
     "level": "WLD_Main_A",
     "line": "ToInventory(BOOK_GEN_Planes_Annihilation_000_bbfbbb4a-6169-4d56-9ae5-4d554329ab82, S_DEN_HarpyNest_a5c87ab6-b38b-4c2b-bf4f-a1f5f391f79f);",
     "object": "BOOK_GEN_Planes_Annihilation_000"
@@ -22864,6 +22886,7 @@
     "goal": "BG3_Act1_SavegamePatches",
     "target": "S_DEN_HarpyNest_a5c87ab6-b38b-4c2b-bf4f-a1f5f391f79f);",
     "target_ko": "하피 둥지",
+    "target_en": "Harpy Nest",
     "level": "WLD_Main_A",
     "line": "ToInventory(BOOK_GEN_Races_WarlockLetter_000_2606047a-c164-41a9-ae7e-07d01e9e5f46, S_DEN_HarpyNest_a5c87ab6-b38b-4c2b-bf4f-a1f5f391f79f);",
     "object": "BOOK_GEN_Races_WarlockLetter_000"
@@ -36815,6 +36838,7 @@
     "goal": "Act1_GLO_Halsin",
     "target": "S_GLO_Halsin_7628bc0e-52b8-42a7-856a-13a6fd413323",
     "target_ko": "할신",
+    "target_en": "Halsin",
     "level": "WLD_Main_A",
     "line": "ToInventory(S_GLO_HalsinDiary_5e4aafd4-f56c-4b05-ad5a-00eccdb87d9d, S_GLO_Halsin_7628bc0e-52b8-42a7-856a-13a6fd413323, 1);",
     "object": "S_GLO_HalsinDiary"
@@ -36823,6 +36847,7 @@
     "goal": "Act1_GLO_Halsin",
     "target": "S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b",
     "target_ko": "밤의 감시자 민타라",
+    "target_en": "Nightwarden Minthara",
     "level": "WLD_Main_A",
     "line": "ToInventory(S_GLO_HalsinDiary_5e4aafd4-f56c-4b05-ad5a-00eccdb87d9d, S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b, 1);",
     "object": "S_GLO_HalsinDiary"
@@ -36831,6 +36856,7 @@
     "goal": "Act1_GLO_Halsin",
     "target": "S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b",
     "target_ko": "밤의 감시자 민타라",
+    "target_en": "Nightwarden Minthara",
     "level": "WLD_Main_A",
     "line": "ToInventory(S_GLO_HalsinDiary_5e4aafd4-f56c-4b05-ad5a-00eccdb87d9d, S_GOB_DrowCommander_25721313-0c15-4935-8176-9f134385451b, 1);",
     "object": "S_GLO_HalsinDiary"
@@ -36909,6 +36935,7 @@
     "goal": "ORI_DebugBook_GustavDev",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_GLO_OrpheusChapters_Cipher_7dcf6be5-d0e8-4a33-ac78-9aa2d10b11ec, _Player, 1, 1, 1);",
     "object": "S_GLO_OrpheusChapters_Cipher"
@@ -37499,6 +37526,7 @@
     "via": "direct",
     "target": "S_GLO_Monitor_f65becd6-5cd7-4c88-b85e-6dd06b60f7b8",
     "target_ko": "라파엘",
+    "target_en": "Raphael",
     "level": "WLD_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_UNI_SCL_RaphaelsDiary2_f7d041fc-224a-43f3-8137-97eef0b2da45,S_GLO_Monitor_f65becd6-5cd7-4c88-b85e-6dd06b60f7b8,1,0);",
     "region_ko": "황야"
@@ -37568,6 +37596,7 @@
     "via": "direct",
     "target": "S_GLO_Monitor_f65becd6-5cd7-4c88-b85e-6dd06b60f7b8",
     "target_ko": "라파엘",
+    "target_en": "Raphael",
     "level": "WLD_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_UNI_LOW_RaphaelsDiary3_50240e03-01ca-4e2a-bc28-3d72ca074c60,S_GLO_Monitor_f65becd6-5cd7-4c88-b85e-6dd06b60f7b8,1,0);",
     "region_ko": "황야"
@@ -40501,6 +40530,7 @@
     "goal": "Act1_GOB_NerdySage",
     "target": "S_GOB_NerdyGoblinSage_5f5c8416-8118-4619-8fc9-442304ff0a3d);",
     "target_ko": "부야그 피들",
+    "target_en": "Booyahg Piddle",
     "level": "WLD_Main_A",
     "line": "ToInventory((ITEM)S_GOB_VoloGoblinsGuide_b98a3bd2-a17d-4e01-a433-1bd339d3f5f6,S_GOB_NerdyGoblinSage_5f5c8416-8118-4619-8fc9-442304ff0a3d);",
     "object": "S_GOB_VoloGoblinsGuide"
@@ -40509,6 +40539,7 @@
     "goal": "Act1_CAMP_GoblinHuntCelebration",
     "target": "S_GLO_Volo_2af25a85-5b9a-4794-85d3-0bd4c4d262fa);",
     "target_ko": "볼로",
+    "target_en": "Volo",
     "level": "WLD_Main_A",
     "line": "ToInventory(S_GOB_VoloGoblinsGuide_Copy_f1e89064-e9db-47e2-add6-67f8f72e1a74,S_GLO_Volo_2af25a85-5b9a-4794-85d3-0bd4c4d262fa);",
     "object": "S_GOB_VoloGoblinsGuide_Copy"
@@ -44475,6 +44506,7 @@
     "via": "direct",
     "target": "CONT_GEN_Mailbox_C_019_2ebacd72-0215-44d1-b683-028b5ae87a2d",
     "target_ko": "편지함",
+    "target_en": "Mailbox",
     "level": "CTY_LowerCity_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_AuntieEthelsRevenge_JatloLetter_eee34c26-063b-4011-9b8a-2efaba12da04,CONT_GEN_Mailbox_C_019_2ebacd72-0215-44d1-b683-028b5ae87a2d,1);",
     "region_ko": "아랫 도시"
@@ -44703,6 +44735,7 @@
     "via": "direct",
     "target": "CONT_GEN_Mailbox_C_019_2ebacd72-0215-44d1-b683-028b5ae87a2d",
     "target_ko": "편지함",
+    "target_en": "Mailbox",
     "level": "CTY_LowerCity_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_AuntieEthelsRevenge_MaskVengeanceLetter_cf61d6e0-a559-4c0a-a740-a2eb15f1ade9,CONT_GEN_Mailbox_C_019_2ebacd72-0215-44d1-b683-028b5ae87a2d,1);",
     "region_ko": "아랫 도시"
@@ -44854,6 +44887,7 @@
     "via": "DB_LOW_MaskedVictims_HagMask",
     "target": "_MaskedVictim",
     "target_ko": "",
+    "target_en": "",
     "level": "",
     "line": "DB_LOW_MaskedVictims_HagMask((CHARACTER)S_LOW_BlushingMermaid_QuenoraGrizly_9d475536-34f0-4a6f-9191-3a635b81a232,(ITEM)S_LOW_BlushingMermaid_QuenorasHagMask_6eb1036e-017e-4cc2-8f65-1cc0cda601ad,(ITEMR",
     "region_ko": ""
@@ -44923,6 +44957,7 @@
     "via": "DB_LOW_MaskedVictims_HagMask",
     "target": "_MaskedVictim",
     "target_ko": "",
+    "target_en": "",
     "level": "",
     "line": "DB_LOW_MaskedVictims_HagMask((CHARACTER)S_LOW_BlushingMermaid_MaskedVictim_01_453e3292-b7ff-4a13-873a-82da3bfc2511,(ITEM)S_LOW_BlushingMermaid_HagMask_01_4c1dfe00-dda3-4c8d-bf27-3104373591c5,(ITEMROOT",
     "region_ko": ""
@@ -44990,6 +45025,7 @@
     "via": "DB_LOW_MaskedVictims_HagMask",
     "target": "_MaskedVictim",
     "target_ko": "",
+    "target_en": "",
     "level": "",
     "line": "DB_LOW_MaskedVictims_HagMask((CHARACTER)S_LOW_BlushingMermaid_MaskedVictim_02_518fab8f-2d1d-46c8-9a45-9045156d0053,(ITEM)S_LOW_BlushingMermaid_HagMask_02_88327f51-cc84-4086-987a-c98a3fd2a3f9,(ITEMROOT",
     "region_ko": ""
@@ -45057,6 +45093,7 @@
     "via": "DB_LOW_MaskedVictims_HagMask",
     "target": "_MaskedVictim",
     "target_ko": "",
+    "target_en": "",
     "level": "",
     "line": "DB_LOW_MaskedVictims_HagMask((CHARACTER)S_LOW_BlushingMermaid_MaskedVictim_03_0406349d-d0fc-4bf5-8d18-5b8b8c9e6456,(ITEM)S_LOW_BlushingMermaid_HagMask_03_d7ec6309-7b22-4d01-8226-d76100d00906,(ITEMROOT",
     "region_ko": ""
@@ -45308,6 +45345,7 @@
     "via": "direct",
     "target": "CONT_GEN_Chest_Common_B_Small_A_005_12eaa52e-6d32-49ac-a853-759b01c3c0d4",
     "target_ko": "나무 궤짝",
+    "target_en": "Wooden Chest",
     "level": "CTY_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_AuntieEthelsRevenge_ResearchDraft_dd09726a-14d7-48b4-a215-0a33083f34fe,CONT_GEN_Chest_Common_B_Small_A_005_12eaa52e-6d32-49ac-a853-759b01c3c0d4,1);",
     "region_ko": "아랫 도시"
@@ -50997,6 +51035,7 @@
     "goal": "Act3b_LOW_BhaalTemple",
     "target": "(ITEM)S_LOW_BhaalTemple_Narrative_Wardrobe_Wood_Rich_A_ChosenRoom_01_1f66cd01-7368-4a82-aa4a-acdb0902330e",
     "target_ko": "마호가니 옷장",
+    "target_en": "Mahogany Wardrobe",
     "level": "CTY_Main_A",
     "line": "ToInventory((ITEM)S_LOW_BhaalTemple_Book_APlanForChaos_01_e729109b-e25e-4eaa-a8cc-52badf9a787d, (ITEM)S_LOW_BhaalTemple_Narrative_Wardrobe_Wood_Rich_A_ChosenRoom_01_1f66cd01-7368-4a82-aa4a-acdb0902330",
     "object": "S_LOW_BhaalTemple_Book_APlanForChaos_01"
@@ -51086,6 +51125,7 @@
     "goal": "Act3b_LOW_BhaalTemple",
     "target": "(ITEM)S_LOW_BhaalTemple_Narrative_Vase_Large_A_Glazed_01_a0887209-1317-4ab0-a365-2913ab119157",
     "target_ko": "항아리",
+    "target_en": "Vase",
     "level": "CTY_Main_A",
     "line": "ToInventory((ITEM)S_LOW_BhaalTemple_Book_BhaalButlersChecklist_01_5aa2559b-20e6-408f-a3b7-626e85a996fa, (ITEM)S_LOW_BhaalTemple_Narrative_Vase_Large_A_Glazed_01_a0887209-1317-4ab0-a365-2913ab119157, 1",
     "object": "S_LOW_BhaalTemple_Book_BhaalButlersChecklist_01"
@@ -51291,6 +51331,7 @@
     "goal": "Act3b_LOW_BhaalTemple",
     "target": "(ITEM)S_LOW_BhaalTemple_Narrative_Chest_ChosenRoom_01_8d7d7944-ec50-4467-8740-e672ff04c323",
     "target_ko": "나무 궤짝",
+    "target_en": "Wooden Chest",
     "level": "CTY_Main_A",
     "line": "ToInventory((ITEM)S_LOW_BhaalTemple_BloodEnvyForTheUnworthyV1_01_c8c13f25-24de-4991-b822-87f2940283a8, (ITEM)S_LOW_BhaalTemple_Narrative_Chest_ChosenRoom_01_8d7d7944-ec50-4467-8740-e672ff04c323, 1, 0,",
     "object": "S_LOW_BhaalTemple_Book_BloodEnvyForTheUnworthyV1_01"
@@ -51381,6 +51422,7 @@
     "goal": "Act3b_LOW_BhaalTemple",
     "target": "(ITEM)S_LOW_BhaalTemple_Narrative_Chest_ChosenRoom_01_8d7d7944-ec50-4467-8740-e672ff04c323",
     "target_ko": "나무 궤짝",
+    "target_en": "Wooden Chest",
     "level": "CTY_Main_A",
     "line": "ToInventory((ITEM)S_LOW_BhaalTemple_BloodEnvyForTheUnworthyV1_02_d8c403d6-f5cc-4bfc-be0f-51f3163db684, (ITEM)S_LOW_BhaalTemple_Narrative_Chest_ChosenRoom_01_8d7d7944-ec50-4467-8740-e672ff04c323, 1, 0,",
     "object": "S_LOW_BhaalTemple_Book_BloodEnvyForTheUnworthyV1_02"
@@ -51495,6 +51537,7 @@
     "goal": "Act3b_LOW_BhaalTemple",
     "target": "(ITEM)S_LOW_BhaalTemple_Narrative_Wardrobe_A_ChosenRoom_01_30a14814-27e4-45f3-9e01-d3ad25d1a553",
     "target_ko": "옷장",
+    "target_en": "Wardrobe",
     "level": "CTY_Main_A",
     "line": "ToInventory((ITEM)S_LOW_BhaalTemple_Book_ConcerningOrinTheRed_000_6e1c9d3b-174e-4bde-915d-a838856ed5f6, (ITEM)S_LOW_BhaalTemple_Narrative_Wardrobe_A_ChosenRoom_01_30a14814-27e4-45f3-9e01-d3ad25d1a553,",
     "object": "S_LOW_BhaalTemple_Book_ConcerningOrinTheRed_000"
@@ -52606,6 +52649,7 @@
     "goal": "Act3b_LOW_BhaalTemple",
     "target": "(ITEM)S_LOW_BhaalTemple_Narrative_Wardrobe_Wood_Rich_A_ChosenRoom_01_1f66cd01-7368-4a82-aa4a-acdb0902330e",
     "target_ko": "마호가니 옷장",
+    "target_en": "Mahogany Wardrobe",
     "level": "CTY_Main_A",
     "line": "ToInventory((ITEM)S_LOW_BhaalTemple_Book_TestMissionWithGortash_01_785eee09-ee31-44f9-b888-53b1c84b1538, (ITEM)S_LOW_BhaalTemple_Narrative_Wardrobe_Wood_Rich_A_ChosenRoom_01_1f66cd01-7368-4a82-aa4a-ac",
     "object": "S_LOW_BhaalTemple_Book_TestMissionWithGortash_01"
@@ -52697,6 +52741,7 @@
     "goal": "Act3b_LOW_BhaalTemple",
     "target": "(ITEM)S_LOW_BhaalTemple_Narrative_Chest_CorpseNiche_01_d99f4359-64ee-48e9-b888-5f610ad7cbcb",
     "target_ko": "도금된 궤짝",
+    "target_en": "Gilded Chest",
     "level": "CTY_Main_A",
     "line": "ToInventory((ITEM)S_LOW_BhaalTemple_Book_WealthOfferingToBhaal_01_33749b63-fe11-4377-88e4-dfba53686817, (ITEM)S_LOW_BhaalTemple_Narrative_Chest_CorpseNiche_01_d99f4359-64ee-48e9-b888-5f610ad7cbcb, 1, ",
     "object": "S_LOW_BhaalTemple_Book_WealthOfferingToBhaal_01"
@@ -53489,6 +53534,7 @@
     "via": "direct",
     "target": "(GUIDSTRING)S_MOO_InfernalVendor_511c9413-25fe-449c-a81d-4b09bc20745a",
     "target_ko": "아라즈 오블로드라",
+    "target_en": "Araj Oblodra",
     "level": "SCL_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_BloodMerchant_Bitten_8574825d-fe6f-4f21-9f98-48bb072a9f1a, (GUIDSTRING)S_MOO_InfernalVendor_511c9413-25fe-449c-a81d-4b09bc20745a, 1, 0);",
     "region_ko": "그림자 저주에 물든 땅"
@@ -54362,6 +54408,7 @@
     "via": "direct",
     "target": "S_LOW_BlushingMermaid_CaptainsTable_22fa5c73-4d3b-48da-9f61-a8dbf8ac6c27",
     "target_ko": "자단나무 책상",
+    "target_en": "Rosewood Desk",
     "level": "CTY_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_BlushingMermaid_HagsInformantNote_785e14ea-78ad-4583-9268-a5e64354b481,S_LOW_BlushingMermaid_CaptainsTable_22fa5c73-4d3b-48da-9f61-a8dbf8ac6c27,1);",
     "region_ko": "아랫 도시"
@@ -54432,6 +54479,7 @@
     "via": "direct",
     "target": "S_LOW_BlushingMermaid_CaptainsTable_22fa5c73-4d3b-48da-9f61-a8dbf8ac6c27",
     "target_ko": "자단나무 책상",
+    "target_en": "Rosewood Desk",
     "level": "CTY_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_BlushingMermaid_HagsInformantNote_NoMayrina_974a42f2-00a9-4753-ac67-e5053d06b69b,S_LOW_BlushingMermaid_CaptainsTable_22fa5c73-4d3b-48da-9f61-a8dbf8ac6c27,1);",
     "region_ko": "아랫 도시"
@@ -57755,6 +57803,7 @@
     "goal": "Act3b_LOW_CazadorsPalace",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_LOW_CazadorsPalace_Bedrooms_AncientLanguageBook_7d0f3b3d-afcf-49a7-af68-b51fbb83a01f, _Player, 1, 1, 1);",
     "object": "S_LOW_CazadorsPalace_Bedrooms_AncientLanguageBook"
@@ -58216,6 +58265,7 @@
     "goal": "Act3b_LOW_CazadorsPalace",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_LOW_CazadorsPalace_Crypt_Scroll_591d390d-68b7-4937-9103-3772493ab132, _Player, 1, 1, 1);",
     "object": "S_LOW_CazadorsPalace_Crypt_Scroll"
@@ -60660,6 +60710,7 @@
     "via": "direct",
     "target": "S_LOW_CountingHouse_Cultist_02_464de2ba-ac0b-4fa8-bfa5-d8349ccbebf8",
     "target_ko": "바알의 소환자 그라이스",
+    "target_en": "Invoker of Bhaal Grice",
     "level": "CTY_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_CountingHouse_SmugglersCaveNote_ShipmentArrived_fc7481fb-75cc-46a9-aa3f-ad83ea05a442,S_LOW_CountingHouse_Cultist_02_464de2ba-ac0b-4fa8-bfa5-d8349ccbebf8,1);",
     "region_ko": "발더스 게이트"
@@ -60729,6 +60780,7 @@
     "via": "direct",
     "target": "S_LOW_CountingHouse_Cultist_02_464de2ba-ac0b-4fa8-bfa5-d8349ccbebf8",
     "target_ko": "바알의 소환자 그라이스",
+    "target_en": "Invoker of Bhaal Grice",
     "level": "CTY_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_CountingHouse_SmugglersCaveNote_ShipmentNeverArrived_2d326803-4d14-418c-95d8-42ae5bfd8fa8,S_LOW_CountingHouse_Cultist_02_464de2ba-ac0b-4fa8-bfa5-d8349ccbebf8,1);",
     "region_ko": "발더스 게이트"
@@ -62336,6 +62388,7 @@
     "via": "direct",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "TemplateAddTo((ITEMROOT)UNI_BOOK_DevilsFee_GrimoireSinglePage_432ab95d-e594-47b4-923f-9e15a9f4ccf3, _Player, 1, 1);",
     "region_ko": ""
@@ -62428,6 +62481,7 @@
     "via": "direct",
     "target": "(GUIDSTRING)_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "TemplateAddTo((ITEMROOT)BOOK_Tome_Diabolical_Grimoire_A_8e10075c-7b8e-4a95-9b67-af66f0059849, \t(GUIDSTRING)_Player, 1, 0);",
     "region_ko": ""
@@ -72943,6 +72997,7 @@
     "via": "direct",
     "target": "CONT_GEN_Chest_Common_B_Small_A_005_12eaa52e-6d32-49ac-a853-759b01c3c0d4",
     "target_ko": "나무 궤짝",
+    "target_en": "Wooden Chest",
     "level": "CTY_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_HagSurvivors_AdrielleNoHagNotes_438862c5-5984-4e62-8ac1-3e0b0bdf8ea0,CONT_GEN_Chest_Common_B_Small_A_005_12eaa52e-6d32-49ac-a853-759b01c3c0d4,1);",
     "region_ko": "아랫 도시"
@@ -73260,6 +73315,7 @@
     "via": "direct",
     "target": "S_LOW_HagSurvivors_HagSpy_0cb0a73b-1f97-4481-b320-b8fff88cfe0f",
     "target_ko": "자틀로",
+    "target_en": "Jatlo",
     "level": "CTY_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_HagSurvivors_HagSpysNote_97bfb610-9aa5-4183-bf60-972ad955b45a,S_LOW_HagSurvivors_HagSpy_0cb0a73b-1f97-4481-b320-b8fff88cfe0f,1);",
     "region_ko": "아랫 도시"
@@ -73332,6 +73388,7 @@
     "via": "direct",
     "target": "S_LOW_HagSurvivors_HagSpy_0cb0a73b-1f97-4481-b320-b8fff88cfe0f",
     "target_ko": "자틀로",
+    "target_en": "Jatlo",
     "level": "CTY_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_HagSurvivors_HagSpysNote_NoMayrina_658b0b6e-f60d-434c-8690-c2ea2b313f45,S_LOW_HagSurvivors_HagSpy_0cb0a73b-1f97-4481-b320-b8fff88cfe0f,1);",
     "region_ko": "아랫 도시"
@@ -74723,6 +74780,7 @@
     "goal": "Act3b_LOW_HouseOfHope2",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_LOW_HouseOfHope_MasterKeyword_dcd74338-b779-4387-9748-8f8a2b29230e, _Player,1,1,1);",
     "object": "S_LOW_HouseOfHope_MasterKeyword"
@@ -74731,6 +74789,7 @@
     "goal": "Act3b_LOW_HouseOfHope2",
     "target": "S_LOW_HouseOfHope_MasterKeywordBackgroundStorage_448c2ea4-0b79-4b40-97c4-33afcf68aa70);",
     "target_ko": "도금된 궤짝",
+    "target_en": "Gilded Chest",
     "level": "CTY_Main_A",
     "line": "ToInventory((ITEM)S_LOW_HouseOfHope_MasterKeyword_dcd74338-b779-4387-9748-8f8a2b29230e, S_LOW_HouseOfHope_MasterKeywordBackgroundStorage_448c2ea4-0b79-4b40-97c4-33afcf68aa70);",
     "object": "S_LOW_HouseOfHope_MasterKeyword"
@@ -74739,6 +74798,7 @@
     "goal": "Act3b_LOW_HouseOfHope2",
     "target": "S_LOW_HouseOfHope_SoulVesselSafe_adb5581e-b1cf-4d3e-9ace-5c75adfa2f47);",
     "target_ko": "라파엘의 금고",
+    "target_en": "Raphael's Safe",
     "level": "CTY_Main_A",
     "line": "ToInventory((ITEM)S_LOW_HouseOfHope_MasterKeyword_dcd74338-b779-4387-9748-8f8a2b29230e, S_LOW_HouseOfHope_SoulVesselSafe_adb5581e-b1cf-4d3e-9ace-5c75adfa2f47);",
     "object": "S_LOW_HouseOfHope_MasterKeyword"
@@ -74804,6 +74864,7 @@
     "goal": "Act3b_LOW_HouseOfHope2",
     "target": "S_LOW_HouseOfHope_SoulVesselSafe_adb5581e-b1cf-4d3e-9ace-5c75adfa2f47);",
     "target_ko": "라파엘의 금고",
+    "target_en": "Raphael's Safe",
     "level": "CTY_Main_A",
     "line": "ToInventory((ITEM)S_LOW_HouseOfHope_MasterKeyword_AfterDeal_8057c70c-21b8-4cb7-8926-c92a2c40df3c, S_LOW_HouseOfHope_SoulVesselSafe_adb5581e-b1cf-4d3e-9ace-5c75adfa2f47);",
     "object": "S_LOW_HouseOfHope_MasterKeyword_AfterDeal"
@@ -74812,6 +74873,7 @@
     "goal": "Act3b_LOW_HouseOfHope2",
     "target": "S_LOW_HouseOfHope_SoulVesselSafe_adb5581e-b1cf-4d3e-9ace-5c75adfa2f47);",
     "target_ko": "라파엘의 금고",
+    "target_en": "Raphael's Safe",
     "level": "CTY_Main_A",
     "line": "ToInventory((ITEM)S_LOW_HouseOfHope_MasterKeyword_AfterDeal_8057c70c-21b8-4cb7-8926-c92a2c40df3c, S_LOW_HouseOfHope_SoulVesselSafe_adb5581e-b1cf-4d3e-9ace-5c75adfa2f47);",
     "object": "S_LOW_HouseOfHope_MasterKeyword_AfterDeal"
@@ -80697,6 +80759,7 @@
     "goal": "Act3b_LOW_MurderTribunal",
     "target": "S_LOW_MurderTribunal_PrisonOfficeDesk_668c30d1-ddb8-44a4-a14f-1eb0ccebfb9c);",
     "target_ko": "나무 책상",
+    "target_en": "Wooden Desk",
     "level": "CTY_MurderTribunal_A",
     "line": "ToInventory(S_LOW_MurderTribunal_Page_SarevokOrinMother_23faac28-99b0-4ff2-bc23-13e70921a8ad,S_LOW_MurderTribunal_PrisonOfficeDesk_668c30d1-ddb8-44a4-a14f-1eb0ccebfb9c);",
     "object": "S_LOW_MurderTribunal_Page_SarevokOrinMother"
@@ -80705,6 +80768,7 @@
     "goal": "BG3_Act3b_SavegamePatches",
     "target": "S_LOW_MurderTribunal_PrisonOfficeDesk_668c30d1-ddb8-44a4-a14f-1eb0ccebfb9c);",
     "target_ko": "나무 책상",
+    "target_en": "Wooden Desk",
     "level": "CTY_MurderTribunal_A",
     "line": "ToInventory(S_LOW_MurderTribunal_Page_SarevokOrinMother_23faac28-99b0-4ff2-bc23-13e70921a8ad,S_LOW_MurderTribunal_PrisonOfficeDesk_668c30d1-ddb8-44a4-a14f-1eb0ccebfb9c);",
     "object": "S_LOW_MurderTribunal_Page_SarevokOrinMother"
@@ -82740,6 +82804,7 @@
     "goal": "Act3b_LOW_OskarsBeloved",
     "target": "S_LOW_ChestLetter_6ae18b9d-e089-4f05-873e-5f9d0872e636",
     "target_ko": "투박한 궤짝",
+    "target_en": "Rustic Chest",
     "level": "CTY_Main_A",
     "line": "ToInventory(S_LOW_LetterFatherCarrion_c4aae84c-c9b5-4941-a94f-c5c8ead07205,S_LOW_ChestLetter_6ae18b9d-e089-4f05-873e-5f9d0872e636,1,0,0);",
     "object": "S_LOW_LetterFatherCarrion"
@@ -82748,6 +82813,7 @@
     "goal": "Act3b_LOW_PhilgravesMansion",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_LOW_LetterFatherCarrion_c4aae84c-c9b5-4941-a94f-c5c8ead07205,_Player,1,1,1);",
     "object": "S_LOW_LetterFatherCarrion"
@@ -87748,6 +87814,7 @@
     "via": "direct",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "TemplateAddTo(BOOK_LOW_SerialKiller_Map_Tableaux_0abb9873-a07e-486b-bf50-60ccd5f8a0a3, _Player, 1, 1);",
     "region_ko": ""
@@ -87945,6 +88012,7 @@
     "goal": "Act3b_LOW_MurderTribunal",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_LOW_SerialKiller_NoteFromOrin_9c029a99-2636-4c19-9ff3-c7564a91cd35,_Player,1,1,1);",
     "object": "S_LOW_SerialKiller_NoteFromOrin"
@@ -87953,6 +88021,7 @@
     "goal": "Act3b_LOW_MurderTribunal",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_LOW_SerialKiller_NoteFromOrin_9c029a99-2636-4c19-9ff3-c7564a91cd35,_Player,1,1,1);",
     "object": "S_LOW_SerialKiller_NoteFromOrin"
@@ -87961,6 +88030,7 @@
     "goal": "Act3b_LOW_MurderTribunal",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_LOW_SerialKiller_NoteFromOrin_9c029a99-2636-4c19-9ff3-c7564a91cd35,_Player,1,1,1);",
     "object": "S_LOW_SerialKiller_NoteFromOrin"
@@ -87969,6 +88039,7 @@
     "goal": "Act3b_LOW_MurderTribunal",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_LOW_SerialKiller_NoteFromOrin_9c029a99-2636-4c19-9ff3-c7564a91cd35,_Player,1,1,1);",
     "object": "S_LOW_SerialKiller_NoteFromOrin"
@@ -87977,6 +88048,7 @@
     "goal": "Act3b_LOW_SerialKiller_FigarosCosmeticShop",
     "target": "S_LOW_Figaro_3ff2b7ea-3de2-4bdc-a600-c973f290bc09",
     "target_ko": "피가로 \"페이스메이커\" 페니굿",
+    "target_en": "Figaro 'Facemaker' Pennygood",
     "level": "CTY_Main_A",
     "line": "ToInventory(S_LOW_SerialKiller_NoteFromOrin_FigarosBody_fd96ca11-3ad0-4eeb-b550-d5e800e92592, S_LOW_Figaro_3ff2b7ea-3de2-4bdc-a600-c973f290bc09, 1, 0, 1);",
     "object": "S_LOW_SerialKiller_NoteFromOrin_FigarosBody"
@@ -88529,6 +88601,7 @@
     "goal": "Act3_WYR_SerialKiller_Flophouse",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_WYR_Flophouse_TargetList_a97afb67-9c29-49f9-b298-c41311868a78, _Player, 1, 1, 1);",
     "object": "S_WYR_Flophouse_TargetList"
@@ -92068,6 +92141,7 @@
     "goal": "Act3b_LOW_VoloFate",
     "target": "S_GLO_Volo_2af25a85-5b9a-4794-85d3-0bd4c4d262fa);",
     "target_ko": "볼로",
+    "target_en": "Volo",
     "level": "WLD_Main_A",
     "line": "ToInventory(S_LOW_VoloFate_SlayerGuidebook_14631f45-3a21-436a-97b0-211a3acaccc0,S_GLO_Volo_2af25a85-5b9a-4794-85d3-0bd4c4d262fa);",
     "object": "S_LOW_VoloFate_SlayerGuidebook"
@@ -92676,6 +92750,7 @@
     "goal": "Act3b_ORI_Gale",
     "target": "_Character",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_LOW_KarsusNotes_0bf067e2-6b9e-4a5e-9c04-e732db3fcc02, _Character, -1, 1, 1);",
     "object": "S_LOW_KarsusNotes"
@@ -94670,6 +94745,7 @@
     "goal": "Act3b_LOW_SorcerousSundries",
     "target": "S_GLO_Prodigy_b6a3a9e9-b6eb-4c19-ab3f-4c431178fe1b);",
     "target_ko": "롤란",
+    "target_en": "Rolan",
     "level": "WLD_Main_A",
     "line": "ToInventory(S_LOW_NightsongThreat_d9df0940-238f-4451-a312-d2847ee04f9a,S_GLO_Prodigy_b6a3a9e9-b6eb-4c19-ab3f-4c431178fe1b);",
     "object": "S_LOW_NightsongThreat"
@@ -94678,6 +94754,7 @@
     "goal": "BG3_Act3b_SavegamePatches",
     "target": "S_GLO_Prodigy_b6a3a9e9-b6eb-4c19-ab3f-4c431178fe1b);",
     "target_ko": "롤란",
+    "target_en": "Rolan",
     "level": "WLD_Main_A",
     "line": "ToInventory(S_LOW_NightsongThreat_d9df0940-238f-4451-a312-d2847ee04f9a,S_GLO_Prodigy_b6a3a9e9-b6eb-4c19-ab3f-4c431178fe1b);",
     "object": "S_LOW_NightsongThreat"
@@ -95152,6 +95229,7 @@
     "via": "direct",
     "target": "S_LOW_SorcerousSundries_ClerkCabinet_4d99e79a-9669-4b9c-a74f-d21f75dd492c",
     "target_ko": "수납함",
+    "target_en": "Cabinet",
     "level": "BGH_SorcerersSundries_A_ART",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_SorcerousSundries_RolanJournalSiblingsFailed_7e91fa6a-dee7-4ed2-876f-a0081b8e5c33,S_LOW_SorcerousSundries_ClerkCabinet_4d99e79a-9669-4b9c-a74f-d21f75dd492c,1,0);",
     "region_ko": ""
@@ -95219,6 +95297,7 @@
     "via": "direct",
     "target": "S_LOW_SorcerousSundries_ClerkCabinet_4d99e79a-9669-4b9c-a74f-d21f75dd492c",
     "target_ko": "수납함",
+    "target_en": "Cabinet",
     "level": "BGH_SorcerersSundries_A_ART",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_SorcerousSundries_RolanJournalSiblingsSaved_fe8c0c14-7484-4562-94b9-e99b0301867e,S_LOW_SorcerousSundries_ClerkCabinet_4d99e79a-9669-4b9c-a74f-d21f75dd492c,1,0);",
     "region_ko": ""
@@ -96208,6 +96287,7 @@
     "goal": "Act3b_LOW_SorcerousSundries",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_UNI_TharchiateCypher_0addb171-6e14-4b4c-8d97-c9af9ba1dcb8, _Player, 1, 1, 1);",
     "object": "S_UNI_TharchiateCypher"
@@ -97446,6 +97526,7 @@
     "goal": "Act3b_LOW_SteelWatchFoundry_GroundLevel",
     "target": "LOW_SteelWatchFoundry_AsylumChest_34e06174-ee14-40fe-9367-d63303ae86ee",
     "target_ko": "나무 궤짝",
+    "target_en": "Wooden Chest",
     "level": "CTY_Main_A",
     "line": "ToInventory(S_LOW_IronThroneCensusData_b726be30-3fc6-4c6f-be47-bc65faf522bf, LOW_SteelWatchFoundry_AsylumChest_34e06174-ee14-40fe-9367-d63303ae86ee, 1, 0, 1);",
     "object": "S_LOW_IronThroneCensusData"
@@ -97454,6 +97535,7 @@
     "goal": "Act3b_LOW_SteelWatchFoundry_GroundLevel",
     "target": "S_LOW_SecOfficeDesk_d54a335e-4fb1-4f7a-ac71-e21f0771587b",
     "target_ko": "나무 책상",
+    "target_en": "Wooden Desk",
     "level": "CTY_Main_A",
     "line": "ToInventory(S_LOW_IronThroneCensusData_b726be30-3fc6-4c6f-be47-bc65faf522bf, S_LOW_SecOfficeDesk_d54a335e-4fb1-4f7a-ac71-e21f0771587b, 1, 0, 1);",
     "object": "S_LOW_IronThroneCensusData"
@@ -97517,6 +97599,7 @@
     "goal": "Act3b_LOW_SteelWatchFoundry_GroundLevel",
     "target": "S_LOW_SecOfficeDesk_d54a335e-4fb1-4f7a-ac71-e21f0771587b",
     "target_ko": "나무 책상",
+    "target_en": "Wooden Desk",
     "level": "CTY_Main_A",
     "line": "ToInventory(S_LOW_IronThroneCensusData_NoRavengard_bebeba70-e34c-4547-a451-7249fee0f78e, S_LOW_SecOfficeDesk_d54a335e-4fb1-4f7a-ac71-e21f0771587b, 1, 0, 1);",
     "object": "S_LOW_IronThroneCensusData_NoRavengard"
@@ -97525,6 +97608,7 @@
     "goal": "Act3b_LOW_SteelWatchFoundry_GroundLevel",
     "target": "LOW_SteelWatchFoundry_AsylumChest_34e06174-ee14-40fe-9367-d63303ae86ee",
     "target_ko": "나무 궤짝",
+    "target_en": "Wooden Chest",
     "level": "CTY_Main_A",
     "line": "ToInventory(S_LOW_IronThroneCensusData_NoRavengard_bebeba70-e34c-4547-a451-7249fee0f78e, LOW_SteelWatchFoundry_AsylumChest_34e06174-ee14-40fe-9367-d63303ae86ee, 1, 0, 1);",
     "object": "S_LOW_IronThroneCensusData_NoRavengard"
@@ -97718,6 +97802,7 @@
     "goal": "BG3_Act3b_SavegamePatches",
     "target": "BOOK_GEN_Row_Multiple_Tileset_B_000_217ceab0-c32a-442f-8c9c-78a71011684a",
     "target_ko": "나란히 꽂힌 책",
+    "target_en": "Rows of Books",
     "level": "BGO_SteelWatchLabControlCenter_B",
     "line": "ToInventory(S_LOW_GondLoreBook_e3cbc4d4-80cc-49a1-bd9e-f0044d268e55, BOOK_GEN_Row_Multiple_Tileset_B_000_217ceab0-c32a-442f-8c9c-78a71011684a, 1, 0, 1);",
     "object": "S_LOW_GondLoreBook"
@@ -99511,6 +99596,7 @@
     "goal": "BG3_Act3b_SavegamePatches",
     "target": "S_LOW_GondianWorker08_Leader_3607ec31-f939-41aa-a7d2-e32f8c46979d",
     "target_ko": "간드 신교 재너 투빈",
+    "target_en": "Gondian Zanner Toobin",
     "level": "CTY_Main_A",
     "line": "ToInventory(S_LOW_ToobinFormulas_22ed4668-af60-48c9-bbf9-61d6c23ea5a0 ,S_LOW_GondianWorker08_Leader_3607ec31-f939-41aa-a7d2-e32f8c46979d, 1, 0, 1);",
     "object": "S_LOW_ToobinFormulas"
@@ -104114,6 +104200,7 @@
     "via": "direct",
     "target": "S_GLO_Volo_2af25a85-5b9a-4794-85d3-0bd4c4d262fa",
     "target_ko": "볼로",
+    "target_en": "Volo",
     "level": "WLD_Main_A",
     "line": "TemplateAddTo((ITEMROOT)BOOK_LOW_VolosFate_VoloDocksRendevouz_ff8decd6-f058-49c0-b70e-41058fa58102,S_GLO_Volo_2af25a85-5b9a-4794-85d3-0bd4c4d262fa,1);",
     "region_ko": "신성한 연못"
@@ -105467,6 +105554,7 @@
     "goal": "Act2_MOO_NecromancerRoom",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_MOO_BalthazarSecretBook_8f90de22-6a7c-4579-a966-73c0d80d7a54,_Player,1,0,1);",
     "object": "S_MOO_BalthazarSecretBook"
@@ -105475,6 +105563,7 @@
     "goal": "Act2_MOO_NecromancerRoom",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_MOO_BalthazarSecretBook_8f90de22-6a7c-4579-a966-73c0d80d7a54,_Player,1,0,1);",
     "object": "S_MOO_BalthazarSecretBook"
@@ -106248,6 +106337,7 @@
     "goal": "Act2_MOO_UpperFloor",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_MOO_MelodiaLetter_80590a99-b86d-4129-b763-c40f89e55e92, _Player, 1, 0, 1);",
     "object": "S_MOO_MelodiaLetter"
@@ -108209,6 +108299,7 @@
     "goal": "ORI_DebugBook_GustavDev",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_GLO_OrpheusChapter1_164b80e2-12a9-45d6-8457-cfe84ebb1a06, _Player, 1, 1, 1);",
     "object": "S_GLO_OrpheusChapter1"
@@ -108332,6 +108423,7 @@
     "goal": "ORI_DebugBook_GustavDev",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_GLO_OrpheusChapter2_4dbaf850-49ff-4e41-adc2-7054e416c960, _Player, 1, 1, 1);",
     "object": "S_GLO_OrpheusChapter2"
@@ -108399,6 +108491,7 @@
     "goal": "ORI_DebugBook_GustavDev",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_GLO_OrpheusChapter3_bad6bedb-5be9-407a-840e-977c2e23aba3, _Player, 1, 1, 1);",
     "object": "S_GLO_OrpheusChapter3"
@@ -111395,6 +111488,7 @@
     "goal": "Act2_SHA_NightsongPrison",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_SHA_Necromancer_Research_822d964d-1c62-4465-b493-1aa1c34baef3, _Player, 1, 1, 1);",
     "object": "S_SHA_Necromancer_Research"
@@ -113178,6 +113272,7 @@
     "goal": "Act3_WYR_SerialKiller_OpenHand",
     "target": "S_WYR_OpenHand_LorgansChest_fa41b720-f976-41ab-81bb-5d2b70b9136e",
     "target_ko": "나무 궤짝",
+    "target_en": "Wooden Chest",
     "level": "BGO_Main_A",
     "line": "ToInventory(S_WYR_OpenHand_LorgansDiary_eb5a34ae-57a6-4071-952e-723f8e8e60e6, S_WYR_OpenHand_LorgansChest_fa41b720-f976-41ab-81bb-5d2b70b9136e, 1, 0, 1);",
     "object": "S_WYR_OpenHand_LorgansDiary"
@@ -118128,6 +118223,7 @@
     "goal": "Act1_UND_General",
     "target": "_Player);",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_UND_MessageInBottle_Letter_51b336e5-c230-43a6-8939-b94f0b9e9d72, _Player);",
     "object": "S_UND_MessageInBottle_Letter"
@@ -121300,6 +121396,7 @@
     "goal": "Act3b_OriginMoments_Wyll",
     "target": "_Character",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_GLO_AnsurGhost_LegendOfAnsurBook_b0ecc3d5-85ad-48fa-bc47-988107507e6c, _Character, 1, 0, 1);",
     "object": "S_GLO_AnsurGhost_LegendOfAnsurBook"
@@ -121308,6 +121405,7 @@
     "goal": "Act3_OriginMoments_Wyll",
     "target": "S_GLO_Ravengard_f6620372-ebd0-4511-a39d-8c2d4ad03f03",
     "target_ko": "얼더 레이븐가드 대공",
+    "target_en": "Duke Ulder Ravengard",
     "level": "SCL_Main_A",
     "line": "ToInventory((ITEM)S_GLO_AnsurGhost_LegendOfAnsurBook_b0ecc3d5-85ad-48fa-bc47-988107507e6c, S_GLO_Ravengard_f6620372-ebd0-4511-a39d-8c2d4ad03f03, 1, 0, 1);",
     "object": "S_GLO_AnsurGhost_LegendOfAnsurBook"
@@ -121316,6 +121414,7 @@
     "goal": "_Gustav_CampFollowers_PostEA",
     "target": "S_GLO_Ravengard_f6620372-ebd0-4511-a39d-8c2d4ad03f03",
     "target_ko": "얼더 레이븐가드 대공",
+    "target_en": "Duke Ulder Ravengard",
     "level": "SCL_Main_A",
     "line": "ToInventory((ITEM)S_GLO_AnsurGhost_LegendOfAnsurBook_b0ecc3d5-85ad-48fa-bc47-988107507e6c, S_GLO_Ravengard_f6620372-ebd0-4511-a39d-8c2d4ad03f03, 1, 0, 1);",
     "object": "S_GLO_AnsurGhost_LegendOfAnsurBook"
@@ -122399,6 +122498,7 @@
     "goal": "BG3_Act3_SavegamePatches",
     "target": "S_WYR_BuriedChest_01_e103309e-14c9-423b-9dd9-faa070bc2dd4);",
     "target_ko": "나무 궤짝",
+    "target_en": "Wooden Chest",
     "level": "BGO_Main_A",
     "line": "ToInventory(S_WYR_Circus_RatNote_df0a0f97-5306-4cd2-a2f0-375eda71d27a, S_WYR_BuriedChest_01_e103309e-14c9-423b-9dd9-faa070bc2dd4);",
     "object": "S_WYR_Circus_RatNote"
@@ -122592,6 +122692,7 @@
     "goal": "Act3_WYR_WyrmRock",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_WYR_SharessCaress_CoronationAccessPass_50daa914-92be-49e3-974c-521c44121ffb, _Player, 1, 1, 1);",
     "object": "S_WYR_SharessCaress_CoronationAccessPass"
@@ -122600,6 +122701,7 @@
     "goal": "Act3_WYR_MerchantsHouse",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_WYR_MerchantsHouse_CoronationAccessPass_b41b4a1c-f740-4798-9a00-170a9db4f034, _Player, 1, 1, 1);",
     "object": "S_WYR_MerchantsHouse_CoronationAccessPass"
@@ -122608,6 +122710,7 @@
     "goal": "Act3_WYR_WyrmRock",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_WYR_MerchantsHouse_CoronationAccessPass_b41b4a1c-f740-4798-9a00-170a9db4f034, _Player, 1, 1, 1);",
     "object": "S_WYR_MerchantsHouse_CoronationAccessPass"
@@ -124990,6 +125093,7 @@
     "goal": "Act3_WYR_General",
     "target": "(CHARACTER)S_GLO_Gortash_b878a854-f790-4999-95c4-3f20f00f65ac",
     "target_ko": "엔버 고타쉬 경",
+    "target_en": "Lord Enver Gortash",
     "level": "SCL_Main_A",
     "line": "ToInventory((ITEM)S_WYR_KillDirectorGortash_NoticeFromHelsik_95ce82fe-4652-477d-9129-296a82e4a6da, (CHARACTER)S_GLO_Gortash_b878a854-f790-4999-95c4-3f20f00f65ac, 1, 0, 1);",
     "object": "S_WYR_KillDirectorGortash_NoticeFromHelsik"
@@ -126306,6 +126410,7 @@
     "via": "direct",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "TemplateAddTo((ITEMROOT)UNI_WYR_LowerCityPass_0a172d65-748c-4ff1-bf66-200fceb5ca79, _Player, 1, 1);",
     "region_ko": ""
@@ -126316,6 +126421,7 @@
     "goal": "Act3_WYR_WyrmRock",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_WYR_OpenHand_LowerCityPass_350eba29-7233-42df-be7b-0a0bd375c745, _Player, 1, 1, 1);",
     "object": "S_WYR_OpenHand_LowerCityPass"
@@ -127604,6 +127710,7 @@
     "goal": "DebugItem_Dev",
     "target": "_Char",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_WYR_UrgentReportForDukeRavengard_cc57cc55-4b45-4cd6-bea4-2f2981a342e3,_Char,1,1,1);",
     "object": "S_WYR_Posthouse_UrgentReportForDukeRavengard_Opened"

@@ -302,8 +302,10 @@ def osi_target(arg):
     g = GUID.findall(arg)
     if g and g[-1] in LEVEL_OBJ:
         o = LEVEL_OBJ[g[-1]]
-        return {"target": arg.strip(), "target_ko": txt(o["display"], KO), "level": o["level"], "pos": o["pos"]}
-    return {"target": arg.strip(), "target_ko": "플레이어" if "Player" in arg or "_Char" in arg else "", "level": "", "pos": None}
+        return {"target": arg.strip(), "target_ko": txt(o["display"], KO), "target_en": txt(o["display"], EN), "level": o["level"], "pos": o["pos"]}
+    player = "Player" in arg or "_Char" in arg
+    return {"target": arg.strip(), "target_ko": "플레이어" if player else "", "target_en": "Player" if player else "",
+            "level": "", "pos": None}
 
 
 for f in glob.glob(U + "/*/Mods/*/Story/RawFiles/Goals/*.txt"):
@@ -559,7 +561,7 @@ site = []
 for b in out:
     t = b["templates"]
     site.append({
-        "id": b["book_id"], "t": b["title_ko"], "te": sorted({x["display_en"] for x in t if x["display_en"]}),
+        "id": b["book_id"], "t": b["title_ko"], "te": sorted({txt(h, EN) for h in b["title_handles"] if txt(h, EN)}),
         "u": b["unknown_title_ko"], "th": b["title_handles"], "ch": b["content_handle"],
         "c": b["content_ko"], "ce": b["content_en"],
         "bg": sorted({x["book_type"] for x in t}) or ["None"], "ty": b["uniqueness"], "n": b["placement_count"],
@@ -571,6 +573,7 @@ for b in out:
                                   ("e", f"{s['trader_en'] or s['trader']} ({s['region_en'] or s['level']})")) for s in b["shops"]}],
         "tt": b["treasure_tables"],
         "os": uniq(f"{o['target_ko'] or o['target']} ← {o['goal']} {o['func']}" + (f" [{o['via']}]" if o["via"] != "direct" else "") for o in b["osiris_given"]),
+        "oe": uniq(f"{o['target_en'] or o['target']} ← {o['goal']} {o['func']}" + (f" [{o['via']}]" if o["via"] != "direct" else "") for o in b["osiris_given"]),
         "tp": uniq(str(x["name"]) for x in t), "ic": uniq(str(x["icon"]) for x in t if x["icon"]),
     })
 (HERE / "docs" / "data").mkdir(parents=True, exist_ok=True)

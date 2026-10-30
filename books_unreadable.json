@@ -24278,12 +24278,12 @@
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
-    "trader": "S_WYR_Danthelon",
-    "trader_ko": "엔탈 단텔론",
-    "trader_en": "Entharl Danthelon",
-    "level": "BGO_Main_A",
-    "region_ko": "웜 건널목",
-    "region_en": "Wyrm's Crossing"
+    "trader": "S_CRE_Quartermistress",
+    "trader_ko": "아자크니르 지라",
+    "trader_en": "A'jak'nir Jeera",
+    "level": "CRE_Main_A",
+    "region_ko": "일릭 양성소",
+    "region_en": "Crèche Y'llek"
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
@@ -24305,30 +24305,12 @@
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
-    "trader": "S_CRE_Quartermistress",
-    "trader_ko": "아자크니르 지라",
-    "trader_en": "A'jak'nir Jeera",
-    "level": "CRE_Main_A",
-    "region_ko": "일릭 양성소",
-    "region_en": "Crèche Y'llek"
-   },
-   {
-    "table": "EquipmentTrader_Scrolls",
-    "trader": "S_GOB_Quartermaster",
-    "trader_ko": "로아 문글로우",
-    "trader_en": "Roah Moonglow",
-    "level": "WLD_Main_A",
-    "region_ko": "파괴된 성소",
-    "region_en": "Shattered Sanctum"
-   },
-   {
-    "table": "EquipmentTrader_Scrolls",
-    "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
-    "trader_ko": "병참 장교 탈리",
-    "trader_en": "Quartermaster Talli",
-    "level": "SCL_Main_A",
-    "region_ko": "그림자 저주에 물든 땅",
-    "region_en": "Shadow-Cursed Lands"
+    "trader": "S_WYR_Danthelon",
+    "trader_ko": "엔탈 단텔론",
+    "trader_en": "Entharl Danthelon",
+    "level": "BGO_Main_A",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing"
    },
    {
     "table": "EquipmentTrader_Scrolls",
@@ -24341,12 +24323,30 @@
    },
    {
     "table": "EquipmentTrader_Scrolls",
+    "trader": "S_GOB_Quartermaster",
+    "trader_ko": "로아 문글로우",
+    "trader_en": "Roah Moonglow",
+    "level": "WLD_Main_A",
+    "region_ko": "파괴된 성소",
+    "region_en": "Shattered Sanctum"
+   },
+   {
+    "table": "EquipmentTrader_Scrolls",
     "trader": "S_LOW_Tolna",
     "trader_ko": "책 장수 톨나",
     "trader_en": "Tolna Tome-Monger",
     "level": "CTY_Main_A",
     "region_ko": "아랫 도시",
     "region_en": "Lower City"
+   },
+   {
+    "table": "EquipmentTrader_Scrolls",
+    "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
+    "trader_ko": "병참 장교 탈리",
+    "trader_en": "Quartermaster Talli",
+    "level": "SCL_Main_A",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands"
    },
    {
     "table": "GOB_Festivities_Trader",
@@ -24681,6 +24681,7 @@
     "via": "direct",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "TemplateAddTo(LOOT_SCROLL_TrueResurrection_01d1b2b2-9e6b-4ad2-8d63-59f9caf1d389, _Player, 1, 0);",
     "region_ko": ""
@@ -24691,6 +24692,7 @@
     "via": "direct",
     "target": "_X",
     "target_ko": "",
+    "target_en": "",
     "level": "",
     "line": "CreateAt(LOOT_SCROLL_TrueResurrection_01d1b2b2-9e6b-4ad2-8d63-59f9caf1d389, _X, _Y, _Z, 0, 1, \"\", _)",
     "region_ko": ""
@@ -24701,6 +24703,7 @@
     "via": "direct",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "TemplateAddTo(LOOT_SCROLL_RayOfEnfeeblement_cd1da9c5-c9ea-4d2a-93ce-e201c97eded9, _Player, 1);",
     "region_ko": ""
@@ -24711,6 +24714,7 @@
     "via": "direct",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "TemplateAddTo(LOOT_SCROLL_RayOfEnfeeblement_cd1da9c5-c9ea-4d2a-93ce-e201c97eded9, _Player, 1);",
     "region_ko": ""
@@ -24721,6 +24725,7 @@
     "via": "direct",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "CreateAtObject(BASE_BOOK_StoryUse_4d0f9f0f-8290-4d24-a05a-e66c878d974d,_Player,0,0,\"\",0,_Book)",
     "region_ko": ""
@@ -24731,6 +24736,7 @@
     "via": "direct",
     "target": "_Character",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "TemplateAddTo(S_DebugBook_31ee023c-d151-40f6-917e-84066772783b, _Character, 1, 0);",
     "region_ko": ""
@@ -24741,6 +24747,7 @@
     "via": "direct",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "TemplateAddTo((ITEMROOT)QUEST_FOR_SCROLL_SummonQuasit_6b881dce-b87f-4c3c-aa98-7ba4b07c009b, _Player, 1, 1);",
     "region_ko": ""
@@ -24751,6 +24758,7 @@
     "via": "direct",
     "target": "(GUIDSTRING)_Anchor",
     "target_ko": "",
+    "target_en": "",
     "level": "",
     "line": "CreateAtObject(Quest_BasiliskGate_Florrick_ExecutionNotice_435685c4-f7ec-4720-8d3c-c297b75267ea, (GUIDSTRING)_Anchor, 0, 0, \"\", 1, _NewPoster)",
     "region_ko": ""
@@ -24761,6 +24769,7 @@
     "via": "direct",
     "target": "(GUIDSTRING)_Anchor",
     "target_ko": "",
+    "target_en": "",
     "level": "",
     "line": "CreateAtObject(Quest_BasiliskGate_Florrick_ExecutionNotice_435685c4-f7ec-4720-8d3c-c297b75267ea, (GUIDSTRING)_Anchor, 0, 0, \"\", 1, _NewPoster)",
     "region_ko": ""
@@ -24771,6 +24780,7 @@
     "via": "direct",
     "target": "_Stack",
     "target_ko": "",
+    "target_en": "",
     "level": "",
     "line": "TemplateAddTo(UNI_LOW_BaldursMouth_DailyPaper_5ffe11b1-4949-47cd-ab49-80053db261f9, _Stack, 1, 0);",
     "region_ko": ""
@@ -24781,6 +24791,7 @@
     "via": "direct",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "TemplateAddTo(UNI_TWN_TollhousePass_Signed_f2c940ba-3049-49d2-bb90-af9f4830057c, _Player, 1, 1);",
     "region_ko": ""
@@ -24791,6 +24802,7 @@
     "goal": "Act3_WYR_WyrmRock",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_WYR_Posthouse_UrgentReportForDukeRavengard_d9922125-23f8-405c-a2cc-f448621cd178, _Player, 1, 1, 1);",
     "object": "S_WYR_Posthouse_UrgentReportForDukeRavengard"
@@ -24799,6 +24811,7 @@
     "goal": "DebugItem_Dev",
     "target": "_Char",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_WYR_Posthouse_UrgentReportForDukeRavengard_d9922125-23f8-405c-a2cc-f448621cd178,_Char,1,1,1);",
     "object": "S_WYR_Posthouse_UrgentReportForDukeRavengard"
@@ -24807,6 +24820,7 @@
     "goal": "Act3b_LOW_Guildhall",
     "target": "_Player);",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_LOW_HouseOfHope_MolContract_5fa7c7b9-cdf0-42ef-b75a-96b1f34073c3, _Player);",
     "object": "S_LOW_HouseOfHope_MolContract"
@@ -24815,6 +24829,7 @@
     "goal": "FOR_DangerousBook",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_FOR_DangerousBook_Tome_73ea8888-ed82-4ca5-b9f9-0c9119873507, _Player, 1, 0, 0);",
     "object": "S_FOR_DangerousBook_Tome"
@@ -24823,6 +24838,7 @@
     "goal": "FOR_DangerousBook",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_FOR_DangerousBook_Tome_73ea8888-ed82-4ca5-b9f9-0c9119873507, _Player, 1, 0, 1);",
     "object": "S_FOR_DangerousBook_Tome"
@@ -24831,6 +24847,7 @@
     "goal": "FOR_DangerousBook",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_FOR_DangerousBook_Tome_73ea8888-ed82-4ca5-b9f9-0c9119873507, _Player, 1, 0, 1);",
     "object": "S_FOR_DangerousBook_Tome"
@@ -24839,6 +24856,7 @@
     "goal": "FOR_DangerousBook",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_FOR_DangerousBook_Tome_73ea8888-ed82-4ca5-b9f9-0c9119873507, _Player, 1, 1, 0);",
     "object": "S_FOR_DangerousBook_Tome"
@@ -24847,6 +24865,7 @@
     "goal": "FOR_DangerousBook",
     "target": "_Player);",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_FOR_DangerousBook_Tome_73ea8888-ed82-4ca5-b9f9-0c9119873507, _Player);",
     "object": "S_FOR_DangerousBook_Tome"
@@ -24855,6 +24874,7 @@
     "goal": "Act3b_LOW_PhilgravesMansion",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_FOR_DangerousBook_Tome_73ea8888-ed82-4ca5-b9f9-0c9119873507,_Player,1,1,1);",
     "object": "S_FOR_DangerousBook_Tome"
@@ -24863,6 +24883,7 @@
     "goal": "Act3b_LOW_PhilgravesMansion",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_FOR_DangerousBook_Tome_73ea8888-ed82-4ca5-b9f9-0c9119873507,_Player,1,1,1);",
     "object": "S_FOR_DangerousBook_Tome"
@@ -24871,6 +24892,7 @@
     "goal": "Act3b_LOW_SorcerousSundries",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_FOR_DangerousBook_Tome_73ea8888-ed82-4ca5-b9f9-0c9119873507,_Player,1,1,1);",
     "object": "S_FOR_DangerousBook_Tome"
@@ -24879,6 +24901,7 @@
     "goal": "Act3b_LOW_SorcerousSundries",
     "target": "_Player",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory((ITEM)S_FOR_DangerousBook_Tome_73ea8888-ed82-4ca5-b9f9-0c9119873507,_Player,1,1,1);",
     "object": "S_FOR_DangerousBook_Tome"
@@ -24887,6 +24910,7 @@
     "goal": "Z_GLO_Act3_DebugSetup",
     "target": "_Player);",
     "target_ko": "플레이어",
+    "target_en": "Player",
     "level": "",
     "line": "ToInventory(S_FOR_DangerousBook_Tome_73ea8888-ed82-4ca5-b9f9-0c9119873507, _Player);",
     "object": "S_FOR_DangerousBook_Tome"
@@ -24895,6 +24919,7 @@
     "goal": "Act3b_LOW_BaldursMouthGazette",
     "target": "_Avatar);",
     "target_ko": "",
+    "target_en": "",
     "level": "",
     "line": "ToInventory(S_LOW_BaldursMouth_ArticleBlock_Positive01_1af44269-8d9b-4bd6-bdab-a9b3ca6a61f9, _Avatar);",
     "object": "S_LOW_BaldursMouth_ArticleBlock_Positive01"
@@ -24903,6 +24928,7 @@
     "goal": "Act3b_LOW_BaldursMouthGazette",
     "target": "_Avatar);",
     "target_ko": "",
+    "target_en": "",
     "level": "",
     "line": "ToInventory(S_LOW_BaldursMouth_ArticleBlock_Positive03_2923d6c9-5640-49f1-a645-988dadfda21d, _Avatar);",
     "object": "S_LOW_BaldursMouth_ArticleBlock_Positive03"
@@ -24911,6 +24937,7 @@
     "goal": "Act3b_LOW_BaldursMouthGazette",
     "target": "_Avatar);",
     "target_ko": "",
+    "target_en": "",
     "level": "",
     "line": "ToInventory(S_LOW_BaldursMouth_ArticleBlock_Positive02_ab318f95-a9bd-4295-806e-c9ffa3eac9f6, _Avatar);",
     "object": "S_LOW_BaldursMouth_ArticleBlock_Positive02"

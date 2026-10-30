@@ -11791,10 +11791,10 @@
    },
    {
     "level": "CTY_Catacombs_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "묘지",
+    "region_en": "Graveyard",
+    "region_key": "LOW_Graveyard_SUB",
+    "region_method": "sublevel name",
     "position": [
      127.0,
      0.81,
@@ -17575,10 +17575,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "재회의 야영지",
+    "region_en": "Reunion Camp",
+    "region_key": "EPI_Main_A",
+    "region_method": "main level name",
     "position": [
      19.47,
      1.15,
@@ -17743,10 +17743,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "재회의 야영지",
+    "region_en": "Reunion Camp",
+    "region_key": "EPI_Main_A",
+    "region_method": "main level name",
     "position": [
      129.65,
      -101.63,
@@ -21871,10 +21871,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "재회의 야영지",
+    "region_en": "Reunion Camp",
+    "region_key": "EPI_Main_A",
+    "region_method": "main level name",
     "position": [
      38.53,
      2.23,
@@ -22183,10 +22183,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "재회의 야영지",
+    "region_en": "Reunion Camp",
+    "region_key": "EPI_Main_A",
+    "region_method": "main level name",
     "position": [
      38.33,
      2.23,
@@ -22927,10 +22927,10 @@
    },
    {
     "level": "CTY_Catacombs_A",
-    "region_ko": "아랫 도시",
-    "region_en": "Lower City",
-    "region_key": "LOW_City_SUB",
-    "region_method": "inside (main level)",
+    "region_ko": "묘지",
+    "region_en": "Graveyard",
+    "region_key": "LOW_Graveyard_SUB",
+    "region_method": "sublevel name",
     "position": [
      2.31,
      2.98,
@@ -23191,10 +23191,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "재회의 야영지",
+    "region_en": "Reunion Camp",
+    "region_key": "EPI_Main_A",
+    "region_method": "main level name",
     "position": [
      20.27,
      1.51,
@@ -23239,10 +23239,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "재회의 야영지",
+    "region_en": "Reunion Camp",
+    "region_key": "EPI_Main_A",
+    "region_method": "main level name",
     "position": [
      -1.56,
      1.41,
@@ -24775,10 +24775,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "재회의 야영지",
+    "region_en": "Reunion Camp",
+    "region_key": "EPI_Main_A",
+    "region_method": "main level name",
     "position": [
      19.81,
      1.96,
@@ -24847,10 +24847,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "재회의 야영지",
+    "region_en": "Reunion Camp",
+    "region_key": "EPI_Main_A",
+    "region_method": "main level name",
     "position": [
      19.95,
      1.48,
@@ -24871,10 +24871,10 @@
    },
    {
     "level": "EPI_Campfire_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "재회의 야영지",
+    "region_en": "Reunion Camp",
+    "region_key": "EPI_Main_A",
+    "region_method": "main level name",
     "position": [
      20.11,
      1.96,
@@ -24966,12 +24966,12 @@
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
-    "trader": "S_WYR_Danthelon",
-    "trader_ko": "엔탈 단텔론",
-    "trader_en": "Entharl Danthelon",
-    "level": "BGO_Main_A",
-    "region_ko": "웜 건널목",
-    "region_en": "Wyrm's Crossing"
+    "trader": "S_CRE_Quartermistress",
+    "trader_ko": "아자크니르 지라",
+    "trader_en": "A'jak'nir Jeera",
+    "level": "CRE_Main_A",
+    "region_ko": "일릭 양성소",
+    "region_en": "Crèche Y'llek"
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
@@ -24993,21 +24993,12 @@
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
-    "trader": "S_CRE_Quartermistress",
-    "trader_ko": "아자크니르 지라",
-    "trader_en": "A'jak'nir Jeera",
-    "level": "CRE_Main_A",
-    "region_ko": "일릭 양성소",
-    "region_en": "Crèche Y'llek"
-   },
-   {
-    "table": "EquipmentTrader_Scrolls",
-    "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
-    "trader_ko": "병참 장교 탈리",
-    "trader_en": "Quartermaster Talli",
-    "level": "SCL_Main_A",
-    "region_ko": "그림자 저주에 물든 땅",
-    "region_en": "Shadow-Cursed Lands"
+    "trader": "S_WYR_Danthelon",
+    "trader_ko": "엔탈 단텔론",
+    "trader_en": "Entharl Danthelon",
+    "level": "BGO_Main_A",
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing"
    },
    {
     "table": "EquipmentTrader_Scrolls",
@@ -25017,6 +25008,15 @@
     "level": "CTY_Main_A",
     "region_ko": "아랫 도시",
     "region_en": "Lower City"
+   },
+   {
+    "table": "EquipmentTrader_Scrolls",
+    "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
+    "trader_ko": "병참 장교 탈리",
+    "trader_en": "Quartermaster Talli",
+    "level": "SCL_Main_A",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands"
    },
    {
     "table": "EquipmentTrader_Scrolls",

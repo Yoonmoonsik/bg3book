@@ -193,7 +193,12 @@ SUBLEVEL_REGION = {
     "BGH_FigaroCosmeticShop_A": "LOW_SerialKiller_FigarosStore_SUB", "BGO_JaheiraBasement_B": "LOW_House_Jaheiras_SUB",
     "BGO_UC_GuildHall_A": "LOW_Guildhall_SUB", "CRE_AstralPlane_E_Art": "CRE_AstralPlane_SUB",
     "IRN_IronThrone_C": "IRN_IronThrone_SUB", "WLD_UnderdarkSubs_C": "UND_Underdark_SUB", "WLD_SharTemple_E": "SHA_Temple_SUB",
+    # graveyard catacombs: a placed book is BOOK_LOW_Graveyard_WishOfProtection_000, triggers name the GraveKeeper
+    "CTY_Catacombs_A": "LOW_Graveyard_SUB",
 }
+# Sublevels with no matching subregion key that take a main level's display name instead
+# (EPI_Campfire_A holds RegionTrigger_EPI_Camp; EPI_Main_A is "Reunion Camp").
+SUBLEVEL_LEVEL = {"EPI_Campfire_A": "EPI_Main_A"}
 
 
 def region_of(level, p):
@@ -204,6 +209,9 @@ def region_of(level, p):
         key = SUBLEVEL_REGION[level]
         h = SUBKEYS.get(key, "")
         return {"ko": txt(h, KO), "en": txt(h, EN), "key": key, "method": "sublevel name"}
+    if level in SUBLEVEL_LEVEL:
+        h = LEVEL_NAMES.get(SUBLEVEL_LEVEL[level], "")
+        return {"ko": txt(h, KO), "en": txt(h, EN), "key": SUBLEVEL_LEVEL[level], "method": "main level name"}
     # Sublevels (BGO_WyrmsCrossing_C, CTY_LowerCity_A ...) have no subregion triggers of their own.
     # Each main level has its own coordinate space (CTY_Main_A's Lower City box overlaps WLD_Main_A
     # coordinates), so only the main level of the same prefix is tried, and only a point inside a box counts.

@@ -12511,10 +12511,10 @@
    },
    {
     "level": "SCL_VillageSubs_E",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "라이스윈 석공 길드",
+    "region_en": "Reithwin Masons' Guild",
+    "region_key": "TWN_MasonsGuild_SUB",
+    "region_method": "inside zone trigger",
     "position": [
      83.22,
      -0.42,
@@ -13951,10 +13951,10 @@
    },
    {
     "level": "INT_CIN_GortashOffice_A",
-    "region_ko": "",
-    "region_en": "",
-    "region_key": "",
-    "region_method": "no subregion trigger in level",
+    "region_ko": "웜의 망루",
+    "region_en": "Wyrm's Lookout",
+    "region_key": "INT_Intermezzo_SUB",
+    "region_method": "sublevel name",
     "position": [
      -30.38,
      3.82,
@@ -24966,15 +24966,6 @@
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
-    "trader": "S_CRE_Quartermistress",
-    "trader_ko": "아자크니르 지라",
-    "trader_en": "A'jak'nir Jeera",
-    "level": "CRE_Main_A",
-    "region_ko": "일릭 양성소",
-    "region_en": "Crèche Y'llek"
-   },
-   {
-    "table": "EquipmentTrader_RevivifyScrolls",
     "trader": "S_UND_DuergarRebelMason_02",
     "trader_ko": "석공 거거란",
     "trader_en": "Stonemason Gergerann",
@@ -24993,6 +24984,15 @@
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
+    "trader": "S_CRE_Quartermistress",
+    "trader_ko": "아자크니르 지라",
+    "trader_en": "A'jak'nir Jeera",
+    "level": "CRE_Main_A",
+    "region_ko": "일릭 양성소",
+    "region_en": "Crèche Y'llek"
+   },
+   {
+    "table": "EquipmentTrader_RevivifyScrolls",
     "trader": "S_WYR_Danthelon",
     "trader_ko": "엔탈 단텔론",
     "trader_en": "Entharl Danthelon",
@@ -25002,18 +25002,18 @@
    },
    {
     "table": "EquipmentTrader_Scrolls",
-    "trader": "S_LOW_Tolna",
-    "trader_ko": "책 장수 톨나",
-    "trader_en": "Tolna Tome-Monger",
+    "trader": "S_LOW_SteepsTrader_BooksAndScrolls",
+    "trader_ko": "낸시 그레타",
+    "trader_en": "Nansi Gretta",
     "level": "CTY_Main_A",
     "region_ko": "아랫 도시",
     "region_en": "Lower City"
    },
    {
     "table": "EquipmentTrader_Scrolls",
-    "trader": "S_LOW_SteepsTrader_BooksAndScrolls",
-    "trader_ko": "낸시 그레타",
-    "trader_en": "Nansi Gretta",
+    "trader": "S_LOW_Tolna",
+    "trader_ko": "책 장수 톨나",
+    "trader_en": "Tolna Tome-Monger",
     "level": "CTY_Main_A",
     "region_ko": "아랫 도시",
     "region_en": "Lower City"

@@ -206,7 +206,20 @@ SUBLEVEL_REGION = {
     "WLD_VillageSubs_C": "FOR_ForestVillage_SUB",             # MillBasement / SmithBasement / ThayanCellar triggers
     "CLT_ZevlorsAppeal_A": "CAMP_SUB", "CMP_CentralCampfire_Day": "CAMP_SUB",  # S_CAMP_* camp scenes
     "CMP_Minthara_A": "CAMP_SUB",
+    "INT_CIN_GortashOffice_A": "INT_Intermezzo_SUB",          # Gortash's office is at Wyrm's Lookout (user)
 }
+# Levels holding several places: an item counts only when it lies inside one of these zone triggers.
+LEVEL_ZONES = {"SCL_VillageSubs_E": {"ATM_SCL_VillageSubs_MasonGuildCellar": "TWN_MasonsGuild_SUB",
+                                     "ATM_SCL_VillageSubs_Haven": "HAV_Haven_SUB"}}
+ZONE_BOXES = defaultdict(list)
+for _lv, _zones in LEVEL_ZONES.items():
+    for f in glob.glob(U + f"/*/Mods/*/Levels/{_lv}/Triggers/_merged.lsf"):
+        for go in Lsf(f).find(node="GameObjects"):
+            if str(go.val("Name")) in _zones and go.val("Extents"):
+                p, r = position(go)
+                h = SUBKEYS.get(_zones[str(go.val("Name"))], "")
+                ZONE_BOXES[_lv].append({"key": _zones[str(go.val("Name"))], "ko": txt(h, KO), "en": txt(h, EN),
+                                        "pos": p, "rot": r, "ext": list(map(float, str(go.val("Extents")).split()))})
 # Sublevels with no matching subregion key that take a main level's display name instead
 # (EPI_Campfire_A holds RegionTrigger_EPI_Camp; EPI_Main_A is "Reunion Camp").
 SUBLEVEL_LEVEL = {"EPI_Campfire_A": "EPI_Main_A"}
@@ -216,6 +229,10 @@ def region_of(level, p):
     r = region_in(level, p, REGIONS.get(level, []))
     if r and r["method"] == "inside":
         return r
+    z = region_in(level, p, ZONE_BOXES.get(level, []))
+    if z and z["method"] == "inside":
+        z["method"] = "inside zone trigger"
+        return z
     if level in SUBLEVEL_REGION:
         key = SUBLEVEL_REGION[level]
         h = SUBKEYS.get(key, "")

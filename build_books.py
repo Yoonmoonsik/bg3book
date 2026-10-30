@@ -8,6 +8,7 @@ import csv
 import glob
 import json
 import math
+import os
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -165,10 +166,44 @@ for f in glob.glob(U + "/*/Mods/*/Localization/Levels.lsf"):
 NEAREST_MAX = 30  # metres; farther than this the nearest subregion name is not used
 
 
+# Interior sublevels have no subregion triggers; their folder name matches a subregion key.
+# Only pairs whose names clearly match are listed (cutscene/epilogue levels and ambiguous ones are not).
+SUBLEVEL_REGION = {
+    "BGO_WyrmsCrossing_C": "WYR_Bridge_SUB", "BGO_Wyrmsway_C": "WYR_Wyrmway_SUB",
+    "BGO_JungleOfChult_A": "WYR_Jungle_SUB", "PLT_BGO_Circus_A": "WYR_Circus_SUB",
+    "CTY_LowerCity_A": "LOW_City_SUB", "CTY_CazadorPalace_A": "LOW_CazadorsPalace_Mansion_SUB",
+    "SCL_RuinsBattlefield_G": "SCL_RuinedBattlefield_SUB", "SCL_Intermezzo_C_ART": "INT_Intermezzo_SUB",
+    "BGH_StormshoreTabernacle_A": "LOW_Stormshore_Tabernacle_SUB", "BGO_HouseOfHope_C": "LOW_HouseOfHope_SUB",
+    "BGH_CountingHouseVault_C": "LOW_CountingHouse_Vaults_SUB",
+    "BGH_CountingHouseVaultConnection_A": "LOW_CountingHouse_Vaults_SUB", "BGH_Countinghouse_C": "LOW_CountingHouse_SUB",
+    "BGH_BaldursMouthGazette_A": "LOW_BaldursMouth_SUB", "BGH_BaldursMouth_Basement_A": "LOW_BaldursMouth_Basement_SUB",
+    "BGO_Sharran_Grotto": "LOW_SharranGrotto_SUB", "BGH_WaterQueenHouse_B_ART": "LOW_WaterQueensHouse_SUB",
+    "BGH_DiabolistHouse_A_ART": "LOW_DevilsFee_DiabolistRoom_SUB",
+    "BGO_CIN_Ruins_A": "LOW_UndercityRuins_SUB", "BGO_UC_Ruins_B": "LOW_UndercityRuins_SUB",
+    "BGH_SteelWatchFoundry_B": "LOW_SteelWatchFoundry_GroundFloor_SUB",
+    "BGO_SteelWatchLabControlCenter_B": "LOW_SteelWatchFoundry_ControlFloor_SUB",
+    "BGO_RamazithTower_A_ART": "LOW_SorcerousSundries_RamazithsTower_SUB",
+    "BGH_SorcerersSundries_A_ART": "LOW_SorcerousSundries_Shop_SUB", "BGH_House_of_Grief": "LOW_HouseOfGrief_SUB",
+    "BGO_ElfsongBasement_A": "LOW_Elfsong_Basement_SUB", "CMP_BGO_Elfsong_B": "LOW_ElfsongTavern_SUB",
+    "BGH_BonecloaksApothecary_A": "LOW_BonecloakApothecary_SUB",
+    "BGH_BonecloaksApothecary_Basement_A": "LOW_BonecloakApothecary_SUB",
+    "BGH_Barracks_A_Art": "LOW_BasiliskGate_Barracks_SUB", "BGO_MerchantHouseBasement_A": "LOW_BloodMerchant_UndergroundLab_SUB",
+    "BGH_PhilgraveMansion_A": "LOW_PhilgravesMansion_House_SUB",
+    "BGH_Highberrys_cellar_A": "LOW_SerialKiller_HighberrysHouse_Basement_SUB",
+    "BGH_FigaroCosmeticShop_A": "LOW_SerialKiller_FigarosStore_SUB", "BGO_JaheiraBasement_B": "LOW_House_Jaheiras_SUB",
+    "BGO_UC_GuildHall_A": "LOW_Guildhall_SUB", "CRE_AstralPlane_E_Art": "CRE_AstralPlane_SUB",
+    "IRN_IronThrone_C": "IRN_IronThrone_SUB", "WLD_UnderdarkSubs_C": "UND_Underdark_SUB", "WLD_SharTemple_E": "SHA_Temple_SUB",
+}
+
+
 def region_of(level, p):
     r = region_in(level, p, REGIONS.get(level, []))
     if r and r["method"] == "inside":
         return r
+    if level in SUBLEVEL_REGION:
+        key = SUBLEVEL_REGION[level]
+        h = SUBKEYS.get(key, "")
+        return {"ko": txt(h, KO), "en": txt(h, EN), "key": key, "method": "sublevel name"}
     # Sublevels (BGO_WyrmsCrossing_C, CTY_LowerCity_A ...) have no subregion triggers of their own.
     # Each main level has its own coordinate space (CTY_Main_A's Lower City box overlaps WLD_Main_A
     # coordinates), so only the main level of the same prefix is tried, and only a point inside a box counts.
@@ -308,6 +343,34 @@ def osi_target(arg):
             "level": "", "pos": None}
 
 
+def strip_cast(a):
+    return re.sub(r"^\s*(\(\w+\))?", "", a).strip()
+
+
+def osi_args(line, name):
+    """Top-level arguments of name(...) on a line; [] when absent."""
+    i = line.find(name + "(")
+    if i < 0:
+        return []
+    depth, cur, out = 0, "", []
+    for ch in line[i + len(name):]:
+        if ch == "(":
+            depth += 1
+            if depth == 1:
+                continue
+        elif ch == ")":
+            depth -= 1
+            if depth == 0:
+                out.append(cur)
+                break
+        if ch == "," and depth == 1:
+            out.append(cur)
+            cur = ""
+        else:
+            cur += ch
+    return out
+
+
 for f in glob.glob(U + "/*/Mods/*/Story/RawFiles/Goals/*.txt"):
     goal = Path(f).stem
     text = open(f, encoding="utf-8", errors="replace").read()
@@ -333,12 +396,18 @@ for f in glob.glob(U + "/*/Mods/*/Story/RawFiles/Goals/*.txt"):
         db = re.match(r"^\s*(DB_\w+)\(", ln)
         if not db:
             continue
+        fact = osi_args(ln, db.group(1))
         for g in GUID.findall(ln):
             if g not in BOOK_TPL:
                 continue
+            pos = next(i for i, a in enumerate(fact) if g in a)
             for blk in blocks:
                 if db.group(1) + "(" in blk and blk.lstrip().startswith(("IF", "PROC", "QRY")):
-                    gm = [m for b in blk.splitlines() if (m := GIVE.match(b)) and m.group(2).lstrip().startswith("_")]
+                    # the rule must hand over the variable bound at this fact's position
+                    # (DB_VoloSignBook(unsigned, signed) gives only the signed book)
+                    bound = [osi_args(b, db.group(1)) for b in blk.splitlines() if db.group(1) + "(" in b]
+                    names = {strip_cast(a[pos]) for a in bound if len(a) > pos}
+                    gm = [m for b in blk.splitlines() if (m := GIVE.match(b)) and strip_cast(m.group(2).split(",")[0]) in names]
                     if gm:
                         OSI[g].append({"goal": goal, "func": gm[0].group(1), "via": db.group(1),
                                        **osi_target(gm[0].group(2).split(",")[1] if "," in gm[0].group(2) else ""),
@@ -402,6 +471,10 @@ def background(raw):
 
 
 # ---------- assemble ----------
+# Cutscene, epilogue and menu levels: items there are not obtainable during play.
+CUTSCENE = re.compile(r"(^|_)CIN_|^EPI_|^SYS_")
+
+
 def where_entry(pl):
     lvl, p = pl.get("level"), pl.get("pos")
     reg = region_of(lvl, p)
@@ -414,6 +487,7 @@ def where_entry(pl):
         "position": [round(x, 2) for x in p] if p else None,
         "level_ko": txt(LEVEL_NAMES.get(lvl, ""), KO),
         "how": pl["how"],
+        "cutscene": bool(CUTSCENE.search(lvl or "")),
         "instance_title_ko": txt(pl.get("title", ""), KO), "instance_title_handle": pl.get("title", ""),
         "object": pl.get("instance") or "",
         "container": pl.get("container", ""), "container_ko": pl.get("container_ko", ""),
@@ -478,18 +552,23 @@ for bid, g in sorted(groups.items(), key=lambda t: str(t[0])):
     for _, pl in g["places"]:
         for o in OSI_MOVE.get(pl.get("mapkey", ""), []):
             moved.append({k2: v for k2, v in o.items() if k2 != "pos"} | {"object": pl.get("instance", "")})
+    play = [p for p in places if not p["cutscene"]]
     acq = []
-    if any(p["how"] in ("level", "in_container") for p in places):
+    if any(p["how"] in ("level", "in_container") for p in play):
         acq.append("맵에 배치")
-    if any(p["how"] in ("carried", "container_itemlist") for p in places):
+    if any(p["how"] in ("carried", "container_itemlist") for p in play):
         acq.append("캐릭터·컨테이너 소지품(ItemList)")
+    if moved:
+        acq.append("스토리 진행 중 획득(ToInventory)")
+    if len(play) < len(places):
+        acq.append("엔딩·에필로그 장면 전용 배치")
     if loots or other:
         acq.append("treasure table에서 획득")
     if shops:
         acq.append("상점에서 구매")
     if osi:
         acq.append("스토리 스크립트(Osiris) 지급")
-    count = len(places) + len(osi)
+    count = len(play) + len(osi)  # cutscene/epilogue copies are not counted
     unique = count == 1 and not g["tables"]
     en_all = " ".join([t["display_en"] for t in tpls] + [txt(ch, EN)])
     out.append({
@@ -502,7 +581,8 @@ for bid, g in sorted(groups.items(), key=lambda t: str(t[0])):
         "book_type_raw": sorted({str(t["book_type_raw"]) for t in tpls if t["book_type_raw"] is not None}),
         "backgrounds": sorted({f'{t["book_type"]} ({t["background"].rsplit("/", 1)[-1]})' for t in tpls}),
         "placement_count": count,
-        "uniqueness": "유일(1개)" if unique else ("획득처 확인 안 됨" if count == 0 and not g["tables"] else "복수 획득 가능"),
+        "uniqueness": "유일(1개)" if unique else ("복수 획득 가능" if count or g["tables"] else
+                                         "엔딩·에필로그 전용" if places else "획득처 확인 안 됨"),
         "acquisition": acq,
         "found_at": places, "shops": shops, "loot_holders": loots, "tables_unresolved": other,
         "osiris_given": osi, "osiris_moved": moved,
@@ -568,13 +648,68 @@ for b in out:
         "a": b["acquisition"], "tg": b["tags_inferred"],
         "p": sorted({place_label(p) for p in b["found_at"]}),
         "pl": [{"r": p["region_ko"], "l": p["level"], "h": p["how"], "o": p["object"], "k": p["container_ko"] or p["holder_ko"],
-                "re": p["region_en"], "ke": p["container_en"] or p["holder_en"], "m": p["region_method"], "xyz": p["position"]} for p in b["found_at"]],
+                "re": p["region_en"], "ke": p["container_en"] or p["holder_en"], "m": p["region_method"], "xyz": p["position"], "cs": p["cutscene"]} for p in b["found_at"]],
+        "_sl": sorted({x["level"] for x in b["shops"]} | {x["level"] for x in b["loot_holders"]}),
         "s": [dict(t) for t in {(("k", f"{s['trader_ko'] or s['trader']} ({s['region_ko'] or s['level']})"),
                                   ("e", f"{s['trader_en'] or s['trader']} ({s['region_en'] or s['level']})")) for s in b["shops"]}],
         "tt": b["treasure_tables"],
         "os": uniq(f"{o['target_ko'] or o['target']} ← {o['goal']} {o['func']}" + (f" [{o['via']}]" if o["via"] != "direct" else "") for o in b["osiris_given"]),
+        "mv": uniq(f"{o['target_ko'] or o['target']} ← {o['goal']}" for o in b["osiris_moved"]),
+        "mve": uniq(f"{o['target_en'] or o['target']} ← {o['goal']}" for o in b["osiris_moved"]),
         "oe": uniq(f"{o['target_en'] or o['target']} ← {o['goal']} {o['func']}" + (f" [{o['via']}]" if o["via"] != "direct" else "") for o in b["osiris_given"]),
         "tp": uniq(str(x["name"]) for x in t), "ic": uniq(str(x["icon"]) for x in t if x["icon"]),
     })
 (HERE / "docs" / "data").mkdir(parents=True, exist_ok=True)
 json.dump(site, open(HERE / "docs" / "data" / "books.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+
+
+# ---------- acts and series (site extras) ----------
+# Level folder prefix -> act. CRE (monastery, Crèche) is reached in Act 1; INT (Wyrm's Lookout) closes Act 2.
+ACT = {"TUT": "프롤로그", "WLD": "1막", "CRE": "1막", "SCL": "2막", "INT": "2막",
+       "BGO": "3막", "BGH": "3막", "CTY": "3막", "IRN": "3막", "PLT": "3막", "END": "엔딩", "EPI": "에필로그"}
+
+
+def act_of(level):
+    if level.startswith("CMP_BGO"):
+        return "3막"
+    return ACT.get(level.split("_")[0], "기타")
+
+
+ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "VIII": 8, "IX": 9, "X": 10, "XI": 11, "XII": 12}
+NUM = r"(\d+|[IVX]{1,4})"
+
+
+def series_keys(s):
+    """(key, number) from the English title, else from the BookId (SchoolsOfMagic8Transmutation)."""
+    t = s["te"][0] if s["te"] else ""
+    m = (re.search(r"(?:Vol\.?|Volume|Part|Chapter|N°|Book|Verse|Notes:|Gods|-)\s*" + NUM + r"\b", t)
+         or re.search(r"\s" + NUM + r":", t))  # "Fables of Faerûn IV: ..."
+    if m:
+        n = int(m.group(1)) if m.group(1).isdigit() else ROMAN.get(m.group(1))
+        if n:
+            return re.sub(r"[^a-z]", "", t[:m.start(1)].lower()), n
+    m = re.match(r"^(.*[A-Za-z])_?(\d{1,2})([A-Z][A-Za-z]*)?$", s["id"] or "")
+    if m:
+        return "id:" + m.group(1), int(m.group(2))
+    return None, None
+
+
+by_series = defaultdict(list)
+for s in site:
+    s["ac"] = sorted({act_of(p["l"]) for p in s["pl"] if not p["cs"]} | {act_of(lv) for lv in s.pop("_sl", [])})
+    k, n = series_keys(s)
+    if k:
+        by_series[k].append((n, s))
+for k, members in by_series.items():
+    if len({n for n, _ in members}) < 2:
+        continue
+    # numbered BookIds also cover unrelated quest notes (Tough Letter / Soft Letter); keep them only
+    # when the English titles share a long common start (Schools of Magic: …, An Archduke's Leadership: …)
+    if k.startswith("id:") and len(os.path.commonprefix([s["te"][0] if s["te"] else "" for _, s in members])) < 12:
+        continue
+    members.sort(key=lambda t: (t[0], t[1]["id"]))
+    ids = [s["id"] for _, s in members]
+    for n, s in members:
+        s["sr"] = ids
+json.dump(site, open(HERE / "docs" / "data" / "books.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+print(sum(1 for s in site if s.get("sr")), "books in", len({tuple(s["sr"]) for s in site if s.get("sr")}), "series")

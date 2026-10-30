@@ -8,7 +8,9 @@ const I18N = {
     places: "발견 장소", region: "지역", how: "방식", level: "레벨 (좌표)", method: "지역 판정", noPlace: "맵 배치 없음",
     shops: "판매 상인", osiris: "스토리 스크립트(Osiris) 지급", tables: "트레저 테이블", data: "데이터",
     contentHandle: "내용 핸들", titleHandle: "제목 핸들", templates: "템플릿", icon: "아이콘", bg: "배경",
-    prev: "◀ 이전", next: "다음 ▶", carried: "소지",
+    prev: "◀ 이전", next: "다음 ▶", carried: "소지", "f-ac": "막", "f-rd": "읽음", read: "읽은 책", unread: "안 읽은 책",
+    markRead: "읽음 표시", isRead: "✓ 읽음", series: "시리즈", moved: "스토리 진행 중 획득", cutscene: "엔딩·에필로그 장면",
+    hits: (n) => `검색어 ${n}곳`,
     footer: "데이터: 바닐라 게임 파일에서 추출(제목·내용 핸들, 배치, 트레저 테이블, 상점, Osiris 스크립트). 태그는 키워드로 추론한 값입니다.",
   },
   en: {
@@ -19,7 +21,9 @@ const I18N = {
     places: "Found at", region: "Region", how: "How", level: "Level (coords)", method: "Region match", noPlace: "Not placed on a map",
     shops: "Sold by", osiris: "Given by story script (Osiris)", tables: "Treasure tables", data: "Data",
     contentHandle: "Content handle", titleHandle: "Title handle", templates: "Templates", icon: "Icon", bg: "Background",
-    prev: "◀ Prev", next: "Next ▶", carried: "carried",
+    prev: "◀ Prev", next: "Next ▶", carried: "carried", "f-ac": "Act", "f-rd": "Read", read: "Read", unread: "Unread",
+    markRead: "Mark as read", isRead: "✓ Read", series: "Series", moved: "Picked up during the story", cutscene: "Ending/epilogue scene",
+    hits: (n) => `${n} match${n === 1 ? "" : "es"}`,
     footer: "Data extracted from the vanilla game files (title/content handles, placements, treasure tables, traders, Osiris scripts). Tags are inferred from keywords.",
   },
 };
@@ -27,7 +31,11 @@ const VALUE_EN = {
   "유일(1개)": "Unique (1)", "복수 획득 가능": "Obtainable multiple times", "획득처 확인 안 됨": "Source not found",
   "맵에 배치": "Placed on map", "캐릭터·컨테이너 소지품(ItemList)": "Character/container inventory (ItemList)",
   "treasure table에서 획득": "Treasure table", "상점에서 구매": "Bought from trader", "스토리 스크립트(Osiris) 지급": "Given by story script (Osiris)",
+  "엔딩·에필로그 전용": "Ending/epilogue only", "엔딩·에필로그 장면 전용 배치": "Placed only in ending/epilogue scenes",
+  "스토리 진행 중 획득(ToInventory)": "Picked up during the story (ToInventory)",
+  "프롤로그": "Prologue", "1막": "Act 1", "2막": "Act 2", "3막": "Act 3", "엔딩": "Ending", "에필로그": "Epilogue", "기타": "Other",
 };
+const ACT_ORDER = ["프롤로그", "1막", "2막", "3막", "엔딩", "에필로그", "기타"];
 const BG = {
   None: ["기본 책", "Book", "Book_BG_B1"], PaperSheet: ["종이 한 장", "Paper sheet", "paper_Sheet"],
   PaperStack: ["종이 묶음", "Paper stack", "paper_Stack"], ScrollA: ["두루마리 A", "Scroll A", "scroll_A_bg"],
@@ -39,9 +47,13 @@ const HOW = {
   level: ["맵에 배치", "On map"], in_container: ["상자 안", "In container"],
   carried: ["캐릭터 소지", "Carried by character"], container_itemlist: ["컨테이너 소지품", "Container inventory"],
 };
-const FILTERS = ["f-ty", "f-a", "f-bg", "f-r", "f-tg"];
+const FILTERS = ["f-ac", "f-ty", "f-a", "f-bg", "f-r", "f-tg"];
 const $ = (id) => document.getElementById(id);
-let books = [], shown = [], current = null;
+let books = [], shown = [], current = null, byId = {};
+// read marks live only in this browser
+let READ = new Set();
+try { READ = new Set(JSON.parse(localStorage.getItem("read") || "[]")); } catch (e) { /* storage blocked */ }
+const saveRead = () => { try { localStorage.setItem("read", JSON.stringify([...READ])); } catch (e) { /* storage blocked */ } };
 let ui = pickUi(), lang = ui; // ui = interface language, lang = book text language
 
 function pickUi() {
@@ -69,15 +81,18 @@ function label(sel, v) {
 }
 
 function fillFilters() {
-  const src = { "f-ty": (b) => [b.ty], "f-a": (b) => b.a, "f-bg": (b) => b.bg, "f-r": regions, "f-tg": (b) => b.tg };
+  const src = { "f-ac": (b) => b.ac, "f-ty": (b) => [b.ty], "f-a": (b) => b.a, "f-bg": (b) => b.bg, "f-r": regions, "f-tg": (b) => b.tg };
   FILTERS.forEach((id) => {
     const keep = $(id).value, counts = {};
     books.forEach((b) => src[id](b).forEach((v) => (counts[v] = (counts[v] || 0) + 1)));
     $(id).innerHTML = `<option value="">${T("all")}</option>` + Object.keys(counts)
-      .sort((a, b) => label(id, a).localeCompare(label(id, b), ui))
+      .sort((a, b) => id === "f-ac" ? ACT_ORDER.indexOf(a) - ACT_ORDER.indexOf(b) : label(id, a).localeCompare(label(id, b), ui))
       .map((v) => `<option value="${esc(v)}">${esc(label(id, v))} (${counts[v]})</option>`).join("");
     $(id).value = keep;
   });
+  const rd = $("f-rd").value;
+  $("f-rd").innerHTML = `<option value="">${T("all")}</option><option value="1">${T("read")}</option><option value="0">${T("unread")}</option>`;
+  $("f-rd").value = rd;
 }
 
 function applyUi() {
@@ -99,14 +114,15 @@ function applyUi() {
 
 function apply() {
   const q = $("q").value.trim().toLowerCase();
-  const f = { ty: $("f-ty").value, a: $("f-a").value, bg: $("f-bg").value, r: $("f-r").value, tg: $("f-tg").value };
-  shown = books.filter((b) =>
+  const f = { ac: $("f-ac").value, ty: $("f-ty").value, a: $("f-a").value, bg: $("f-bg").value, r: $("f-r").value,
+    tg: $("f-tg").value, rd: $("f-rd").value };
+  shown = books.filter((b) => (!f.ac || b.ac.includes(f.ac)) && (!f.rd || READ.has(b.id) === (f.rd === "1")) &&
     (!q || b._h.includes(q)) && (!f.ty || b.ty === f.ty) && (!f.a || b.a.includes(f.a)) &&
     (!f.bg || b.bg.includes(f.bg)) && (!f.r || regions(b).includes(f.r)) && (!f.tg || b.tg.includes(f.tg)));
   $("count").textContent = T("shown", shown.length.toLocaleString());
   const list = $("list");
   list.innerHTML = shown.slice(0, 600).map((b) =>
-    `<li data-id="${esc(b.id)}"${current && current.id === b.id ? ' class="on"' : ""}><span class="t">${esc(title(b))}</span>` +
+    `<li data-id="${esc(b.id)}"${current && current.id === b.id ? ' class="on"' : ""}><span class="t">${READ.has(b.id) ? "✓ " : ""}${esc(title(b))}</span>` +
     `<span class="m">${esc(val(b.ty))} · ${esc(regions(b).slice(0, 3).join(", ") || b.a.map(val).join(", ") || T("noSource"))}</span></li>`).join("") +
     (shown.length > 600 ? `<li class="m">${esc(T("more", shown.length - 600))}</li>` : "");
   const s = new URLSearchParams(f);
@@ -125,12 +141,13 @@ function show(b) {
   const text = lang === "ko" ? b.c || b.ce : b.ce;
   const rows = b.pl.map((p) => {
     const who = ui === "en" ? p.ke : p.k || p.ke;
-    return `<tr><td>${esc(region(p))}</td><td>${esc(HOW[p.h]?.[ui === "en" ? 1 : 0] || p.h)}${who ? " · " + esc(who) : ""}</td>
+    return `<tr${p.cs ? ' class="cs"' : ""}><td>${esc(region(p))}${p.cs ? ` <small>(${T("cutscene")})</small>` : ""}</td><td>${esc(HOW[p.h]?.[ui === "en" ? 1 : 0] || p.h)}${who ? " · " + esc(who) : ""}</td>
     <td><code>${esc(p.l)}${p.xyz ? " (" + p.xyz.map((v) => v.toFixed(0)).join(", ") + ")" : ""}</code></td><td><code>${esc(p.m)}</code></td></tr>`;
   }).join("");
   const shops = b.s.map((s) => (ui === "en" ? s.e : s.k));
   $("detail").innerHTML = `
-    <h2 class="title">${esc(title(b))}</h2>
+    <div class="head-row"><h2 class="title">${esc(title(b))}</h2>
+      <button class="readbtn${READ.has(b.id) ? " on" : ""}" data-read>${READ.has(b.id) ? T("isRead") : T("markRead")}</button></div>
     <p class="title-en">${esc(subtitle(b))}</p>
     <div class="chips">
       <span class="chip type" data-f="f-ty" data-v="${esc(b.ty)}">${esc(val(b.ty))}</span>
@@ -140,11 +157,13 @@ function show(b) {
     <div class="chips">${b.tg.map((t) => `<span class="chip" data-f="f-tg" data-v="${esc(t)}">#${esc(tag(t))}</span>`).join("")}</div>
     ${ui === "en" ? "" : `<div class="toggle"><button data-lang="ko" class="${lang === "ko" ? "on" : ""}">한국어</button> <button data-lang="en" class="${lang === "en" ? "on" : ""}">English</button></div>`}
     <div class="page ${esc(bg)}" style="background-image:url('assets/${BG[bg]?.[2] || "Book_BG_B1"}.webp')"><div class="txt">${rich(text).replace(/\n{3,}/g, "\n\n") || `<i>${T("none")}</i>`}<span class="end"></span><span class="pad"></span></div></div>
-    <div class="pager" hidden><button data-turn="-1">${T("prev")}</button><span id="pg"></span><button data-turn="1">${T("next")}</button></div>
+    ${seriesNav(b)}
+    <div class="pager" hidden><button data-turn="-1">${T("prev")}</button><span id="pg"></span><span id="hits"></span><button data-turn="1">${T("next")}</button></div>
     ${b.u.length && ui === "ko" ? `<p>${T("unknown")}: ${esc(b.u.join(" / "))}</p>` : ""}
     <section><h3>${T("places")} (${b.pl.length})</h3>${rows ? `<table><tr><th>${T("region")}</th><th>${T("how")}</th><th>${T("level")}</th><th>${T("method")}</th></tr>${rows}</table>` : `<p class='empty'>${T("noPlace")}</p>`}</section>
     ${shops.length ? `<section><h3>${T("shops")}</h3><p>${shops.map(esc).join("<br>")}</p></section>` : ""}
     ${b.os.length ? `<section><h3>${T("osiris")}</h3><p>${(ui === "en" ? b.oe : b.os).map(esc).join("<br>")}</p></section>` : ""}
+    ${b.mv.length ? `<section><h3>${T("moved")}</h3><p>${(ui === "en" ? b.mve : b.mv).map(esc).join("<br>")}</p></section>` : ""}
     ${b.tt.length ? `<section><h3>${T("tables")}</h3><p><code>${b.tt.map(esc).join(", ")}</code></p></section>` : ""}
     <section><h3>${T("data")}</h3><dl>
       <dt>BookId</dt><dd><code>${esc(b.id)}</code></dd>
@@ -155,7 +174,47 @@ function show(b) {
     </dl></section>`;
   spread = 0;
   turn(0);
+  highlight();
   apply();
+}
+
+function seriesNav(b) {
+  if (!b.sr) return "";
+  const i = b.sr.indexOf(b.id);
+  return `<div class="series"><b>${T("series")} ${i + 1} / ${b.sr.length}</b>
+    <button data-go="${esc(b.sr[i - 1] || "")}" ${i ? "" : "disabled"}>${T("prev")}</button>
+    <button data-go="${esc(b.sr[i + 1] || "")}" ${i < b.sr.length - 1 ? "" : "disabled"}>${T("next")}</button>
+    <ol>${b.sr.map((id) => `<li${id === b.id ? ' class="on"' : ""}><a href="#" data-go="${esc(id)}">${esc(title(byId[id]))}</a></li>`).join("")}</ol></div>`;
+}
+
+// Mark the search words in the book text and open the page that holds the first one.
+function highlight() {
+  const q = $("q").value.trim();
+  const t = document.querySelector(".page .txt");
+  if (!q || !t) return;
+  const rx = new RegExp(q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
+  const walker = document.createTreeWalker(t, NodeFilter.SHOW_TEXT), nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  let n = 0;
+  nodes.forEach((node) => {
+    rx.lastIndex = 0;
+    if (!rx.test(node.data)) return;
+    const span = document.createElement("span");
+    span.innerHTML = esc(node.data).replace(new RegExp(esc(q).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi"), (m) => (n++, `<mark>${m}</mark>`));
+    node.replaceWith(...span.childNodes);
+  });
+  if (!n) return;
+  $("hits").textContent = " · " + T("hits", n);
+  const first = t.querySelector("mark");
+  if (t.closest(".page.None")) {
+    const g = getComputedStyle(t).columnGap;
+    const step = t.clientWidth + (g.endsWith("%") ? t.clientWidth * parseFloat(g) / 100 : parseFloat(g));
+    const x = first.getBoundingClientRect().left - t.getBoundingClientRect().left + t.scrollLeft;
+    spread = Math.floor(x / step);
+    turn(0);
+  } else {
+    t.scrollTop = first.offsetTop - 20;
+  }
 }
 
 // Default book: the text is laid out in fixed-height columns; one step shows the next two pages.
@@ -186,6 +245,14 @@ document.querySelectorAll("[data-ui]").forEach((b) => b.addEventListener("click"
 $("detail").addEventListener("click", (e) => {
   const c = e.target.closest(".chip");
   if (c) { $(c.dataset.f).value = c.dataset.v; apply(); return; }
+  const go = e.target.closest("[data-go]");
+  if (go) { e.preventDefault(); if (go.dataset.go) show(byId[go.dataset.go]); return; }
+  if (e.target.closest("[data-read]")) {
+    READ.has(current.id) ? READ.delete(current.id) : READ.add(current.id);
+    saveRead();
+    show(current);
+    return;
+  }
   const tb = e.target.closest("[data-turn]");
   if (tb) { turn(+tb.dataset.turn); return; }
   const l = e.target.closest("[data-lang]");
@@ -198,21 +265,22 @@ $("list").addEventListener("click", (e) => {
     if (innerWidth <= 820) $("detail").scrollIntoView({ behavior: "smooth" });
   }
 });
-FILTERS.forEach((id) => $(id).addEventListener("change", apply));
+[...FILTERS, "f-rd"].forEach((id) => $(id).addEventListener("change", apply));
 let timer;
 $("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(apply, 150); });
-$("reset").addEventListener("click", () => { $("q").value = ""; FILTERS.forEach((id) => ($(id).value = "")); apply(); });
+$("reset").addEventListener("click", () => { $("q").value = ""; [...FILTERS, "f-rd"].forEach((id) => ($(id).value = "")); apply(); });
 
 applyUi();
 fetch("data/books.json").then((r) => r.json()).then((data) => {
   books = data;
   books.forEach((b) => {
+    byId[b.id] = b;
     b._h = [b.t, b.te, b.id, b.c, b.ce, b.pl.map((p) => [p.r, p.re, p.k, p.ke])].flat(3).join(" ").toLowerCase();
   });
   const s = new URLSearchParams(location.search);
   $("q").value = s.get("q") || "";
   fillFilters();
-  ["ty", "a", "bg", "r", "tg"].forEach((k) => s.get(k) && ($("f-" + k).value = s.get(k)));
+  ["ac", "ty", "a", "bg", "r", "tg", "rd"].forEach((k) => s.get(k) && ($("f-" + k).value = s.get(k)));
   current = books.find((x) => x.id === s.get("id")) || null;
   applyUi();
 });

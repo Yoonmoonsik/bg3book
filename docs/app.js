@@ -77,7 +77,8 @@ function show(b) {
     </div>
     <div class="chips">${b.tg.map((t) => `<span class="chip" data-f="f-tg" data-v="${esc(t)}">#${esc(t)}</span>`).join("")}</div>
     <div class="toggle"><button data-lang="ko" class="${lang === "ko" ? "on" : ""}">한국어</button> <button data-lang="en" class="${lang === "en" ? "on" : ""}">English</button></div>
-    <div class="page ${esc(bg)}" style="background-image:url('assets/${BG[bg]?.[1] || "Book_BG_B1"}.webp')">${rich(text) || "<i>(내용 없음)</i>"}</div>
+    <div class="page ${esc(bg)}" style="background-image:url('assets/${BG[bg]?.[1] || "Book_BG_B1"}.webp')"><div class="txt">${rich(text).replace(/\n{3,}/g, "\n\n") || "<i>(내용 없음)</i>"}</div></div>
+    <div class="pager" hidden><button data-turn="-1">◀ 이전</button><span id="pg"></span><button data-turn="1">다음 ▶</button></div>
     ${b.u.length ? `<p>미확인 제목: ${esc(b.u.join(" / "))}</p>` : ""}
     <section><h3>발견 장소 (${b.pl.length})</h3>${rows ? `<table><tr><th>지역</th><th>방식</th><th>레벨 (좌표)</th><th>지역 판정</th></tr>${rows}</table>` : "<p class='empty'>맵 배치 없음</p>"}</section>
     ${b.s.length ? `<section><h3>판매 상인</h3><p>${b.s.map(esc).join("<br>")}</p></section>` : ""}
@@ -90,13 +91,34 @@ function show(b) {
       <dt>템플릿</dt><dd><code>${esc(b.tp.join(", "))}</code></dd>
       <dt>아이콘</dt><dd><code>${esc(b.ic.join(", "))}</code></dd>
     </dl></section>`;
+  spread = 0;
+  turn(0);
   if (innerWidth <= 820) $("detail").scrollIntoView({ behavior: "smooth" });
   apply();
 }
 
+// Default book: the text is laid out in fixed-height columns; one step shows the next two pages.
+let spread = 0;
+function turn(d) {
+  const t = document.querySelector(".page.None .txt"), pager = document.querySelector(".pager");
+  if (!t || !pager) return;
+  const g = getComputedStyle(t).columnGap; // "13%" of the box width, or a px value
+  const step = t.clientWidth + (g.endsWith("%") ? t.clientWidth * parseFloat(g) / 100 : parseFloat(g));
+  const pages = Math.max(1, Math.round((t.scrollWidth + step - t.clientWidth) / step));
+  spread = Math.min(Math.max(spread + d, 0), pages - 1);
+  t.scrollLeft = spread * step;
+  pager.hidden = pages < 2;
+  pager.querySelector('[data-turn="-1"]').disabled = spread === 0;
+  pager.querySelector('[data-turn="1"]').disabled = spread === pages - 1;
+  $("pg").textContent = `${spread + 1} / ${pages}`;
+}
+addEventListener("resize", () => turn(0));
+
 $("detail").addEventListener("click", (e) => {
   const c = e.target.closest(".chip");
   if (c) { $(c.dataset.f).value = c.dataset.v; apply(); return; }
+  const tb = e.target.closest("[data-turn]");
+  if (tb) { turn(+tb.dataset.turn); return; }
   const l = e.target.closest("[data-lang]");
   if (l) { lang = l.dataset.lang; show(current); }
 });

@@ -8,6 +8,10 @@
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.6 "Noto Serif KR", "Malgun Gothic", serif; }
 header { padding: 20px 16px 8px; border-bottom: 1px solid var(--line); }
+.head-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.ui-lang { display: flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.ui-lang button { background: var(--panel); color: var(--muted); border: 0; padding: 5px 12px; cursor: pointer; font: inherit; font-size: 13px; }
+.ui-lang button.on { background: var(--chip); color: var(--accent); }
 h1 { margin: 0; font-size: 24px; color: var(--accent); letter-spacing: .02em; }
 .sub { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
 .layout { display: grid; grid-template-columns: 360px 1fr; min-height: calc(100vh - 140px); }
@@ -34,7 +38,7 @@ main { padding: 16px 24px 40px; min-width: 0; }
    columns and the pager turns one spread at a time. Insets are percentages of the image box
    (padding percentages would follow the parent's width instead). */
 .page.None { aspect-ratio: 900 / 554; min-height: 0; padding: 0; white-space: normal; }
-.page.None .txt { position: absolute; inset: 10% 12% 14% 13%; column-count: 2; column-gap: 16%; column-fill: auto; overflow: hidden; white-space: pre-wrap; }
+.page.None .txt { position: absolute; inset: 10% 15% 14% 13%; column-count: 2; column-gap: 11.7%; column-fill: auto; overflow: hidden; white-space: pre-wrap; }
 .pager { display: flex; gap: 8px; align-items: center; max-width: 760px; justify-content: center; font-size: 13px; color: var(--muted); }
 .pager button { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 3px 14px; cursor: pointer; font: inherit; }
 .pager[hidden] { display: none; }

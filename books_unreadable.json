@@ -8469,6 +8469,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Filro the Forgotten",
     "holder": "S_UND_HookHorror_Hermit",
     "holder_ko": "잊힌 필로"
    },
@@ -8490,6 +8492,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Cyrel",
     "holder": "S_PLA_Refugee_003",
     "holder_ko": "사이렐"
    },
@@ -8511,6 +8515,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Redcap Blood Sage",
     "holder": "S_HAG_ForestIllusion_Redcap_01",
     "holder_ko": "레드캡 피투성이 장로"
    },
@@ -8532,6 +8538,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Chest of the Mundane",
     "holder": "S_UND_ChestOfMundane",
     "holder_ko": "잡동사니 궤짝"
    },
@@ -8553,6 +8561,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Desk",
     "holder": "FUR_GEN_Desk_Common_C_000",
     "holder_ko": "나무 책상"
    },
@@ -8574,6 +8584,8 @@
     "object": "LOOT_SCROLL_ProtectionFromEvilAndGood_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -8595,6 +8607,8 @@
     "object": "LOOT_SCROLL_ProtectionFromEvilAndGood_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -8616,6 +8630,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Booyahg Benta",
     "holder": "S_GOB_AttackOnDen_Ranged_001",
     "holder_ko": "부야그 벤타"
    },
@@ -8637,6 +8653,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Goblin Booyahg",
     "holder": "S_FOR_Ambush_Goblins_Caster_02",
     "holder_ko": "고블린 부야그"
    },
@@ -8658,6 +8676,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Booyahg Piddle",
     "holder": "S_GOB_NerdyGoblinSage",
     "holder_ko": "부야그 피들"
    },
@@ -8679,6 +8699,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Goblin Booyahg",
     "holder": "S_DEN_GoblinRaider_Melee_01",
     "holder_ko": "고블린 부야그"
    },
@@ -8700,6 +8722,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Goblin Booyahg",
     "holder": "S_GOB_AttackOnDen_BarrelGoblin_002",
     "holder_ko": "고블린 부야그"
    },
@@ -8721,6 +8745,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Goblin Booyahg",
     "holder": "S_FOR_Ambush_Goblins_Caster_01",
     "holder_ko": "고블린 부야그"
    },
@@ -8742,6 +8768,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Booyahg Culk",
     "holder": "S_GOB_Festivities_GoblinSleeper_02",
     "holder_ko": "부야그 컬크"
    },
@@ -8763,6 +8791,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Goblin Booyahg",
     "holder": "S_CAMP_PartyGoblin_009",
     "holder_ko": "고블린 부야그"
    },
@@ -8784,6 +8814,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Booyahg Gnat",
     "holder": "S_GOB_RaiderCurious",
     "holder_ko": "부야그 내트"
    },
@@ -8805,6 +8837,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Backpack",
     "holder": "S_UND_MushroomClearing_BackpackWithScrolls",
     "holder_ko": "배낭"
    },
@@ -8826,6 +8860,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Yerle",
     "holder": "S_GOB_ZhentarimGuard_Ranger_02",
     "holder_ko": "여를"
    },
@@ -8847,6 +8883,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Vase",
     "holder": "S_CHA_FL1_SealingRitualContainer",
     "holder_ko": "항아리"
    },
@@ -8868,6 +8906,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gale's Pouch",
     "holder": "S_ORI_Gale_DeathPouch_Open",
     "holder_ko": "게일의 주머니"
    },
@@ -8889,6 +8929,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Stacks of Scrolls",
     "holder": "BOOK_GEN_Scroll_Parchment_Row_Multiple_A",
     "holder_ko": "두루마리 더미"
    },
@@ -8910,6 +8952,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mailbox",
     "holder": "CONT_GEN_Mailbox_C_014",
     "holder_ko": "편지함"
    },
@@ -8931,6 +8975,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mailbox",
     "holder": "CONT_GEN_Mailbox_C_014",
     "holder_ko": "편지함"
    },
@@ -8952,6 +8998,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Translation Not Found (hd4c760degb332g4825gb388g31389ee79498 v1)",
     "holder": "CONT_GEN_Mailbox_C_014",
     "holder_ko": "Translation Not Found (hd4c760degb332g4825gb388g31389ee79498 v1)"
    },
@@ -8973,6 +9021,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "CONT_GEN_Mailbox_C_014",
     "holder_ko": ""
    },
@@ -8994,6 +9044,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "CONT_GEN_Mailbox_C_014",
     "holder_ko": ""
    },
@@ -9015,6 +9067,8 @@
     "object": "LOOT_SCROLL_Darkvision_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9036,6 +9090,8 @@
     "object": "S_WYR_Circus_BOOK_GEN",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9057,6 +9113,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Cyrel",
     "holder": "S_PLA_Refugee_003",
     "holder_ko": "사이렐"
    },
@@ -9078,6 +9136,8 @@
     "object": "LOOT_SCROLL_AcidArrow_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9099,6 +9159,8 @@
     "object": "LOOT_SCROLL_AcidArrow_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9120,6 +9182,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_009",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9141,6 +9205,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_010",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9162,6 +9228,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9183,6 +9251,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_012",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9204,6 +9274,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_011",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9225,6 +9297,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9246,6 +9320,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9267,6 +9343,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9288,6 +9366,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9309,6 +9389,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_005",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9330,6 +9412,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_009",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9351,6 +9435,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_007",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9372,6 +9458,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_008",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9393,6 +9481,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_010",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9414,6 +9504,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_011",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9435,6 +9527,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_006",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9456,6 +9550,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9477,6 +9573,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9498,6 +9596,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_005",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9519,6 +9619,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9540,6 +9642,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9561,6 +9665,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_007",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9582,6 +9688,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_006",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9603,6 +9711,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9624,6 +9734,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9645,6 +9757,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_008",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9666,6 +9780,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9687,6 +9803,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9708,6 +9826,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_005",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9729,6 +9849,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9750,6 +9872,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9771,6 +9895,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_009",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9792,6 +9918,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_010",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9813,6 +9941,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_006",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9834,6 +9964,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_007",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9855,6 +9987,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_008",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9876,6 +10010,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_009",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9897,6 +10033,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9918,6 +10056,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9939,6 +10079,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_005",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9960,6 +10102,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -9981,6 +10125,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_010",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10002,6 +10148,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10023,6 +10171,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10044,6 +10194,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10065,6 +10217,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_013",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10086,6 +10240,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_016",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10107,6 +10263,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_015",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10128,6 +10286,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_007",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10149,6 +10309,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10170,6 +10332,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10191,6 +10355,8 @@
     "object": "DEC_GEN_Circus_Poster_Large_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10212,6 +10378,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Stacks of Scrolls",
     "holder": "BOOK_GEN_Scroll_Parchment_Row_Multiple_A_007",
     "holder_ko": "두루마리 더미"
    },
@@ -10233,6 +10401,8 @@
     "object": "LOOT_SCROLL_DetectThoughts_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10254,6 +10424,8 @@
     "object": "S_KoTSNook_DetectThoughts",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10275,6 +10447,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Aelis Siryasius",
     "holder": "S_LOW_FireWizard",
     "holder_ko": "에일리스 시리아시우스"
    },
@@ -10296,6 +10470,8 @@
     "object": "S_WYR_Circus_LOOT_SCROLL_Fly",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10317,6 +10493,8 @@
     "object": "LOOT_SCROLL_RayOfSickness_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10338,6 +10516,8 @@
     "object": "LOOT_SCROLL_RayOfSickness_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10359,6 +10539,8 @@
     "object": "LOOT_SCROLL_RayOfSickness_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10380,6 +10562,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Stacks of Scrolls",
     "holder": "BOOK_GEN_Scroll_Parchment_Row_Multiple_A_002",
     "holder_ko": "두루마리 더미"
    },
@@ -10401,6 +10585,8 @@
     "object": "LOOT_SCROLL_CharmPerson_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10422,6 +10608,8 @@
     "object": "LOOT_SCROLL_CharmPerson_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10443,6 +10631,8 @@
     "object": "LOOT_SCROLL_CharmPerson_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10464,6 +10654,8 @@
     "object": "LOOT_SCROLL_CharmPerson_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10485,6 +10677,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Helsik",
     "holder": "S_LOW_DevilsFee_Helsik",
     "holder_ko": "헬시크"
    },
@@ -10506,6 +10700,8 @@
     "object": "Gale_16_BOOK_GEN_Scroll_Parchment_A_HalfOpen_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10527,6 +10723,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Disciple Z'rell",
     "holder": "S_MOO_Executioner",
     "holder_ko": "사도 저렐"
    },
@@ -10548,6 +10746,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skickpit",
     "holder": "S_UND_ElevatorGnome",
     "holder_ko": "스킥피트"
    },
@@ -10569,6 +10769,8 @@
     "object": "S_UND_MushroomClearing_Scroll_Shatter",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10590,6 +10792,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Goblin Warlock",
     "holder": "S_CAMP_PartyGoblin_008",
     "holder_ko": "고블린 워락"
    },
@@ -10611,6 +10815,8 @@
     "object": "LOOT_SCROLL_Blindness_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10632,6 +10838,8 @@
     "object": "LOOT_SCROLL_Blindness_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10653,6 +10861,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Quelenna",
     "holder": "S_CHA_Exterior_Bandit_Caster_01",
     "holder_ko": "퀠레나"
    },
@@ -10674,6 +10884,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Booyahg Piddle",
     "holder": "S_GOB_NerdyGoblinSage",
     "holder_ko": "부야그 피들"
    },
@@ -10695,6 +10907,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Chest of the Mundane",
     "holder": "S_UND_ChestOfMundane",
     "holder_ko": "잡동사니 궤짝"
    },
@@ -10716,6 +10930,8 @@
     "object": "LOOT_SCROLL_MageArmor_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10737,6 +10953,8 @@
     "object": "LOOT_SCROLL_MageArmor_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10758,6 +10976,8 @@
     "object": "LOOT_SCROLL_MageArmor_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10779,6 +10999,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Quelenna",
     "holder": "S_CHA_Exterior_Bandit_Caster_01",
     "holder_ko": "퀠레나"
    },
@@ -10800,6 +11022,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Filro the Forgotten",
     "holder": "S_UND_HookHorror_Hermit",
     "holder_ko": "잊힌 필로"
    },
@@ -10821,6 +11045,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Trunk",
     "holder": "S_LOW_Prison_CONT_GEN_Crate_Wood_C_001",
     "holder_ko": "나무 상자"
    },
@@ -10842,6 +11068,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Hidden stash",
     "holder": "S_LOW_Prison_SecretStash",
     "holder_ko": "숨겨진 보관함"
    },
@@ -10863,6 +11091,8 @@
     "object": "LOOT_SCROLL_Web_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10884,6 +11114,8 @@
     "object": "LOOT_SCROLL_CloudOfDaggers_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10905,6 +11137,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Executed Drow",
     "holder": "S_UND_HangedDrow_03",
     "holder_ko": "처형당한 드로우"
    },
@@ -10926,6 +11160,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Harfang",
     "holder": "S_LOW_PlagueShip_Sailor03",
     "holder_ko": "하르팽"
    },
@@ -10947,6 +11183,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Cargo Shipment",
     "holder": "S_LOW_TadpoleTransport_Nursery",
     "holder_ko": "화물"
    },
@@ -10968,6 +11206,8 @@
     "object": "BOOK_GEN_Paper_Sheet_F_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -10989,6 +11229,8 @@
     "object": "BOOK_GEN_Paper_Sheet_F_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11010,6 +11252,8 @@
     "object": "BOOK_GEN_Paper_Sheet_F_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11031,6 +11275,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Devout Wasp",
     "holder": "S_GOB_Checkpoint_Backup_002",
     "holder_ko": "광신도 와스프"
    },
@@ -11052,6 +11298,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lurgan",
     "holder": "S_UND_LoneDuergar_Squad_Caster",
     "holder_ko": "러건"
    },
@@ -11073,6 +11321,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Dror Ragzlin",
     "holder": "S_GOB_GoblinKing",
     "holder_ko": "드로어 라그즐린"
    },
@@ -11094,6 +11344,8 @@
     "object": "LOOT_SCROLL_SpeakWithDead_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11115,6 +11367,8 @@
     "object": "LOOT_SCROLL_SpeakWithDead",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11136,6 +11390,8 @@
     "object": "LOOT_SCROLL_SpeakWithDead_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11157,6 +11413,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Dead Toll Collector",
     "holder": "S_PLA_TollCollector_001",
     "holder_ko": "죽은 통행료 징수원"
    },
@@ -11178,6 +11436,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_UND_DarkJusticiar_Dead_01",
     "holder_ko": "해골"
    },
@@ -11199,6 +11459,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mysterious Hole",
     "holder": "S_FOR_VillageHole",
     "holder_ko": "정체불명의 구멍"
    },
@@ -11220,6 +11482,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Apprentice's Pack",
     "holder": "S_FOR_Bottomless_VictimBackpack",
     "holder_ko": "수습생의 배낭"
    },
@@ -11241,6 +11505,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Storage",
     "holder": "BLD_Ship_Xebec_A_Booth_000",
     "holder_ko": "창고"
    },
@@ -11262,6 +11528,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mirie",
     "holder": "S_LOW_GriefAttendant",
     "holder_ko": "미리"
    },
@@ -11283,6 +11551,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mahogany Wardrobe",
     "holder": "S_LOW_CazadorsPalace_Bedrooms_Wardrobe_001",
     "holder_ko": "마호가니 옷장"
    },
@@ -11304,6 +11574,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Teller's Skeleton",
     "holder": "S_SCL_TollhouseVictim_TellerSkeleton",
     "holder_ko": "은행원의 해골"
    },
@@ -11325,6 +11597,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_TWN_RepentantDarkJusticiar",
     "holder_ko": "해골"
    },
@@ -11346,6 +11620,8 @@
     "object": "S_FOR_HoleBook",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11367,6 +11643,8 @@
     "object": "BOOK_GEN_Book_D_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11388,6 +11666,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Sarcophagus",
     "holder": "S_LOW_PetMausoleum_HoundmasterTomb",
     "holder_ko": "석관"
    },
@@ -11409,6 +11689,8 @@
     "object": "LOOT_SCROLL_AnimalFriendship_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11430,6 +11712,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Goblin Devout",
     "holder": "S_CAMP_PartyGoblin_007",
     "holder_ko": "고블린 광신도"
    },
@@ -11451,6 +11735,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lurgan",
     "holder": "S_UND_LoneDuergar_Squad_Caster",
     "holder_ko": "러건"
    },
@@ -11472,6 +11758,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Stacks of Scrolls",
     "holder": "BOOK_GEN_Scroll_Parchment_Row_Multiple_A_009",
     "holder_ko": "두루마리 더미"
    },
@@ -11493,6 +11781,8 @@
     "object": "LOOT_SCROLL_BestowCurse_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11514,6 +11804,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Heavy Chest",
     "holder": "S_TWN_MasonsGuild_ScrollChest",
     "holder_ko": "무거운 궤짝"
    },
@@ -11535,6 +11827,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Chest",
     "holder": "S_WYR_BuriedChest_01",
     "holder_ko": "나무 궤짝"
    },
@@ -11556,6 +11850,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Penita",
     "holder": "S_LOW_PlagueShip_Sailor02",
     "holder_ko": "페니타"
    },
@@ -11577,6 +11873,8 @@
     "object": "BOOK_GEN_Paper_Sheet_C",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11598,6 +11896,8 @@
     "object": "BOOK_GEN_Paper_Sheet_D_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11619,6 +11919,8 @@
     "object": "BOOK_GEN_Paper_Sheet_D_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -11640,6 +11942,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Disciple Z'rell",
     "holder": "S_MOO_Executioner",
     "holder_ko": "사도 저렐"
    },
@@ -11661,6 +11965,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mind Flayer Pod",
     "holder": "S_TUT_PlayerPod_001",
     "holder_ko": "마인드 플레이어 포획낭"
    },
@@ -11682,6 +11988,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Filro the Forgotten",
     "holder": "S_UND_HookHorror_Hermit",
     "holder_ko": "잊힌 필로"
    },
@@ -11703,6 +12011,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mask of Servitude",
     "holder": "S_HAG_Hag_MaskedVictim2",
     "holder_ko": "예속의 가면"
    },
@@ -11724,6 +12034,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rocky Crevice",
     "holder": "S_FOR_ZhentCache",
     "holder_ko": "바위틈"
    },
@@ -11745,6 +12057,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Crevice",
     "holder": "S_HAG_ShadowTree",
     "holder_ko": "나무 틈"
    },
@@ -11766,6 +12080,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Crude Chest",
     "holder": "S_GOB_Checkpoint_CapturedGoblinStash_Stash",
     "holder_ko": "조잡한 궤짝"
    },
@@ -11787,6 +12103,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Melkor",
     "holder": "S_WYR_OpenHand_TieflingVictim_003",
     "holder_ko": "멜코어"
    },
@@ -11808,6 +12126,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Hanging Corpse",
     "holder": "DEC_GEN_Corpse_Hanging_B_000",
     "holder_ko": "매달린 시체"
    },
@@ -11829,6 +12149,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_CRE_PrayerCouple02",
     "holder_ko": "해골"
    },
@@ -11850,6 +12172,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Impurto Nexim",
     "holder": "S_LOW_Noble_002",
     "holder_ko": "임푸르토 넥심"
    },
@@ -11871,6 +12195,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Black Gauntlet Tamia Holzt",
     "holder": "S_LOW_BaneiteOfficer02",
     "holder_ko": "검은 건틀릿 타미아 홀스트"
    },
@@ -11892,6 +12218,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gilded Chest",
     "holder": "S_LOW_HouseOfHope_MasterKeywordBackgroundStorage",
     "holder_ko": "도금된 궤짝"
    },
@@ -11913,6 +12241,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gilded Chest",
     "holder": "S_LOW_HouseOfHope_MasterKeywordBackgroundStorage",
     "holder_ko": "도금된 궤짝"
    },
@@ -11934,6 +12264,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Headless Corpse",
     "holder": "S_END_MorphicDeadBody_005",
     "holder_ko": "머리 없는 시체"
    },
@@ -11955,6 +12287,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Glourik",
     "holder": "S_MOO_ExecutionerOgre",
     "holder_ko": "글루리크"
    },
@@ -11976,6 +12310,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Pouch",
     "holder": "S_HAV_TieflingSurvivors_Container",
     "holder_ko": "주머니"
    },
@@ -11997,6 +12333,8 @@
     "object": "BOOK_GEN_Paper_Letter_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12018,6 +12356,8 @@
     "object": "BOOK_GEN_Paper_Letter_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12039,6 +12379,8 @@
     "object": "BOOK_Wizards_Tome_Open_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12060,6 +12402,8 @@
     "object": "BOOK_Wizards_Tome_Open_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12081,6 +12425,8 @@
     "object": "BASE_BOOK_Scroll_Magic_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12102,6 +12448,8 @@
     "object": "BASE_BOOK_Scroll_Magic_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12123,6 +12471,8 @@
     "object": "BASE_BOOK_Scroll_Magic_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12144,6 +12494,8 @@
     "object": "BASE_BOOK_Scroll_Magic_005",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12165,6 +12517,8 @@
     "object": "Gale_30_BASE_BOOK_Scroll_Magic_009",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12186,6 +12540,8 @@
     "object": "BASE_BOOK_Scroll_Magic_007",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12207,6 +12563,8 @@
     "object": "BASE_BOOK_Scroll_Magic_008",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12228,6 +12586,8 @@
     "object": "BASE_BOOK_Scroll_Magic_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12249,6 +12609,8 @@
     "object": "BASE_BOOK_Scroll_Magic_006",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12270,6 +12632,8 @@
     "object": "BASE_BOOK_Scroll_Magic_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12291,6 +12655,8 @@
     "object": "BASE_BOOK_Scroll_Magic_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12312,6 +12678,8 @@
     "object": "LOOT_SCROLL_ScorchingRay_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12333,6 +12701,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_UND_RecruitJournal_Corpse",
     "holder_ko": "해골"
    },
@@ -12354,6 +12724,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gilded Chest",
     "holder": "S_UND_ClericSecretChest",
     "holder_ko": "도금된 궤짝"
    },
@@ -12375,6 +12747,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Row of Books",
     "holder": "BOOK_GEN_Books_Row_Single_C",
     "holder_ko": "나란히 꽂힌 책"
    },
@@ -12396,6 +12770,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Row of Books",
     "holder": "BOOK_GEN_Books_Row_Single_A_000",
     "holder_ko": "나란히 꽂힌 책"
    },
@@ -12417,6 +12793,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Backpack",
     "holder": "LOOT_GEN_Backpack_C_Posed_A_000",
     "holder_ko": "배낭"
    },
@@ -12438,6 +12816,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_CRE_LibrarySecretRoomSkeleton",
     "holder_ko": "해골"
    },
@@ -12459,6 +12839,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mirie",
     "holder": "S_LOW_GriefAttendant",
     "holder_ko": "미리"
    },
@@ -12480,6 +12862,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gondian Zanner Toobin",
     "holder": "S_LOW_GondianWorker08_Leader",
     "holder_ko": "간드 신교 재너 투빈"
    },
@@ -12501,6 +12885,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lionel",
     "holder": "S_LOW_KurwinCoffin_LonelyMan",
     "holder_ko": "라이오넬"
    },
@@ -12522,6 +12908,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Safe",
     "holder": "S_LOW_HiddenSafe",
     "holder_ko": "금고"
    },
@@ -12543,6 +12931,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Desk",
     "holder": "S_LOW_SecOfficeDesk",
     "holder_ko": "나무 책상"
    },
@@ -12564,6 +12954,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Desk",
     "holder": "S_LOW_SecOfficeDesk",
     "holder_ko": "나무 책상"
    },
@@ -12585,6 +12977,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_SCL_GreedyOldWoman_Skelly",
     "holder_ko": "해골"
    },
@@ -12606,6 +13000,8 @@
     "object": "BOOK_GEN_Book_C_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12627,6 +13023,8 @@
     "object": "BOOK_GEN_Book_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12648,6 +13046,8 @@
     "object": "BOOK_GEN_Book_C_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12669,6 +13069,8 @@
     "object": "BOOK_GEN_Book_C_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12690,6 +13092,8 @@
     "object": "BOOK_GEN_Book_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12711,6 +13115,8 @@
     "object": "BOOK_GEN_Book_C_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12732,6 +13138,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Harper Stash",
     "holder": "S_UND_HarperSpy_HarperStash",
     "holder_ko": "하퍼 보관함"
    },
@@ -12753,6 +13161,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Goblin Warlock",
     "holder": "S_CAMP_PartyGoblin_008",
     "holder_ko": "고블린 워락"
    },
@@ -12774,6 +13184,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Booyahg Benta",
     "holder": "S_GOB_AttackOnDen_Ranged_001",
     "holder_ko": "부야그 벤타"
    },
@@ -12795,6 +13207,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Warlock Greez",
     "holder": "S_GOB_GoblinBrash",
     "holder_ko": "워락 그리즈"
    },
@@ -12816,6 +13230,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Booyahg Gnat",
     "holder": "S_GOB_RaiderCurious",
     "holder_ko": "부야그 내트"
    },
@@ -12837,6 +13253,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Redcap Blood Sage",
     "holder": "S_HAG_ForestIllusion_Redcap_01",
     "holder_ko": "레드캡 피투성이 장로"
    },
@@ -12858,6 +13276,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Backpack",
     "holder": "S_UND_MushroomClearing_BackpackWithScrolls",
     "holder_ko": "배낭"
    },
@@ -12879,6 +13299,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Stacks of Scrolls",
     "holder": "BOOK_GEN_Scroll_Parchment_Row_Multiple_A_005",
     "holder_ko": "두루마리 더미"
    },
@@ -12900,6 +13322,8 @@
     "object": "LOOT_SCROLL_HoldPerson_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12921,6 +13345,8 @@
     "object": "S_UND_MushroomClearing_Scroll_HoldPerson",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12942,6 +13368,8 @@
     "object": "LOOT_SCROLL_HoldPerson",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -12963,6 +13391,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Ornate Chest",
     "holder": "S_CRA_HarperTreasureBox",
     "holder_ko": "화려한 궤짝"
    },
@@ -12984,6 +13414,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Chest",
     "holder": "S_FOR_MasterworkChest",
     "holder_ko": "나무 궤짝"
    },
@@ -13005,6 +13437,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_UND_KethericCity_DeadJusticiar_000",
     "holder_ko": "해골"
    },
@@ -13026,6 +13460,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Row of Books",
     "holder": "BOOK_GEN_Books_Row_Single_A",
     "holder_ko": "나란히 꽂힌 책"
    },
@@ -13047,6 +13483,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mirie",
     "holder": "S_LOW_GriefAttendant",
     "holder_ko": "미리"
    },
@@ -13068,6 +13506,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rosewood Desk",
     "holder": "S_LOW_CazadorsPalace_Bedrooms_Desk",
     "holder_ko": "자단나무 책상"
    },
@@ -13089,6 +13529,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Loose Planks",
     "holder": "S_TWN_Bar_LoosePlank",
     "holder_ko": "흔들거리는 목판"
    },
@@ -13110,6 +13552,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lump the Enlightened",
     "holder": "S_FOR_SchoolOgre1",
     "holder_ko": "총명한 럼프"
    },
@@ -13131,6 +13575,8 @@
     "object": "S_WYR_WyrmRockPrison_PrisonLog",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13152,6 +13598,8 @@
     "object": "BOOK_GEN_Book_B_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13173,6 +13621,8 @@
     "object": "BOOK_GEN_Book_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13194,6 +13644,8 @@
     "object": "BOOK_GEN_Book_B_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13215,6 +13667,8 @@
     "object": "BOOK_GEN_Book_B_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13236,6 +13690,8 @@
     "object": "BOOK_GEN_Book_B_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13257,6 +13713,8 @@
     "object": "BOOK_GEN_Book_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13278,6 +13736,8 @@
     "object": "BOOK_GEN_Book_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13299,6 +13759,8 @@
     "object": "S_TWN_Distillery_ResearchNotes",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13320,6 +13782,8 @@
     "object": "S_WYR_Circus_WheelPrize_SharessFlyer",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13341,6 +13805,8 @@
     "object": "S_WYR_ArmoryWarningPoster01",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13362,6 +13828,8 @@
     "object": "BOOK_GEN_Paper_Poster_E_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13383,6 +13851,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Crate",
     "holder": "S_MOO_DockLootCrate_002",
     "holder_ko": "나무 상자"
    },
@@ -13404,6 +13874,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Baelen Bonecloak",
     "holder": "S_GLO_Baelen",
     "holder_ko": "베일런 본클록"
    },
@@ -13425,6 +13897,8 @@
     "object": "S_UND_MushroomHunter_Reward",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13446,6 +13920,8 @@
     "object": "LOOT_SCROLL_Invisibility_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13467,6 +13943,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gekh Coal",
     "holder": "S_UND_LoneDuergar",
     "holder_ko": "게크 코울"
    },
@@ -13488,6 +13966,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Backpack",
     "holder": "S_UND_MushroomClearing_BackpackWithScrolls",
     "holder_ko": "배낭"
    },
@@ -13509,6 +13989,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Ardent Vraalsith",
     "holder": "S_CRE_IntelligenceOfficer02",
     "holder_ko": "심문단원 브랄시스"
    },
@@ -13530,6 +14012,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Open_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13551,6 +14035,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Open_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13572,6 +14058,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Open_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13593,6 +14081,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Weary Traveller",
     "holder": "S_GLO_Elminster",
     "holder_ko": "지친 여행자"
    },
@@ -13614,6 +14104,8 @@
     "object": "LOOT_SCROLL_Fireball_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13635,6 +14127,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Robust Guardian",
     "holder": "S_FOR_ThayG_Skeleton_002",
     "holder_ko": "튼튼한 수호자"
    },
@@ -13656,6 +14150,8 @@
     "object": "LOOT_SCROLL_ChillTouch_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13677,6 +14173,8 @@
     "object": "LOOT_SCROLL_ChillTouch",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13698,6 +14196,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Row of Books",
     "holder": "BOOK_GEN_Books_Row_Single_A_000",
     "holder_ko": "나란히 꽂힌 책"
    },
@@ -13719,6 +14219,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Jorkens",
     "holder": "S_LOW_PlagueShip_Sailor04",
     "holder_ko": "조르켄스"
    },
@@ -13740,6 +14242,8 @@
     "object": "BOOK_GEN_Paper_Sheet_G_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13761,6 +14265,8 @@
     "object": "LOOT_SCROLL_FalseLife",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13782,6 +14288,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Cabinet",
     "holder": "FUR_GEN_Cabinet_A_000",
     "holder_ko": "수납함"
    },
@@ -13803,6 +14311,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Dead Whitburn Servant",
     "holder": "S_END_DeadAlliesHouseCivilian_01",
     "holder_ko": "죽은 휘트번 가 하인"
    },
@@ -13824,6 +14334,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rows of Books",
     "holder": "S_SHA_SilentLibrary_TrappedBooks_001",
     "holder_ko": "나란히 꽂힌 책"
    },
@@ -13845,6 +14357,8 @@
     "object": "LOOT_SCROLL_AnimateDead_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13866,6 +14380,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Heavy Chest",
     "holder": "S_WYR_WyrmRock_FFThief_Stash",
     "holder_ko": "무거운 궤짝"
    },
@@ -13887,6 +14403,8 @@
     "object": "S_UND_MushroomClearing_Scroll_HideousLaughter",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13908,6 +14426,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Booyahg Piddle",
     "holder": "S_GOB_NerdyGoblinSage",
     "holder_ko": "부야그 피들"
    },
@@ -13929,6 +14449,8 @@
     "object": "LOOT_SCROLL_MagicMissile_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -13950,6 +14472,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gekh Coal",
     "holder": "S_UND_LoneDuergar",
     "holder_ko": "게크 코울"
    },
@@ -13971,6 +14495,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Booyahg Benta",
     "holder": "S_GOB_AttackOnDen_Ranged_001",
     "holder_ko": "부야그 벤타"
    },
@@ -13992,6 +14518,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Filro the Forgotten",
     "holder": "S_UND_HookHorror_Hermit",
     "holder_ko": "잊힌 필로"
    },
@@ -14013,6 +14541,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Baelen's Pack",
     "holder": "S_UND_MushroomHunter_Backpack",
     "holder_ko": "베일런의 배낭"
    },
@@ -14034,6 +14564,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Baelen's Pack",
     "holder": "S_UND_MushroomHunter_Backpack",
     "holder_ko": "베일런의 배낭"
    },
@@ -14055,6 +14587,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Helsik",
     "holder": "S_LOW_DevilsFee_Helsik",
     "holder_ko": "헬시크"
    },
@@ -14076,6 +14610,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Heavy Chest",
     "holder": "S_TWN_MasonsGuild_ScrollChest",
     "holder_ko": "무거운 궤짝"
    },
@@ -14097,6 +14633,8 @@
     "object": "S_UND_MushroomHunter_MistyStepScroll_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14118,6 +14656,8 @@
     "object": "S_UND_MushroomHunter_MistyStepScroll_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14139,6 +14679,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mahogany Casket",
     "holder": "DEC_CEM_Coffin_Wood_Rich_Combine_B_003",
     "holder_ko": "마호가니 관"
    },
@@ -14160,6 +14702,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Backpack",
     "holder": "LOOT_GEN_Backpack_C_Posed_A_000",
     "holder_ko": "배낭"
    },
@@ -14181,6 +14725,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mahogany Casket",
     "holder": "DEC_CEM_Coffin_Wood_Rich_Combine_B_003",
     "holder_ko": "마호가니 관"
    },
@@ -14202,6 +14748,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Backpack",
     "holder": "LOOT_GEN_Backpack_C_Posed_A_000",
     "holder_ko": "배낭"
    },
@@ -14223,6 +14771,8 @@
     "object": "S_FOR_HiddenGift_Gift",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14244,6 +14794,8 @@
     "object": "LOOT_GEN_Child_Drawing_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14265,6 +14817,8 @@
     "object": "S_WYR_ChildDrawing",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14286,6 +14840,8 @@
     "object": "LOOT_SCROLL_FlameBlade_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14307,6 +14863,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Fist Aubree",
     "holder": "S_HAV_FlamingFist_002",
     "holder_ko": "이병 오브리"
    },
@@ -14328,6 +14886,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lorin",
     "holder": "S_HAG_HagLair_Victim_003",
     "holder_ko": "로린"
    },
@@ -14349,6 +14909,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lump the Enlightened",
     "holder": "S_FOR_SchoolOgre1",
     "holder_ko": "총명한 럼프"
    },
@@ -14370,6 +14932,8 @@
     "object": "LOOT_SCROLL_Blur_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14391,6 +14955,8 @@
     "object": "LOOT_SCROLL_Blur_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14412,6 +14978,8 @@
     "object": "LOOT_SCROLL_ShockingGrasp_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14433,6 +15001,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Heavy Chest",
     "holder": "S_UND_CONT_GEN_Chest_Heavy_A_Small_A_008",
     "holder_ko": "무거운 궤짝"
    },
@@ -14454,6 +15024,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rows of Books",
     "holder": "S_SHA_SilentLibrary_TrappedBooks_004",
     "holder_ko": "나란히 꽂힌 책"
    },
@@ -14475,6 +15047,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gilded Chest",
     "holder": "S_WYR_KillDirectorGortash_GortashsChest",
     "holder_ko": "도금된 궤짝"
    },
@@ -14496,6 +15070,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mirie",
     "holder": "S_LOW_GriefAttendant",
     "holder_ko": "미리"
    },
@@ -14517,6 +15093,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "High Security Vault nº2",
     "holder": "S_LOW_CountingHouse_Vault2",
     "holder_ko": "엄중 경비 2번 금고실"
    },
@@ -14538,6 +15116,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Opulent Chest",
     "holder": "S_WYR_Circus_RingmasterChest",
     "holder_ko": "화려한 궤짝"
    },
@@ -14559,6 +15139,8 @@
     "object": "BOOK_GEN_Book_Rich_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14580,6 +15162,8 @@
     "object": "BOOK_GEN_Book_Rich_C_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14601,6 +15185,8 @@
     "object": "BOOK_GEN_Book_Rich_C_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14622,6 +15208,8 @@
     "object": "BOOK_GEN_Book_Rich_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14643,6 +15231,8 @@
     "object": "BOOK_GEN_Book_Rich_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14664,6 +15254,8 @@
     "object": "BOOK_GEN_Book_Rich_C_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14685,6 +15277,8 @@
     "object": "BOOK_GEN_Book_Rich_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14706,6 +15300,8 @@
     "object": "BOOK_GEN_Book_Rich_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14727,6 +15323,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gilded Chest",
     "holder": "S_FOR_SeluneStash_Chest",
     "holder_ko": "도금된 궤짝"
    },
@@ -14748,6 +15346,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Harper Lightspark",
     "holder": "S_SCL_HarpersDuty_DeadHarper_000",
     "holder_ko": "하퍼 라이트스파크"
    },
@@ -14769,6 +15369,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Raven",
     "holder": "S_SCL_ShadowBirds_DeadBird",
     "holder_ko": "큰까마귀"
    },
@@ -14790,6 +15392,8 @@
     "object": "BOOK_Book_A_Open_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14811,6 +15415,8 @@
     "object": "BOOK_Book_A_Open_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14832,6 +15438,8 @@
     "object": "BOOK_Book_A_Open_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14853,6 +15461,8 @@
     "object": "BOOK_Book_A_Open_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -14874,6 +15484,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rows of Books",
     "holder": "S_SHA_SilentLibrary_Books_002",
     "holder_ko": "나란히 꽂힌 책"
    },
@@ -14895,6 +15507,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Opulent Chest",
     "holder": "REF_CONT_Chest_A_Gold_001",
     "holder_ko": "화려한 궤짝"
    },
@@ -14916,6 +15530,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Kagha's Chest",
     "holder": "S_DEN_DruidLeaderChest",
     "holder_ko": "코가의 궤짝"
    },
@@ -14937,6 +15553,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rows of Books",
     "holder": "BOOK_GEN_Row_Multiple_Tileset_B_000",
     "holder_ko": "나란히 꽂힌 책"
    },
@@ -14958,6 +15576,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Youth Varrl",
     "holder": "S_CRE_GithBoy",
     "holder_ko": "젊은 바를"
    },
@@ -14979,6 +15599,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mirie",
     "holder": "S_LOW_GriefAttendant",
     "holder_ko": "미리"
    },
@@ -15000,6 +15622,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "High Security Vault nº6",
     "holder": "S_LOW_CountingHouse_Vault6",
     "holder_ko": "엄중 경비 6번 금고실"
    },
@@ -15021,6 +15645,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Balthazar",
     "holder": "S_SHA_Necromancer",
     "holder_ko": "발타자르"
    },
@@ -15042,6 +15668,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Innkeeper's Lockbox",
     "holder": "S_HAV_InnKeeperChest",
     "holder_ko": "여관 주인의 자물쇠 상자"
    },
@@ -15063,6 +15691,8 @@
     "object": "BOOK_GEN_Book_Rich_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15084,6 +15714,8 @@
     "object": "BOOK_GEN_Book_Rich_B_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15105,6 +15737,8 @@
     "object": "BOOK_GEN_Book_Rich_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15126,6 +15760,8 @@
     "object": "BOOK_GEN_Book_Rich_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15147,6 +15783,8 @@
     "object": "BOOK_GEN_Book_Rich_B_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15168,6 +15806,8 @@
     "object": "BOOK_GEN_Book_Rich_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15189,6 +15829,8 @@
     "object": "BOOK_GEN_Book_Rich_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15210,6 +15852,8 @@
     "object": "BOOK_GEN_Book_Rich_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15231,6 +15875,8 @@
     "object": "BOOK_GEN_Book_Rich_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15252,6 +15898,8 @@
     "object": "BOOK_GEN_Book_Rich_B_005",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15273,6 +15921,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Loose Plank",
     "holder": "CONT_GEN_Parquet_Loose_Plank_B_000",
     "holder_ko": "흔들거리는 목판"
    },
@@ -15294,6 +15944,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Heavy Chest",
     "holder": "S_TWN_MasonsGuild_ScrollChest",
     "holder_ko": "무거운 궤짝"
    },
@@ -15315,6 +15967,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Cal",
     "holder": "S_GLO_ProdigyBrother",
     "holder_ko": "칼"
    },
@@ -15336,6 +15990,8 @@
     "object": "BOOK_GEN_Paper_Poster_D_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15357,6 +16013,8 @@
     "object": "BOOK_GEN_Paper_Poster_D_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15378,6 +16036,8 @@
     "object": "S_WYR_ArmoryWantedPoster03",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15399,6 +16059,8 @@
     "object": "S_WYR_ArmoryWantedPoster02",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15420,6 +16082,8 @@
     "object": "S_WYR_ArmoryWantedPoster01",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15441,6 +16105,8 @@
     "object": "BOOK_GEN_Paper_Poster_D_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15462,6 +16128,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Cefrey",
     "holder": "S_CHA_FL1_BanditSanctum_03",
     "holder_ko": "세프리"
    },
@@ -15483,6 +16151,8 @@
     "object": "LOOT_SCROLL_BurningHands_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15504,6 +16174,8 @@
     "object": "LOOT_SCROLL_BurningHands_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -15525,6 +16197,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "True Soul Gut",
     "holder": "S_GOB_GoblinPriest",
     "holder_ko": "참된 영혼 거트"
    },
@@ -15546,6 +16220,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Backpack",
     "holder": "S_UND_HiddenGnome_Backpack",
     "holder_ko": "배낭"
    },
@@ -15567,6 +16243,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Chest",
     "holder": "S_FOR_Village_Blacksmith_FineWeapon_Chest",
     "holder_ko": "나무 궤짝"
    },
@@ -15588,6 +16266,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Heavy Chest",
     "holder": "S_UND_DrowResupply_HeavyChest",
     "holder_ko": "무거운 궤짝"
    },
@@ -15609,6 +16289,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Farlin",
     "holder": "S_WYR_SmugglersCave_Guild_Leader",
     "holder_ko": "팔린"
    },
@@ -15630,6 +16312,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Fallen Champion",
     "holder": "S_WYR_Wyrmsway_FailSkeleton_039",
     "holder_ko": "죽은 투사"
    },
@@ -15651,6 +16335,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Caïros",
     "holder": "S_WYR_SmugglersCave_StoneLord_Leader",
     "holder_ko": "카이로스"
    },
@@ -15672,6 +16358,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Muzz",
     "holder": "S_WYR_OpenHand_Shifter_003",
     "holder_ko": "머즈"
    },
@@ -15693,6 +16381,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rosanna's Chest",
     "holder": "S_WYR_Flophouse_Chest_002",
     "holder_ko": "로산나의 상자"
    },
@@ -15714,6 +16404,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Bakshi's Chest",
     "holder": "S_WYR_WyrmRock_BarracksLockedChest",
     "holder_ko": "박시의 궤짝"
    },
@@ -15735,6 +16427,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Heavy Chest",
     "holder": "S_WYR_WyrmRock_FFThief_Stash",
     "holder_ko": "무거운 궤짝"
    },
@@ -15756,6 +16450,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Ancient Githyanki Warrior",
     "holder": "S_CRE_Roof_GithyankiSkeleton",
     "holder_ko": "고대 기스양키 전사"
    },
@@ -15777,6 +16473,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Callira",
     "holder": "S_LOW_CazadorsPalace_Ballroom_DeadGuest_003",
     "holder_ko": "칼리라"
    },
@@ -15798,6 +16496,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Fist of Bane Frode",
     "holder": "S_LOW_BaneiteOfficer15",
     "holder_ko": "베인의 주먹 프로드"
    },
@@ -15819,6 +16519,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Absolute Cultist",
     "holder": "S_LOW_DeadAbsolutist_003",
     "holder_ko": "절대자 광신도"
    },
@@ -15840,6 +16542,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Backpack",
     "holder": "S_LOW_Overdose_Backpack",
     "holder_ko": "배낭"
    },
@@ -15861,6 +16565,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gilded Chest",
     "holder": "S_LOW_PhilgravesMansion_ClientChest",
     "holder_ko": "도금된 궤짝"
    },
@@ -15882,6 +16588,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rustic Chest",
     "holder": "S_END_MorphicPoolChest_001",
     "holder_ko": "투박한 궤짝"
    },
@@ -15903,6 +16611,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lann Tarv",
     "holder": "S_MOO_BugBearVendor",
     "holder_ko": "란 타브"
    },
@@ -15924,6 +16634,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Harper Lassandra",
     "holder": "S_SCL_HarperScout_000",
     "holder_ko": "하퍼 라산드라"
    },
@@ -15945,6 +16657,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_TWN_TownCrier",
     "holder_ko": "해골"
    },
@@ -15966,6 +16680,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Loose Plank",
     "holder": "S_HAV_TieflingSurvivors_TreasureHunters_LoosePlank",
     "holder_ko": "흔들거리는 목판"
    },
@@ -15987,6 +16703,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Potter's Chest",
     "holder": "S_SCL_BannedSeluneItemsChest",
     "holder_ko": "포터의 궤짝"
    },
@@ -16008,6 +16726,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lia",
     "holder": "S_GLO_ProdigySister",
     "holder_ko": "리아"
    },
@@ -16029,6 +16749,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mind Flayer",
     "holder": "S_WYR_Windmill_MF",
     "holder_ko": "마인드 플레이어"
    },
@@ -16050,6 +16772,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Ketheric Thorm",
     "holder": "S_MOO_Ketheric",
     "holder_ko": "케더릭 토름"
    },
@@ -16071,6 +16795,8 @@
     "object": "BOOK_Wizards_Tome_Open_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16092,6 +16818,8 @@
     "object": "Gale_17_BOOK_Wizards_Tome_Open_C_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16113,6 +16841,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_UND_LastManStanding",
     "holder_ko": "해골"
    },
@@ -16134,6 +16864,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Sharran Inquisitor",
     "holder": "S_UND_HarperSpy_Inquisitor",
     "holder_ko": "샤 교단 이단심문관"
    },
@@ -16155,6 +16887,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Kobold Looter",
     "holder": "S_CRE_Brewery_Kobold12",
     "holder_ko": "코볼트 약탈자"
    },
@@ -16176,6 +16910,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mailbox",
     "holder": "CONT_GEN_Mailbox_B_003",
     "holder_ko": "편지함"
    },
@@ -16197,6 +16933,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mirie",
     "holder": "S_LOW_GriefAttendant",
     "holder_ko": "미리"
    },
@@ -16218,6 +16956,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Pandirna",
     "holder": "S_DEN_Tiefling_005",
     "holder_ko": "판더나"
    },
@@ -16239,6 +16979,8 @@
     "object": "BOOK_GEN_Book_A_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16260,6 +17002,8 @@
     "object": "BOOK_GEN_Book_A_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16281,6 +17025,8 @@
     "object": "BOOK_GEN_Book_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16302,6 +17048,8 @@
     "object": "BOOK_GEN_Book_A_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16323,6 +17071,8 @@
     "object": "BOOK_GEN_Book_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16344,6 +17094,8 @@
     "object": "BOOK_GEN_Book_A_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16365,6 +17117,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Opulent Chest",
     "holder": "S_MOO_KethericPersonalChest",
     "holder_ko": "화려한 궤짝"
    },
@@ -16386,6 +17140,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Desk",
     "holder": "S_LOW_CazadorsPalace_Crypt_Desk",
     "holder_ko": "나무 책상"
    },
@@ -16407,6 +17163,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Desk",
     "holder": "S_WYR_MerchantsHouse_UpperFloorDesk",
     "holder_ko": "나무 책상"
    },
@@ -16428,6 +17186,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "'Jaheira'",
     "holder": "S_LOW_CountingHouse_JaheiraClone",
     "holder_ko": "\"자헤이라\""
    },
@@ -16449,6 +17209,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Chest of Grateful Words",
     "holder": "S_EPI_Letterbox",
     "holder_ko": "감사 편지 상자"
    },
@@ -16470,6 +17232,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lady Esther",
     "holder": "S_GLO_Expeditioner",
     "holder_ko": "에스더 부인"
    },
@@ -16491,6 +17255,8 @@
     "object": "BOOK_GEN_Envelope_A_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16512,6 +17278,8 @@
     "object": "BOOK_GEN_Envelope_A_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16533,6 +17301,8 @@
     "object": "S_WYR_Posthouse_MissingLetter2",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16554,6 +17324,8 @@
     "object": "S_WYR_Posthouse_MissingLetter1",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16575,6 +17347,8 @@
     "object": "S_WYR_Posthouse_UrgentReportForDukeRavengard",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16596,6 +17370,8 @@
     "object": "S_EPI_DeadGaleLetter",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16617,6 +17393,8 @@
     "object": "BOOK_GEN_Envelope_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16638,6 +17416,8 @@
     "object": "BOOK_GEN_Envelope_A_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16659,6 +17439,8 @@
     "object": "BOOK_GEN_Envelope_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16680,6 +17462,8 @@
     "object": "BOOK_GEN_Envelope_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -16701,6 +17485,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_UND_KethericCity_DeadJusticiar_009",
     "holder_ko": "해골"
    },
@@ -16722,6 +17508,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Kagha's Chest",
     "holder": "S_DEN_DruidLeaderChest",
     "holder_ko": "코가의 궤짝"
    },
@@ -16743,6 +17531,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Stuffed Bear",
     "holder": "S_HAG_TeddyBear",
     "holder_ko": "곰 인형"
    },
@@ -16764,6 +17554,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Floorboards",
     "holder": "S_FOR_HIddenGift_Planks",
     "holder_ko": "마루판"
    },
@@ -16785,6 +17577,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Fumm",
     "holder": "S_WYR_Circus_DoppelClown",
     "holder_ko": "펌"
    },
@@ -16806,6 +17600,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Brekka",
     "holder": "S_WYR_OpenHand_TieflingVictim_001",
     "holder_ko": "브레카"
    },
@@ -16827,6 +17623,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Hemm",
     "holder": "S_WYR_Axe_DoppelgangerAssassin_001",
     "holder_ko": "헴"
    },
@@ -16848,6 +17646,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Murdered Refugee",
     "holder": "HalfOrcs_Female_Civilian_Vignette_000",
     "holder_ko": "살해당한 난민"
    },
@@ -16869,6 +17669,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Invoker of Bhaal",
     "holder": "S_WYR_WyrmRock_Bhaalist_001",
     "holder_ko": "바알의 소환자"
    },
@@ -16890,6 +17692,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Chest",
     "holder": "CONT_GEN_Chest_Common_A_small_A_000",
     "holder_ko": "나무 궤짝"
    },
@@ -16911,6 +17715,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Dashkent's Chest",
     "holder": "S_WYR_Flophouse_Chest_006",
     "holder_ko": "대쉬켄트의 상자"
    },
@@ -16932,6 +17738,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Pile of Sacks",
     "holder": "CONT_GEN_Burlap_Sack_Pile_A_014",
     "holder_ko": "자루 더미"
    },
@@ -16953,6 +17761,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Pouch",
     "holder": "S_CRE_WeaponsPuzzle_Bag",
     "holder_ko": "주머니"
    },
@@ -16974,6 +17784,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Avery Sonshal",
     "holder": "S_LOW_FireworksHouse_AverySonshal",
     "holder_ko": "에이버리 손샬"
    },
@@ -16995,6 +17807,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Victoria",
     "holder": "S_LOW_CazadorsPalace_Bedrooms_DeadGirl",
     "holder_ko": "빅토리아"
    },
@@ -17016,6 +17830,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Clerk Tamara",
     "holder": "S_LOW_FireworksHouse_BaniteClerk02",
     "holder_ko": "사무원 타마라"
    },
@@ -17037,6 +17853,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gondian Lanpos Biggs",
     "holder": "S_LOW_DeadGondian",
     "holder_ko": "간드 신도 란포스 빅스"
    },
@@ -17058,6 +17876,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lurianna Sauvage",
     "holder": "S_LOW_CazadorsPalace_DeadWerewolf",
     "holder_ko": "루리아나 소바지"
    },
@@ -17079,6 +17899,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Loose Planks",
     "holder": "S_LOW_DevilsFee_SecretPlank",
     "holder_ko": "흔들거리는 목판"
    },
@@ -17100,6 +17922,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Conspicuous Rubble",
     "holder": "S_LOW_RubbleContainer",
     "holder_ko": "눈에 띄는 돌 더미"
    },
@@ -17121,6 +17945,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Old Pouch",
     "holder": "S_LOW_JaheiraLeavingPouch",
     "holder_ko": "오래된 주머니"
    },
@@ -17142,6 +17968,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Traveller's Chest",
     "holder": "S_LOW_Sewers__Exchanges_Suitcase",
     "holder_ko": "여행용 궤짝"
    },
@@ -17163,6 +17991,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Pouch",
     "holder": "S_LOW_BaldursMouth_SkaraiBervosLoot",
     "holder_ko": "주머니"
    },
@@ -17184,6 +18014,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Backpack",
     "holder": "S_LOW_FoundryBackpack01",
     "holder_ko": "배낭"
    },
@@ -17205,6 +18037,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Chest",
     "holder": "S_END_MorphicDigChest",
     "holder_ko": "나무 궤짝"
    },
@@ -17226,6 +18060,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_TWN_FinalFightHarper",
     "holder_ko": "해골"
    },
@@ -17247,6 +18083,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_TWN_LastSupper_Skeleton_001",
     "holder_ko": "해골"
    },
@@ -17268,6 +18106,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Chest",
     "holder": "S_TWN_Distillery_AlchemyStash_BuriedChest",
     "holder_ko": "나무 궤짝"
    },
@@ -17289,6 +18129,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Remira",
     "holder": "S_DEN_RaidAdventurer",
     "holder_ko": "레미라"
    },
@@ -17310,6 +18152,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rolan",
     "holder": "S_GLO_Prodigy",
     "holder_ko": "롤란"
    },
@@ -17331,6 +18175,8 @@
     "object": "S_TWN_FishermanNote",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17352,6 +18198,8 @@
     "object": "LOOT_SCROLL_ChromaticOrb_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17373,6 +18221,8 @@
     "object": "LOOT_SCROLL_ChromaticOrb_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17394,6 +18244,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lorin",
     "holder": "S_HAG_HagLair_Victim_003",
     "holder_ko": "로린"
    },
@@ -17415,6 +18267,8 @@
     "object": "LOOT_SCROLL_ColorSpray_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17436,6 +18290,8 @@
     "object": "LOOT_SCROLL_ColorSpray_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17457,6 +18313,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Hidden stash",
     "holder": "S_LOW_Prison_SecretStash",
     "holder_ko": "숨겨진 보관함"
    },
@@ -17478,6 +18336,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Heavy Chest",
     "holder": "S_TWN_MasonsGuild_ScrollChest",
     "holder_ko": "무거운 궤짝"
    },
@@ -17499,6 +18359,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Ferg Drogher",
     "holder": "S_GLO_SharranInformer",
     "holder_ko": "퍼그 드로거"
    },
@@ -17520,6 +18382,8 @@
     "object": "S_AttackOnDen_LOOT_SCROLL_Darkness_0",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17541,6 +18405,8 @@
     "object": "LOOT_SCROLL_Darkness_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17562,6 +18428,8 @@
     "object": "LOOT_SCROLL_Darkness_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17583,6 +18451,8 @@
     "object": "LOOT_SCROLL_Darkness_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17604,6 +18474,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Ansur",
     "holder": "S_WYR_SkeletalDragon",
     "holder_ko": "안수르"
    },
@@ -17625,6 +18497,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Traveller's Chest",
     "holder": "CONT_GEN_Chest_Travel_A_Small_A_013",
     "holder_ko": "여행용 궤짝"
    },
@@ -17646,6 +18520,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Dizby",
     "holder": "S_LOW_PlagueShip_Sailor01",
     "holder_ko": "디즈비"
    },
@@ -17667,6 +18543,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Meztli",
     "holder": "S_LOW_Dolor",
     "holder_ko": "메츨리"
    },
@@ -17688,6 +18566,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "He Who Was",
     "holder": "S_SCL_ServantOfTheRaven_ShadarKai",
     "holder_ko": "소멸된 자"
    },
@@ -17709,6 +18589,8 @@
     "object": "S_FOR_MarkedPost_Poster",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17730,6 +18612,8 @@
     "object": "BOOK_GEN_Paper_Sheet_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17751,6 +18635,8 @@
     "object": "BOOK_GEN_Paper_Sheet_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17772,6 +18658,8 @@
     "object": "BOOK_GEN_Paper_Sheet_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17793,6 +18681,8 @@
     "object": "BOOK_GEN_Paper_Sheet_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17814,6 +18704,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Stacks of Scrolls",
     "holder": "BOOK_GEN_Scroll_Parchment_Row_Multiple_A_005",
     "holder_ko": "두루마리 더미"
    },
@@ -17835,6 +18727,8 @@
     "object": "S_LOW_SteelWatchFoundry_MechanicalDiagram",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17856,6 +18750,8 @@
     "object": "S_WYR_ArmoryHeadHuntingPaper",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17877,6 +18773,8 @@
     "object": "S_LOW_LastPageNecromancy",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17898,6 +18796,8 @@
     "object": "BOOK_GEN_Paper_Poster_B_005",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17919,6 +18819,8 @@
     "object": "BOOK_GEN_Paper_Poster_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17940,6 +18842,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rows of Books",
     "holder": "S_SHA_SilentLibrary_TrappedBooks_005",
     "holder_ko": "나란히 꽂힌 책"
    },
@@ -17961,6 +18865,8 @@
     "object": "S_LOW_CazadorsPalace_Crypt_CazadorsJournal",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -17982,6 +18888,8 @@
     "object": "BOOK_GEN_Book_C_Open_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18003,6 +18911,8 @@
     "object": "BOOK_GEN_Book_C_Open_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18024,6 +18934,8 @@
     "object": "BOOK_GEN_Book_C_Open_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18045,6 +18957,8 @@
     "object": "S_LOW_HouseOfHope_MolContract",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18066,6 +18980,8 @@
     "object": "S_LOW_MinscHideout_RelicKeldorn",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18087,6 +19003,8 @@
     "object": "S_LOW_MinscHideout_RelicAerie",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18108,6 +19026,8 @@
     "object": "S_LOW_MinscHideout_RelicJan",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18129,6 +19049,8 @@
     "object": "S_LOW_MinscHideout_RelicMazzy",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18150,6 +19072,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Charred Corpse",
     "holder": "PLA_Tavern_Corpse_Burned_002",
     "holder_ko": "새까맣게 탄 시체"
    },
@@ -18171,6 +19095,8 @@
     "object": "BOOK_GEN_Book_B_Open_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18192,6 +19118,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_C_Single_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18213,6 +19141,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_C_Single_A",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18234,6 +19164,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_C_Single_A",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18255,6 +19187,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_C_Single_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18276,6 +19210,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_C_Single_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18297,6 +19233,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Dissected Drow",
     "holder": "S_DEN_DissectedDrow",
     "holder_ko": "해부된 드로우"
    },
@@ -18318,6 +19256,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Heavy Chest",
     "holder": "S_WYR_MerchantsHouse_BasementChest",
     "holder_ko": "무거운 궤짝"
    },
@@ -18339,6 +19279,8 @@
     "object": "BOOK_GEN_Paper_Sheet_C",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18360,6 +19302,8 @@
     "object": "BOOK_GEN_Paper_Sheet_C",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18381,6 +19325,8 @@
     "object": "BOOK_GEN_Paper_Sheet_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18402,6 +19348,8 @@
     "object": "BOOK_GEN_Paper_Sheet_C_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18423,6 +19371,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Dead Drow",
     "holder": "S_UND_FairyRings_DeadBody",
     "holder_ko": "죽은 드로우"
    },
@@ -18444,6 +19394,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mouldering Bookcase",
     "holder": "S_FOR_SchoolOgre_Schoolbooks",
     "holder_ko": "썩은 책장"
    },
@@ -18465,6 +19417,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Ffion's Chest",
     "holder": "S_WYR_Flophouse_Chest_005",
     "holder_ko": "피온의 상자"
    },
@@ -18486,6 +19440,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rows of Books",
     "holder": "S_LOW_BookShelf",
     "holder_ko": "나란히 꽂힌 책"
    },
@@ -18507,6 +19463,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_CRE_MonkSkeletonWithNote",
     "holder_ko": "해골"
    },
@@ -18528,6 +19486,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mirie",
     "holder": "S_LOW_GriefAttendant",
     "holder_ko": "미리"
    },
@@ -18549,6 +19509,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gilded Chest",
     "holder": "S_LOW_Guildhall_Bursar_Chest",
     "holder_ko": "도금된 궤짝"
    },
@@ -18570,6 +19532,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_SCL_ForgottenHunter_Skeleton",
     "holder_ko": "해골"
    },
@@ -18591,6 +19555,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_TWN_Hospital_BondedByLove_Wife",
     "holder_ko": "해골"
    },
@@ -18612,6 +19578,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_TWN_Hospital_BondedByLove_Husband",
     "holder_ko": "해골"
    },
@@ -18633,6 +19601,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_TWN_DeadAdventurer",
     "holder_ko": "해골"
    },
@@ -18654,6 +19624,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Desk",
     "holder": "FUR_GEN_Desk_Wood_Poor_A_Dynamic",
     "holder_ko": "나무 책상"
    },
@@ -18675,6 +19647,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Barcus Wroot",
     "holder": "S_FOR_UnfortunateGnome",
     "holder_ko": "바커스 루트"
    },
@@ -18696,6 +19670,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mattis",
     "holder": "S_DEN_PickpocketTrader",
     "holder_ko": "매티스"
    },
@@ -18717,6 +19693,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Head Clerk Meadhoney",
     "holder": "S_LOW_CountingHouse_HeadClerk",
     "holder_ko": "사무장 미드허니"
    },
@@ -18738,6 +19716,8 @@
     "object": "S_LOW_CountingHouse_BankPass_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18759,6 +19739,8 @@
     "object": "S_LOW_CountingHouse_BankPass_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18780,6 +19762,8 @@
     "object": "BOOK_Wizards_Tome_Open_B_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -18801,6 +19785,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rustic Chest",
     "holder": "CONT_GEN_Chest_Wood_B_000",
     "holder_ko": "투박한 궤짝"
    },
@@ -18822,6 +19808,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rustic Chest",
     "holder": "CONT_GEN_Chest_Wood_B_000",
     "holder_ko": "투박한 궤짝"
    },
@@ -18843,6 +19831,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Johl",
     "holder": "S_HAG_HagAmbush_Brother_002",
     "holder_ko": "졸"
    },
@@ -18864,6 +19854,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Flaming Fist Mercenary",
     "holder": "S_PLA_Tavern_DeadFF5",
     "holder_ko": "불주먹 용병대"
    },
@@ -18885,6 +19877,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gomwick",
     "holder": "S_FOR_Courier",
     "holder_ko": "검윅"
    },
@@ -18906,6 +19900,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gomwick",
     "holder": "S_FOR_Courier",
     "holder_ko": "검윅"
    },
@@ -18927,6 +19923,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gomwick",
     "holder": "S_FOR_Courier",
     "holder_ko": "검윅"
    },
@@ -18948,6 +19946,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Dead Goblin",
     "holder": "S_DEN_DeadGoblinRaider_002",
     "holder_ko": "죽은 고블린"
    },
@@ -18969,6 +19969,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Skeleton",
     "holder": "S_SCL_SkepticalRobber_RobberCorpse",
     "holder_ko": "해골"
    },
@@ -18990,6 +19992,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Aradin",
     "holder": "S_DEN_AdventurerLeader",
     "holder_ko": "아라딘"
    },
@@ -19011,6 +20015,8 @@
     "object": "BOOK_GEN_Paper_Poster_E_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19032,6 +20038,8 @@
     "object": "BOOK_GEN_Paper_Poster_E_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19053,6 +20061,8 @@
     "object": "BOOK_GEN_Paper_Poster_E_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19074,6 +20084,8 @@
     "object": "BOOK_GEN_Paper_Poster_E",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19095,6 +20107,8 @@
     "object": "BOOK_GEN_Paper_Poster_E_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19116,6 +20130,8 @@
     "object": "BOOK_GEN_Paper_Poster_E_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19137,6 +20153,8 @@
     "object": "BOOK_GEN_Paper_Poster_E_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19158,6 +20176,8 @@
     "object": "BOOK_GEN_Paper_Poster_E_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19179,6 +20199,8 @@
     "object": "BOOK_GEN_Paper_Poster_E_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19200,6 +20222,8 @@
     "object": "BOOK_GEN_Paper_Poster_E_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19221,6 +20245,8 @@
     "object": "BOOK_GEN_Paper_Poster_E_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19242,6 +20268,8 @@
     "object": "S_TWN_HelpWantedPoster",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19263,6 +20291,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Booyahg Piddle",
     "holder": "S_GOB_NerdyGoblinSage",
     "holder_ko": "부야그 피들"
    },
@@ -19284,6 +20314,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mouldering Casket",
     "holder": "S_FOR_Crypt_003",
     "holder_ko": "썩은 관"
    },
@@ -19305,6 +20337,8 @@
     "object": "BOOK_GEN_Book_A_Open_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19326,6 +20360,8 @@
     "object": "BOOK_GEN_Book_Rich_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19347,6 +20383,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Stacks of Scrolls",
     "holder": "BOOK_GEN_Scroll_Parchment_Row_Multiple_A_009",
     "holder_ko": "두루마리 더미"
    },
@@ -19368,6 +20406,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Rows of Books",
     "holder": "S_SHA_SilentLibrary_TrappedBooks_002",
     "holder_ko": "나란히 꽂힌 책"
    },
@@ -19389,6 +20429,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Stacks of Scrolls",
     "holder": "BOOK_GEN_Scroll_Parchment_Row_Multiple_A",
     "holder_ko": "두루마리 더미"
    },
@@ -19410,6 +20452,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mirie",
     "holder": "S_LOW_GriefAttendant",
     "holder_ko": "미리"
    },
@@ -19431,6 +20475,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "High Security Vault nº6",
     "holder": "S_LOW_CountingHouse_Vault6",
     "holder_ko": "엄중 경비 6번 금고실"
    },
@@ -19452,6 +20498,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "High Security Vault nº5",
     "holder": "S_LOW_CountingHouse_Vault5",
     "holder_ko": "엄중 경비 5번 금고실"
    },
@@ -19473,6 +20521,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "High Security Vault nº8",
     "holder": "S_LOW_CountingHouse_Vault8",
     "holder_ko": "엄중 경비 8번 금고실"
    },
@@ -19494,6 +20544,8 @@
     "object": "S_Debug_GoldenPath_Step4",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19515,6 +20567,8 @@
     "object": "S_Debug_GoldenPath_Step2",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19536,6 +20590,8 @@
     "object": "S_Debug_GoldenPath_Step7",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19557,6 +20613,8 @@
     "object": "S_Debug_GoldenPath_Step3",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19578,6 +20636,8 @@
     "object": "S_Debug_GoldenPath_Step1",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19599,6 +20659,8 @@
     "object": "S_Debug_GoldenPath_Step8",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19620,6 +20682,8 @@
     "object": "S_Debug_GoldenPath_Step5",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19641,6 +20705,8 @@
     "object": "S_Debug_GoldenPath_Step6",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19662,6 +20728,8 @@
     "object": "S_Debug_GoldenPath_Step9",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19683,6 +20751,8 @@
     "object": "BOOK_GEN_Book_Rich_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19704,6 +20774,8 @@
     "object": "BOOK_GEN_Book_Rich_A_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19725,6 +20797,8 @@
     "object": "BOOK_GEN_Book_Rich_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19746,6 +20820,8 @@
     "object": "S_LOW_SorcerousSundries_BasementLever",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19767,6 +20843,8 @@
     "object": "BOOK_GEN_Book_Rich_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19788,6 +20866,8 @@
     "object": "BOOK_GEN_Book_Rich_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19809,6 +20889,8 @@
     "object": "BOOK_GEN_Book_Rich_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19830,6 +20912,8 @@
     "object": "BOOK_GEN_Book_Rich_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19851,6 +20935,8 @@
     "object": "BOOK_GEN_Book_Rich_A_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19872,6 +20958,8 @@
     "object": "BOOK_GEN_Book_Rich_A_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19893,6 +20981,8 @@
     "object": "BOOK_GEN_Book_Rich_A_007",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19914,6 +21004,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Quelenna",
     "holder": "S_CHA_Exterior_Bandit_Caster_01",
     "holder_ko": "퀠레나"
    },
@@ -19935,6 +21027,8 @@
     "object": "LOOT_SCROLL_RayOfFrost_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19956,6 +21050,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Hidden stash",
     "holder": "S_LOW_Prison_SecretStash",
     "holder_ko": "숨겨진 보관함"
    },
@@ -19977,6 +21073,8 @@
     "object": "S_AttackOnDen_LOOT_SCROLL_FireBolt_01",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -19998,6 +21096,8 @@
     "object": "LOOT_SCROLL_FireBolt_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20019,6 +21119,8 @@
     "object": "S_FOR_DangerousBook_Tome",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20040,6 +21142,8 @@
     "object": "S_LOW_HouseOfHope_PlayerContract",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20061,6 +21165,8 @@
     "object": "LOOT_SCROLL_ArcaneLock_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20082,6 +21188,8 @@
     "object": "LOOT_SCROLL_ArcaneLock_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20103,6 +21211,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Dead Githyanki",
     "holder": "S_ORI_Laezel_DeadGithyankiWithMap",
     "holder_ko": "죽은 기스양키"
    },
@@ -20124,6 +21234,8 @@
     "object": "S_LOW_OskarsBeloved_Scroll_SeeInvisibility_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20145,6 +21257,8 @@
     "object": "LOOT_SCROLL_DominatePerson_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20166,6 +21280,8 @@
     "object": "LOOT_SCROLL_IrresistibleDance_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20187,6 +21303,8 @@
     "object": "LOOT_SCROLL_Disintegrate_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20208,6 +21326,8 @@
     "object": "LOOT_SCROLL_Disintegrate_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20229,6 +21349,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Trunk",
     "holder": "S_LOW_Prison_CONT_GEN_Crate_Wood_C_001",
     "holder_ko": "나무 상자"
    },
@@ -20250,6 +21372,8 @@
     "object": "S_WYR_Circus_LOOT_SCROLL_FireShield_Warm",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20271,6 +21395,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Hidden stash",
     "holder": "S_LOW_Prison_SecretStash",
     "holder_ko": "숨겨진 보관함"
    },
@@ -20292,6 +21418,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Crate",
     "holder": "S_MOO_DockLootCrate_003",
     "holder_ko": "나무 상자"
    },
@@ -20313,6 +21441,8 @@
     "object": "LOOT_SCROLL_GustOfWind_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20334,6 +21464,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Ferg Drogher",
     "holder": "S_GLO_SharranInformer",
     "holder_ko": "퍼그 드로거"
    },
@@ -20355,6 +21487,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Pile of Books",
     "holder": "BOOK_GEN_Books_Pile_A_003",
     "holder_ko": "책 더미"
    },
@@ -20376,6 +21510,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Invoker of Bhaal",
     "holder": "S_WYR_WyrmRock_Bhaalist_001",
     "holder_ko": "바알의 소환자"
    },
@@ -20397,6 +21533,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Fyodor",
     "holder": "S_WYR_Circus_Bouncer",
     "holder_ko": "표도르"
    },
@@ -20418,6 +21556,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Sarcophagus",
     "holder": "S_LOW_TabernacleBasement_LootableTomb_001",
     "holder_ko": "석관"
    },
@@ -20439,6 +21579,8 @@
     "object": "LOOT_SCROLL_LightningBolt_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20460,6 +21602,8 @@
     "object": "S_LOW_MurderTribunal_Sewer_FlamingFistPoster",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20481,6 +21625,8 @@
     "object": "LOOT_SCROLL_CircleOfDeath_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20502,6 +21648,8 @@
     "object": "LOOT_SCROLL_Seeming_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20523,6 +21671,8 @@
     "object": "S_MOO_ZhentChromaticOrbScroll",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20544,6 +21694,8 @@
     "object": "S_TWN_CentralSquare_Reward_ScrollOfBlight",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20565,6 +21717,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Ornate Chest",
     "holder": "S_CRA_HarperTreasureBox",
     "holder_ko": "화려한 궤짝"
    },
@@ -20586,6 +21740,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Alfira",
     "holder": "S_DEN_Bard",
     "holder_ko": "알피라"
    },
@@ -20607,6 +21763,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Mouldering Casket",
     "holder": "S_FOR_Crypt_001",
     "holder_ko": "썩은 관"
    },
@@ -20628,6 +21786,8 @@
     "object": "S_FOR_Scroll_SummonQuasit",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20649,6 +21809,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Baelen's Pack",
     "holder": "S_UND_MushroomHunter_Backpack",
     "holder_ko": "베일런의 배낭"
    },
@@ -20670,6 +21832,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Trunk",
     "holder": "S_LOW_Prison_CONT_GEN_Crate_Wood_C_001",
     "holder_ko": "나무 상자"
    },
@@ -20691,6 +21855,8 @@
     "object": "CONS_Scroll_FeatherFall_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20712,6 +21878,8 @@
     "object": "S_UND_MushroomHunter_FeatherFallScroll",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20733,6 +21901,8 @@
     "object": "LOOT_SCROLL_FeatherFall_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20754,6 +21924,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20775,6 +21947,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20796,6 +21970,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20817,6 +21993,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20838,6 +22016,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_005",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20859,6 +22039,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_008",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20880,6 +22062,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_009",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20901,6 +22085,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_010",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20922,6 +22108,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_007",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20943,6 +22131,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20964,6 +22154,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -20985,6 +22177,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21006,6 +22200,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21027,6 +22223,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21048,6 +22246,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_D_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21069,6 +22269,8 @@
     "object": "BOOK_GEN_Scroll_Parchment_B_Long_C_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21090,6 +22292,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Lunkbug",
     "holder": "S_UND_GnomeWorkerSilly",
     "holder_ko": "런크버그"
    },
@@ -21111,6 +22315,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Stacks of Scrolls",
     "holder": "BOOK_GEN_Scroll_Parchment_Row_Multiple_A_005",
     "holder_ko": "두루마리 더미"
    },
@@ -21132,6 +22338,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Sarcophagus",
     "holder": "S_LOW_JergalPriestMausoleum_Tomb",
     "holder_ko": "석관"
    },
@@ -21153,6 +22361,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Dead Watchman",
     "holder": "QUEST_END_Humans_Male_CityWatch_Melee_000",
     "holder_ko": "죽은 파수병"
    },
@@ -21174,6 +22384,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wooden Chest",
     "holder": "CONT_GEN_Chest_Common_A_small_A",
     "holder_ko": "나무 궤짝"
    },
@@ -21195,6 +22407,8 @@
     "object": "S_UND_GnomeRevivifyScroll",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21216,6 +22430,8 @@
     "object": "LOOT_SCROLL_Revivify_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21237,6 +22453,8 @@
     "object": "LOOT_SCROLL_Revivify_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21258,6 +22476,8 @@
     "object": "S_TWN_CentralSquare_Reward_ScrollOfRevivify",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21279,6 +22499,8 @@
     "object": "LOOT_SCROLL_Revivify_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21300,6 +22522,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Gilded Chest",
     "holder": "CONT_GEN_Chest_Jewel_A_Small_A_007",
     "holder_ko": "도금된 궤짝"
    },
@@ -21321,6 +22545,8 @@
     "object": "S_LOW_DjinniTrap_Scroll_SummonQuasit",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21342,6 +22568,8 @@
     "object": "S_MOO_TrapBook_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21363,6 +22591,8 @@
     "object": "S_EPI_Epilogue_Gazette_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21384,6 +22614,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Thomas C. Quirkilious",
     "holder": "S_LOW_Traders_MusicVendor",
     "holder_ko": "토머스 C. 쿼킬리어스"
    },
@@ -21405,6 +22637,8 @@
     "object": "S_EPI_Epilogue_Gazette_005",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21426,6 +22660,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wicker Basket",
     "holder": "S_LOW_BaldursMouth_BasketNeutral2",
     "holder_ko": "갈대 바구니"
    },
@@ -21447,6 +22683,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wicker Basket",
     "holder": "S_LOW_BaldursMouth_BasketPositive2",
     "holder_ko": "갈대 바구니"
    },
@@ -21468,6 +22706,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wicker Basket",
     "holder": "S_LOW_BaldursMouth_BasketNeutral1",
     "holder_ko": "갈대 바구니"
    },
@@ -21489,6 +22729,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wicker Basket",
     "holder": "S_LOW_BaldursMouth_BasketPositive1",
     "holder_ko": "갈대 바구니"
    },
@@ -21510,6 +22752,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Wicker Basket",
     "holder": "S_LOW_BaldursMouth_BasketPositive3",
     "holder_ko": "갈대 바구니"
    },
@@ -21531,6 +22775,8 @@
     "object": "S_LOW_BaldursMouth_ArticleBlock_Negative01",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21552,6 +22798,8 @@
     "object": "S_LOW_BaldursMouth_ArticleBlock001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21573,6 +22821,8 @@
     "object": "S_LOW_BaldursMouth_ArticleBlock_Positive01",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21594,6 +22844,8 @@
     "object": "S_LOW_BaldursMouth_ArticleBlock_Positive03",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21615,6 +22867,8 @@
     "object": "S_LOW_BaldursMouth_ArticleBlock002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21636,6 +22890,8 @@
     "object": "S_LOW_BaldursMouth_ArticleBlock_Positive02",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21657,6 +22913,8 @@
     "object": "S_LOW_BaldursMouth_ArticleBlock003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21678,6 +22936,8 @@
     "object": "S_LOW_BaldursMouth_ArticleBlock_Negative02",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21699,6 +22959,8 @@
     "object": "S_LOW_BaldursMouth_ArticleBlock_Negative03",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21720,6 +22982,8 @@
     "object": "S_MOO_TrapBook_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21741,6 +23005,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_08",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21762,6 +23028,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_16",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21783,6 +23051,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_04",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21804,6 +23074,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_01",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21825,6 +23097,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_09",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21846,6 +23120,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_02",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21867,6 +23143,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_13",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21888,6 +23166,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_03",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21909,6 +23189,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_10",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21930,6 +23212,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_14",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21951,6 +23235,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_17",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21972,6 +23258,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_07",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -21993,6 +23281,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_11",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22014,6 +23304,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_05",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22035,6 +23327,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_06",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22056,6 +23350,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_15",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22077,6 +23373,8 @@
     "object": "S_LOW_BasiliskGate_Florrick_ExecutionNotice_12",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22098,6 +23396,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Inquistor Verzen Wranlock",
     "holder": "S_SCL_Inquisitor",
     "holder_ko": "심문관 베르젠 랜록"
    },
@@ -22119,6 +23419,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "News Hawker Jason",
     "holder": "S_LOW_BaldursMouth_PaperBoy",
     "holder_ko": "신문팔이 제이슨"
    },
@@ -22140,6 +23442,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "News Hawker Chalara",
     "holder": "S_LOW_BaldursMouth_PaperBoy_SteepsStrake",
     "holder_ko": "신문팔이 찰라라"
    },
@@ -22161,6 +23465,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "News Hawker Jonah",
     "holder": "S_LOW_BaldursMouth_PaperBoy_Docks",
     "holder_ko": "신문팔이 조나"
    },
@@ -22182,6 +23488,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "News Hawker Luan",
     "holder": "S_LOW_BaldursMouth_PaperBoy_Stormshore",
     "holder_ko": "신문팔이 루안"
    },
@@ -22203,6 +23511,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Newspapers",
     "holder": "CONT_GEN_Market_Stall_Newspaper_A_002",
     "holder_ko": "신문"
    },
@@ -22224,6 +23534,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Newspapers",
     "holder": "CONT_GEN_Market_Stall_Newspaper_B_000",
     "holder_ko": "신문"
    },
@@ -22245,6 +23557,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Newspapers",
     "holder": "CONT_GEN_Market_Stall_Newspaper_C_000",
     "holder_ko": "신문"
    },
@@ -22266,6 +23580,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Newspapers",
     "holder": "CONT_GEN_Market_Stall_Newspaper_C_001",
     "holder_ko": "신문"
    },
@@ -22287,6 +23603,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Newspapers",
     "holder": "CONT_GEN_Market_Stall_Newspaper_A_001",
     "holder_ko": "신문"
    },
@@ -22308,6 +23626,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Newspapers",
     "holder": "CONT_GEN_Market_Stall_Newspaper_A_000",
     "holder_ko": "신문"
    },
@@ -22329,6 +23649,8 @@
     "object": "",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "Newspapers",
     "holder": "CONT_GEN_Market_Stall_Newspaper_B_001",
     "holder_ko": "신문"
    },
@@ -22350,6 +23672,8 @@
     "object": "Book_WYR_Gazette_OldPaper01",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22371,6 +23695,8 @@
     "object": "S_WYR_OpenHand_DailyPaper_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22392,6 +23718,8 @@
     "object": "Book_WYR_Gazette_OldPaper03",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22413,6 +23741,8 @@
     "object": "Book_LOW_Gazette_OldPaper01_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22434,6 +23764,8 @@
     "object": "Book_LOW_Gazette_OldPaper01_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22455,6 +23787,8 @@
     "object": "Book_LOW_Gazette_OldPaper04_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22476,6 +23810,8 @@
     "object": "Book_LOW_Gazette_OldPaper02_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22497,6 +23833,8 @@
     "object": "Book_LOW_Gazette_OldPaper04_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22518,6 +23856,8 @@
     "object": "Book_LOW_Gazette_OldPaper03_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22539,6 +23879,8 @@
     "object": "Book_LOW_Gazette_OldPaper02_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22560,6 +23902,8 @@
     "object": "Book_LOW_Gazette_OldPaper01_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22581,6 +23925,8 @@
     "object": "Book_LOW_Gazette_OldPaper02_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22602,6 +23948,8 @@
     "object": "Book_LOW_Gazette_OldPaper03_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22623,6 +23971,8 @@
     "object": "Book_LOW_Gazette_OldPaper02_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22644,6 +23994,8 @@
     "object": "Book_LOW_Gazette_OldPaper03_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22665,6 +24017,8 @@
     "object": "Book_LOW_Gazette_OldPaper01_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22686,6 +24040,8 @@
     "object": "Book_LOW_Gazette_OldPaper04_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22707,6 +24063,8 @@
     "object": "Book_LOW_Gazette_OldPaper03_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22728,6 +24086,8 @@
     "object": "Book_LOW_Gazette_OldPaper04_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22749,6 +24109,8 @@
     "object": "S_EPI_Epilogue_Gazette_004",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22770,6 +24132,8 @@
     "object": "S_MOO_TrapBook_001",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22791,6 +24155,8 @@
     "object": "UNI_LOW_SorcerousSundries_DethroneScroll_000",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22812,6 +24178,8 @@
     "object": "S_EPI_Epilogue_Gazette_003",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22833,6 +24201,8 @@
     "object": "S_EPI_Epilogue_Gazette_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    },
@@ -22854,6 +24224,8 @@
     "object": "S_MOO_TrapBook_002",
     "container": "",
     "container_ko": "",
+    "container_en": "",
+    "holder_en": "",
     "holder": "",
     "holder_ko": ""
    }
@@ -22863,197 +24235,253 @@
     "table": "DEN_Apprentice",
     "trader": "S_DEN_Apprentice",
     "trader_ko": "네티",
+    "trader_en": "Nettie",
     "level": "GLO_SpellVocalComponent",
-    "region_ko": ""
+    "region_ko": "",
+    "region_en": ""
    },
    {
     "table": "DEN_Apprentice",
     "trader": "S_DEN_Apprentice",
     "trader_ko": "네티",
+    "trader_en": "Nettie",
     "level": "WLD_Main_A",
-    "region_ko": "에메랄드 숲"
+    "region_ko": "에메랄드 숲",
+    "region_en": "Emerald Grove"
    },
    {
     "table": "DEN_Entrance_Trade",
     "trader": "S_DEN_ServantPlight_005",
     "trader_ko": "애런",
+    "trader_en": "Arron",
     "level": "WLD_Main_A",
-    "region_ko": "황야"
+    "region_ko": "황야",
+    "region_en": "Wilderness"
    },
    {
     "table": "DEN_Stargazer",
     "trader": "S_GLO_Stargazer",
     "trader_ko": "나디라",
+    "trader_en": "Nadira",
     "level": "WLD_Main_A",
-    "region_ko": "황야"
+    "region_ko": "황야",
+    "region_en": "Wilderness"
    },
    {
     "table": "END_CircusTrader",
     "trader": "S_END_CircusTrader",
     "trader_ko": "적색의 콜",
+    "trader_en": "Koll the Red",
     "level": "END_Main",
-    "region_ko": "윗 도시"
-   },
-   {
-    "table": "EquipmentTrader_RevivifyScrolls",
-    "trader": "S_CRE_Quartermistress",
-    "trader_ko": "아자크니르 지라",
-    "level": "CRE_Main_A",
-    "region_ko": "일릭 양성소"
+    "region_ko": "윗 도시",
+    "region_en": "Upper City"
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
     "trader": "S_WYR_Danthelon",
     "trader_ko": "엔탈 단텔론",
+    "trader_en": "Entharl Danthelon",
     "level": "BGO_Main_A",
-    "region_ko": "웜 건널목"
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing"
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
     "trader": "S_UND_DuergarRebelMason_02",
     "trader_ko": "석공 거거란",
+    "trader_en": "Stonemason Gergerann",
     "level": "WLD_Main_A",
-    "region_ko": "버려진 은신처"
+    "region_ko": "버려진 은신처",
+    "region_en": "Abandoned Refuge"
    },
    {
     "table": "EquipmentTrader_RevivifyScrolls",
     "trader": "S_UND_DuergarRebelMason_01",
     "trader_ko": "석공 키스",
+    "trader_en": "Stonemason Kith",
     "level": "WLD_Main_A",
-    "region_ko": "버려진 은신처"
+    "region_ko": "버려진 은신처",
+    "region_en": "Abandoned Refuge"
    },
    {
-    "table": "EquipmentTrader_Scrolls",
-    "trader": "S_LOW_SteepsTrader_BooksAndScrolls",
-    "trader_ko": "낸시 그레타",
-    "level": "CTY_Main_A",
-    "region_ko": "아랫 도시"
+    "table": "EquipmentTrader_RevivifyScrolls",
+    "trader": "S_CRE_Quartermistress",
+    "trader_ko": "아자크니르 지라",
+    "trader_en": "A'jak'nir Jeera",
+    "level": "CRE_Main_A",
+    "region_ko": "일릭 양성소",
+    "region_en": "Crèche Y'llek"
    },
    {
     "table": "EquipmentTrader_Scrolls",
     "trader": "S_GOB_Quartermaster",
     "trader_ko": "로아 문글로우",
+    "trader_en": "Roah Moonglow",
     "level": "WLD_Main_A",
-    "region_ko": "파괴된 성소"
+    "region_ko": "파괴된 성소",
+    "region_en": "Shattered Sanctum"
+   },
+   {
+    "table": "EquipmentTrader_Scrolls",
+    "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
+    "trader_ko": "병참 장교 탈리",
+    "trader_en": "Quartermaster Talli",
+    "level": "SCL_Main_A",
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands"
+   },
+   {
+    "table": "EquipmentTrader_Scrolls",
+    "trader": "S_LOW_SteepsTrader_BooksAndScrolls",
+    "trader_ko": "낸시 그레타",
+    "trader_en": "Nansi Gretta",
+    "level": "CTY_Main_A",
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City"
    },
    {
     "table": "EquipmentTrader_Scrolls",
     "trader": "S_LOW_Tolna",
     "trader_ko": "책 장수 톨나",
+    "trader_en": "Tolna Tome-Monger",
     "level": "CTY_Main_A",
-    "region_ko": "아랫 도시"
-   },
-   {
-    "table": "EquipmentTrader_Scrolls",
-    "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
-    "trader_ko": "병참 장교 탈리",
-    "level": "SCL_Main_A",
-    "region_ko": "그림자 저주에 물든 땅"
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City"
    },
    {
     "table": "GOB_Festivities_Trader",
     "trader": "S_GOB_Festivities_Trader",
     "trader_ko": "상인 그라트",
+    "trader_en": "Grat the Trader",
     "level": "WLD_Main_A",
-    "region_ko": "황야"
+    "region_ko": "황야",
+    "region_en": "Wilderness"
    },
    {
     "table": "GOB_PainPriest",
     "trader": "S_GOB_PainPriest",
     "trader_ko": "압디라크",
+    "trader_en": "Abdirak",
     "level": "WLD_Main_A",
-    "region_ko": "황야"
+    "region_ko": "황야",
+    "region_en": "Wilderness"
    },
    {
     "table": "HAV_HarperQuarterMaster",
     "trader": "S_HAV_HavenOutcasts_HarperQuartermaster",
     "trader_ko": "병참 장교 탈리",
+    "trader_en": "Quartermaster Talli",
     "level": "SCL_Main_A",
-    "region_ko": "그림자 저주에 물든 땅"
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands"
    },
    {
     "table": "LOW_BaldursMouth_Paperboy_Broadsheets",
     "trader": "S_WYR_Posthouse_BroadsheetSeller",
     "trader_ko": "릴리 빈바텀",
+    "trader_en": "Lilly Beanbottom",
     "level": "BGO_Main_A",
-    "region_ko": "웜 건널목"
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing"
    },
    {
     "table": "LOW_MysticCarrion_Trade",
     "trader": "S_LOW_FatherCarrion",
     "trader_ko": "미스틱 캐리온",
+    "trader_en": "Mystic Carrion",
     "level": "CTY_Main_A",
-    "region_ko": "아랫 도시"
+    "region_ko": "아랫 도시",
+    "region_en": "Lower City"
    },
    {
     "table": "LOW_Prison_Rat",
     "trader": "S_LOW_Prison_Rat01",
     "trader_ko": "스키틀",
+    "trader_en": "Skittle",
     "level": "CTY_Main_A",
-    "region_ko": "힙사이드 감옥"
+    "region_ko": "힙사이드 감옥",
+    "region_en": "Heapside Prison"
    },
    {
     "table": "LOW_StormshoreTabernacle_Guardian",
     "trader": "S_LOW_TempleGuardian",
     "trader_ko": "험블토즈 목사",
+    "trader_en": "Vicar Humbletoes",
     "level": "CTY_Main_A",
-    "region_ko": "발더스 게이트"
+    "region_ko": "발더스 게이트",
+    "region_en": "Baldur's Gate"
    },
    {
     "table": "PLA_Tollhouse_SuppliesTrader",
     "trader": "S_PLA_Refugee_003",
     "trader_ko": "사이렐",
+    "trader_en": "Cyrel",
     "level": "WLD_Main_A",
-    "region_ko": "황야"
+    "region_ko": "황야",
+    "region_en": "Wilderness"
    },
    {
     "table": "SHA_Necromancer",
     "trader": "S_SHA_Necromancer",
     "trader_ko": "발타자르",
+    "trader_en": "Balthazar",
     "level": "SCL_Main_A",
-    "region_ko": "그림자 저주에 물든 땅"
+    "region_ko": "그림자 저주에 물든 땅",
+    "region_en": "Shadow-Cursed Lands"
    },
    {
     "table": "UND_SocietyOfBrilliance_Hobgoblin",
     "trader": "S_GLO_SocietyOfBrilliance_Hobgoblin",
     "trader_ko": "블러그",
+    "trader_en": "Blurg",
     "level": "WLD_Main_A",
-    "region_ko": "황야"
+    "region_ko": "황야",
+    "region_en": "Wilderness"
    },
    {
     "table": "WYR_Circus_FacePainter",
     "trader": "S_WYR_Circus_FacePainter",
     "trader_ko": "미라 자라",
+    "trader_en": "Zara the Mummy",
     "level": "BGO_Main_A",
-    "region_ko": "웜 건널목"
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing"
    },
    {
     "table": "WYR_Circus_Ringmaster",
     "trader": "S_WYR_Circus_Ringmaster",
     "trader_ko": "루크리셔스",
+    "trader_en": "Lucretious",
     "level": "BGO_Main_A",
-    "region_ko": "웜 건널목"
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing"
    },
    {
     "table": "WYR_Circus_Sculptor",
     "trader": "S_WYR_Circus_Sculptor",
     "trader_ko": "보니",
+    "trader_en": "Boney",
     "level": "BGO_Main_A",
-    "region_ko": "웜 건널목"
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing"
    },
    {
     "table": "WYR_Danthelon_Trader",
     "trader": "S_WYR_Danthelon",
     "trader_ko": "엔탈 단텔론",
+    "trader_en": "Entharl Danthelon",
     "level": "BGO_Main_A",
-    "region_ko": "웜 건널목"
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing"
    },
    {
     "table": "WYR_Ironhand_Merchant",
     "trader": "S_WYR_Ironhand_Merchant",
     "trader_ko": "범프나겔",
+    "trader_en": "Bumpnagel",
     "level": "BGO_Main_A",
-    "region_ko": "웜 건널목"
+    "region_ko": "웜 건널목",
+    "region_en": "Wyrm's Crossing"
    }
   ],
   "loot_holders": [

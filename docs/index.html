@@ -3,29 +3,34 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BG3 책 열람실</title>
+<title>BG3 책 열람실 · BG3 Book Library</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <h1>BG3 책 열람실</h1>
-  <p class="sub">발더스 게이트 3에 등장하는 읽을 수 있는 책·쪽지·석판 <span id="total"></span></p>
+  <div class="head-row">
+    <h1 data-i18n="title">BG3 책 열람실</h1>
+    <div class="ui-lang" role="group" aria-label="Language">
+      <button type="button" data-ui="ko">한국어</button><button type="button" data-ui="en">English</button>
+    </div>
+  </div>
+  <p class="sub"><span data-i18n="sub"></span> <span id="total"></span></p>
 </header>
 <div class="layout">
   <aside class="filters">
-    <input id="q" type="search" placeholder="제목·내용·장소 검색 (한/영)" autocomplete="off">
-    <label>유형 <select id="f-ty"><option value="">전체</option></select></label>
-    <label>획득 유형 <select id="f-a"><option value="">전체</option></select></label>
-    <label>열람 배경 <select id="f-bg"><option value="">전체</option></select></label>
-    <label>지역 <select id="f-r"><option value="">전체</option></select></label>
-    <label>태그 <select id="f-tg"><option value="">전체</option></select></label>
-    <button id="reset" type="button">필터 초기화</button>
+    <input id="q" type="search" autocomplete="off">
+    <label><span data-i18n="f-ty"></span> <select id="f-ty"></select></label>
+    <label><span data-i18n="f-a"></span> <select id="f-a"></select></label>
+    <label><span data-i18n="f-bg"></span> <select id="f-bg"></select></label>
+    <label><span data-i18n="f-r"></span> <select id="f-r"></select></label>
+    <label><span data-i18n="f-tg"></span> <select id="f-tg"></select></label>
+    <button id="reset" type="button" data-i18n="reset"></button>
     <p class="count" id="count"></p>
     <ul id="list"></ul>
   </aside>
-  <main id="detail"><p class="empty">왼쪽 목록에서 책을 선택하세요.</p></main>
+  <main id="detail"></main>
 </div>
-<footer>데이터: 바닐라 게임 파일에서 추출(제목·내용 핸들, 배치, 트레저 테이블, 상점, Osiris 스크립트). 태그는 키워드로 추론한 값입니다.</footer>
+<footer data-i18n="footer"></footer>
 <script src="app.js"></script>
 </body>
 </html>

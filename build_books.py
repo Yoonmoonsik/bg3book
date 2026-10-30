@@ -250,7 +250,8 @@ for mk, o in LEVEL_OBJ.items():
              "title": o["display"]}
     if c:
         co = LEVEL_OBJ[c]
-        entry.update(how="in_container", container=str(co["name"]), container_ko=txt(co["display"], KO))
+        entry.update(how="in_container", container=str(co["name"]), container_ko=txt(co["display"], KO),
+                     container_en=txt(co["display"], EN))
         entry["pos"] = co["pos"] or o["pos"]
     PLACE[tpl].append(entry)
 
@@ -414,6 +415,7 @@ def where_entry(pl):
         "instance_title_ko": txt(pl.get("title", ""), KO), "instance_title_handle": pl.get("title", ""),
         "object": pl.get("instance") or "",
         "container": pl.get("container", ""), "container_ko": pl.get("container_ko", ""),
+        "container_en": pl.get("container_en", ""), "holder_en": (pl.get("holder") or {}).get("en", ""),
         "holder": (pl.get("holder") or {}).get("name", ""), "holder_ko": (pl.get("holder") or {}).get("ko", ""),
     }
 
@@ -457,8 +459,8 @@ for bid, g in sorted(groups.items(), key=lambda t: str(t[0])):
         lt = [h for r in rs for h in LOOTERS.get(r, [])]
         for h in tr:
             reg = region_of(h["level"], h["pos"])
-            shops.append({"table": t, "trader": h["name"], "trader_ko": h["ko"], "level": h["level"],
-                          "region_ko": reg["ko"] if reg else ""})
+            shops.append({"table": t, "trader": h["name"], "trader_ko": h["ko"], "trader_en": h["en"], "level": h["level"],
+                          "region_ko": reg["ko"] if reg else "", "region_en": reg["en"] if reg else ""})
         for h in lt:
             reg = region_of(h["level"], h["pos"])
             loots.append({"table": t, "holder": h["name"], "holder_ko": h["ko"], "level": h["level"],
@@ -564,8 +566,9 @@ for b in out:
         "a": b["acquisition"], "tg": b["tags_inferred"],
         "p": sorted({place_label(p) for p in b["found_at"]}),
         "pl": [{"r": p["region_ko"], "l": p["level"], "h": p["how"], "o": p["object"], "k": p["container_ko"] or p["holder_ko"],
-                "m": p["region_method"], "xyz": p["position"]} for p in b["found_at"]],
-        "s": uniq(f"{s['trader_ko'] or s['trader']} ({s['region_ko'] or s['level']})" for s in b["shops"]),
+                "re": p["region_en"], "ke": p["container_en"] or p["holder_en"], "m": p["region_method"], "xyz": p["position"]} for p in b["found_at"]],
+        "s": [dict(t) for t in {(("k", f"{s['trader_ko'] or s['trader']} ({s['region_ko'] or s['level']})"),
+                                  ("e", f"{s['trader_en'] or s['trader']} ({s['region_en'] or s['level']})")) for s in b["shops"]}],
         "tt": b["treasure_tables"],
         "os": uniq(f"{o['target_ko'] or o['target']} ← {o['goal']} {o['func']}" + (f" [{o['via']}]" if o["via"] != "direct" else "") for o in b["osiris_given"]),
         "tp": uniq(str(x["name"]) for x in t), "ic": uniq(str(x["icon"]) for x in t if x["icon"]),

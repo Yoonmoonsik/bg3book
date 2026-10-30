@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BG3 책 열람실</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>BG3 책 열람실</h1>
+  <p class="sub">발더스 게이트 3에 등장하는 읽을 수 있는 책·쪽지·석판 <span id="total"></span></p>
+</header>
+<div class="layout">
+  <aside class="filters">
+    <input id="q" type="search" placeholder="제목·내용·장소 검색 (한/영)" autocomplete="off">
+    <label>유형 <select id="f-ty"><option value="">전체</option></select></label>
+    <label>획득 유형 <select id="f-a"><option value="">전체</option></select></label>
+    <label>열람 배경 <select id="f-bg"><option value="">전체</option></select></label>
+    <label>지역 <select id="f-r"><option value="">전체</option></select></label>
+    <label>태그 <select id="f-tg"><option value="">전체</option></select></label>
+    <button id="reset" type="button">필터 초기화</button>
+    <p class="count" id="count"></p>
+    <ul id="list"></ul>
+  </aside>
+  <main id="detail"><p class="empty">왼쪽 목록에서 책을 선택하세요.</p></main>
+</div>
+<footer>데이터: 바닐라 게임 파일에서 추출(제목·내용 핸들, 배치, 트레저 테이블, 상점, Osiris 스크립트). 태그는 키워드로 추론한 값입니다.</footer>
+<script src="app.js"></script>
+</body>
+</html>

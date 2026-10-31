@@ -129,7 +129,6 @@ function applyUi() {
     books.sort((a, b) => title(a).localeCompare(title(b), ui));
     apply();
     current ? show(current) : ($("detail").innerHTML = `<p class="empty">${T("pick")}</p>`);
-    renderRecent();
   }
 }
 
@@ -163,7 +162,6 @@ function show(b) {
   if (RECENT[0] !== b.id) {
     RECENT = [b.id, ...RECENT.filter((id) => id !== b.id)].slice(0, 10);
     saveRecent();
-    renderRecent();
   }
   document.querySelectorAll("#list li").forEach((li) => li.classList.toggle("on", li.dataset.id === b.id));
   const bg = b.bg[0] || "None";
@@ -176,6 +174,7 @@ function show(b) {
   }).join("");
   const shops = b.s.map((s) => (ui === "en" ? s.e : s.k));
   $("detail").innerHTML = `
+    ${recentNav()}
     <div class="head-row"><h2 class="title">${esc(title(b))}</h2>
       <span class="head-btns"><button class="readbtn${FAV.has(b.id) ? " on" : ""}" data-fav>${FAV.has(b.id) ? T("isFav") : T("markFav")}</button>
       <button class="readbtn${READ.has(b.id) ? " on" : ""}" data-read>${READ.has(b.id) ? T("isRead") : T("markRead")}</button></span></div>
@@ -222,10 +221,12 @@ function renderProgress() {
     ...ACT_ORDER.filter((a) => acts[a]).map((a) => `${val(a)} ${acts[a][0]}/${acts[a][1]}`)].join(" · ");
 }
 
-function renderRecent() {
+// Above the title; the open book is marked, the others open on click.
+function recentNav() {
   const ids = RECENT.filter((id) => byId[id]);
-  $("recent-box").hidden = !ids.length;
-  $("recent").innerHTML = ids.map((id) => `<li><a href="#" data-id="${esc(id)}">${esc(title(byId[id]))}</a></li>`).join("");
+  return `<nav class="recent"><b>${T("recent")}</b>${ids.map((id) => id === current.id
+    ? `<span class="on">${esc(title(byId[id]))}</span>`
+    : `<a href="#" data-go="${esc(id)}">${esc(title(byId[id]))}</a>`).join("")}</nav>`;
 }
 
 function openBook(b) {
@@ -405,10 +406,6 @@ $("list").addEventListener("click", (e) => {
     show(byId[li.dataset.id]);
     if (innerWidth <= 820) $("detail").scrollIntoView({ behavior: "smooth" });
   }
-});
-$("recent").addEventListener("click", (e) => {
-  const a = e.target.closest("a[data-id]");
-  if (a) { e.preventDefault(); openBook(byId[a.dataset.id]); }
 });
 $("random").addEventListener("click", () => shown.length && openBook(shown[Math.floor(Math.random() * shown.length)]));
 

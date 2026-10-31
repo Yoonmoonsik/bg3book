@@ -34,10 +34,11 @@ h1 { margin: 0; font-size: 24px; color: var(--accent); letter-spacing: .02em; }
 .io { display: flex; gap: 6px; }
 .io button { font-size: 13px; }
 #io-msg:empty { display: none; }
-#recent-box summary { cursor: pointer; font-size: 13px; color: var(--muted); }
-#recent { margin: 4px 0 0; padding-left: 22px; font-size: 13px; max-height: 180px; overflow-y: auto; }
-#recent a { color: var(--text); text-decoration: none; }
-#recent a:hover { color: var(--accent); }
+.recent { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; margin: 0 0 12px; font-size: 12px; color: var(--muted); }
+.recent b { font-weight: normal; margin-right: 2px; }
+.recent a, .recent span { border: 1px solid var(--line); border-radius: 999px; padding: 1px 10px; color: var(--text); text-decoration: none; }
+.recent a:hover { color: var(--accent); }
+.recent span.on { border-color: var(--accent); color: var(--accent); }
 #list { list-style: none; margin: 0; padding: 0; overflow-y: auto; flex: 1; border-top: 1px solid var(--line); }
 #list li { padding: 8px 6px; border-bottom: 1px solid var(--line); cursor: pointer; }
 #list li:hover, #list li.on { background: var(--chip); }

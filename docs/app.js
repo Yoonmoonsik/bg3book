@@ -254,7 +254,7 @@ function toggleRead() {
   show(current);
 }
 
-// Left/right arrow keys turn the page, up/down open the next/previous book in the list, R toggles
+// Left/right arrow keys turn the page, up/down open the next/previous book in the list (after scrolling a scrolling page to its end), R toggles
 // the read mark and E/K switch the book text to English/Korean, unless a text box or select has focus. The keys are listed on help.html.
 addEventListener("keydown", (e) => {
   if (e.ctrlKey || e.metaKey || e.altKey || (e.target instanceof Element && e.target.closest("input, select, textarea"))) return;
@@ -268,6 +268,13 @@ addEventListener("keydown", (e) => {
   }
   if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.key)) return;
   if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+    // A scrolling page (scroll, tablet, disc) scrolls first; at its top or bottom the keys change the book.
+    const t = document.querySelector(".page .txt"), down = e.key === "ArrowDown";
+    if (t && t.scrollHeight > t.clientHeight + 1 && (down ? t.scrollTop + t.clientHeight < t.scrollHeight - 1 : t.scrollTop > 0)) {
+      e.preventDefault();
+      t.scrollBy({ top: (down ? 1 : -1) * t.clientHeight * 0.2, behavior: "smooth" });
+      return;
+    }
     const list = shown, i = list.indexOf(current);
     const b = list[i < 0 ? 0 : i + (e.key === "ArrowDown" ? 1 : -1)];
     if (!b) return;

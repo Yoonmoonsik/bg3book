@@ -157,22 +157,22 @@ function show(b) {
   const shops = b.s.map((s) => (ui === "en" ? s.e : s.k));
   $("detail").innerHTML = `
     <div class="head-row"><h2 class="title">${esc(title(b))}</h2>
-      <span class="head-btns"><button class="readbtn${FAV.has(b.id) ? " on" : ""}" data-fav>${FAV.has(b.id) ? T("isFav") : T("markFav")}</button>
+      <span class="head-btns tech"><button class="readbtn${FAV.has(b.id) ? " on" : ""}" data-fav>${FAV.has(b.id) ? T("isFav") : T("markFav")}</button>
       <button class="readbtn${READ.has(b.id) ? " on" : ""}" data-read>${READ.has(b.id) ? T("isRead") : T("markRead")}</button></span></div>
     <p class="title-en">${esc(subtitle(b))}</p>
-    <div class="chips">
+    <div class="chips tech">
       <span class="chip type" data-f="f-ty" data-v="${esc(b.ty)}">${esc(val(b.ty))}</span>
       ${b.a.map((a) => `<span class="chip" data-f="f-a" data-v="${esc(a)}">${esc(val(a))}</span>`).join("")}
       ${b.bg.map((g) => `<span class="chip" data-f="f-bg" data-v="${esc(g)}">${T("bg")}: ${esc(bgName(g))}</span>`).join("")}
     </div>
-    <div class="chips">${b.tg.map((t) => `<span class="chip" data-f="f-tg" data-v="${esc(t)}">#${esc(tag(t))}</span>`).join("")}</div>
-    ${ui === "en" ? "" : `<div class="toggle"><button data-lang="ko" class="${lang === "ko" ? "on" : ""}">한국어</button> <button data-lang="en" class="${lang === "en" ? "on" : ""}">English</button></div>`}
+    <div class="chips tech">${b.tg.map((t) => `<span class="chip" data-f="f-tg" data-v="${esc(t)}">#${esc(tag(t))}</span>`).join("")}</div>
+    ${ui === "en" ? "" : `<div class="toggle tech"><button data-lang="ko" class="${lang === "ko" ? "on" : ""}">한국어</button> <button data-lang="en" class="${lang === "en" ? "on" : ""}">English</button></div>`}
     <div class="page ${esc(bg)}" style="background-image:url('assets/${BG[bg]?.[2] || "Book_BG_B1"}.webp')"><div class="txt">${rich(text).replace(/\n{3,}/g, "\n\n") || `<i>${T("none")}</i>`}<span class="end"></span><span class="pad"></span></div></div>
     ${seriesNav(b)}
     <div class="pager" hidden><button data-turn="-1">${T("prev")}</button><span id="pg"></span><span id="hits"></span><button data-turn="1">${T("next")}</button></div>
-    ${b.u.length && ui === "ko" ? `<p>${T("unknown")}: ${esc(b.u.join(" / "))}</p>` : ""}
+    ${b.u.length && ui === "ko" ? `<p class="tech">${T("unknown")}: ${esc(b.u.join(" / "))}</p>` : ""}
     <section class="tech"><h3>${T("places")} (${b.pl.length})</h3>${rows ? `<table><tr><th>${T("region")}</th><th>${T("how")}</th><th class="tech">${T("level")}</th><th class="tech">${T("method")}</th></tr>${rows}</table>` : `<p class='empty'>${T("noPlace")}</p>`}</section>
-    ${shops.length ? `<section><h3>${T("shops")}</h3><p>${shops.map(esc).join("<br>")}</p></section>` : ""}
+    ${shops.length ? `<section class="tech"><h3>${T("shops")}</h3><p>${shops.map(esc).join("<br>")}</p></section>` : ""}
     ${b.os.length ? `<section class="tech"><h3>${T("osiris")}</h3><p>${(ui === "en" ? b.oe : b.os).map(esc).join("<br>")}</p></section>` : ""}
     ${b.mv.length ? `<section class="tech"><h3>${T("moved")}</h3><p>${(ui === "en" ? b.mve : b.mv).map(esc).join("<br>")}</p></section>` : ""}
     ${b.tt.length ? `<section class="tech"><h3>${T("tables")}</h3><p><code>${b.tt.map(esc).join(", ")}</code></p></section>` : ""}
@@ -192,7 +192,7 @@ function show(b) {
 function seriesNav(b) {
   if (!b.sr) return "";
   const i = b.sr.indexOf(b.id);
-  return `<div class="series"><b>${T("series")} ${i + 1} / ${b.sr.length}</b>
+  return `<div class="series tech"><b>${T("series")} ${i + 1} / ${b.sr.length}</b>
     <button data-go="${esc(b.sr[i - 1] || "")}" ${i ? "" : "disabled"}>${T("prev")}</button>
     <button data-go="${esc(b.sr[i + 1] || "")}" ${i < b.sr.length - 1 ? "" : "disabled"}>${T("next")}</button>
     <ol>${b.sr.map((id) => `<li${id === b.id ? ' class="on"' : ""}><a href="#" data-go="${esc(id)}">${esc(title(byId[id]))}</a></li>`).join("")}</ol></div>`;
@@ -271,7 +271,7 @@ function toggleFav() {
   show(current);
 }
 
-// Technical rows (the Found at, Osiris, Picked up during the story, treasure table and data sections) start hidden; the choice lives only in this browser.
+// Everything but the title, the book text and its pager is technical: hidden mode shows only the book start hidden; the choice lives only in this browser.
 // The button names what a click does: show while hidden, hide while shown.
 let tech = false;
 try { tech = localStorage.getItem("tech") === "1"; } catch (e) { /* storage blocked */ }

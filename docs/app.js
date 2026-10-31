@@ -1,6 +1,7 @@
 // UI strings. Data values (type, acquisition, tags) are stored in Korean and translated here.
 const I18N = {
   ko: {
+    site_quest: "BG3 퀘스트 일지", site_dnd: "5.5e 모드 데이터 검색",
     title: "BG3 책 열람실", sub: "발더스 게이트 3에 등장하는 읽을 수 있는 책·쪽지·석판", unit: "종",
     q: "제목·내용·장소 검색 (한/영)", "f-ty": "유형", "f-a": "획득 유형", "f-bg": "열람 배경", "f-r": "지역", "f-tg": "태그",
     all: "전체", reset: "필터 초기화", shown: (n) => `${n}권 표시`,
@@ -14,6 +15,7 @@ const I18N = {
     footer: "데이터: 바닐라 게임 파일에서 추출(제목·내용 핸들, 배치, 트레저 테이블, 상점, Osiris 스크립트). 태그는 키워드로 추론한 값입니다.",
   },
   en: {
+    site_quest: "BG3 Quest Journal", site_dnd: "5.5e mod data browser",
     title: "BG3 Book Library", sub: "Readable books, notes and tablets in Baldur's Gate 3", unit: "entries",
     q: "Search title, text or place", "f-ty": "Type", "f-a": "Source", "f-bg": "Background", "f-r": "Region", "f-tg": "Tag",
     all: "All", reset: "Reset filters", shown: (n) => `${n} shown`,

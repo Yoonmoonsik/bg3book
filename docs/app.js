@@ -3,7 +3,7 @@ const I18N = {
   ko: {
     title: "BG3 책 열람실", sub: "발더스 게이트 3에 등장하는 읽을 수 있는 책·쪽지·석판", unit: "종",
     q: "제목·내용·장소 검색 (한/영)", "f-ty": "유형", "f-a": "획득 유형", "f-bg": "열람 배경", "f-r": "지역", "f-tg": "태그",
-    all: "전체", reset: "필터 초기화", shown: (n) => `${n}권 표시`, more: (n) => `… 외 ${n}권 (검색어나 필터로 좁혀 주세요)`,
+    all: "전체", reset: "필터 초기화", shown: (n) => `${n}권 표시`,
     pick: "왼쪽 목록에서 책을 선택하세요.", none: "(내용 없음)", unknown: "미확인 제목", noSource: "획득처 확인 안 됨",
     places: "발견 장소", region: "지역", how: "방식", level: "레벨 (좌표)", method: "지역 판정", noPlace: "맵 배치 없음",
     shops: "판매 상인", osiris: "스토리 스크립트(Osiris) 지급", tables: "트레저 테이블", data: "데이터",
@@ -16,7 +16,7 @@ const I18N = {
   en: {
     title: "BG3 Book Library", sub: "Readable books, notes and tablets in Baldur's Gate 3", unit: "entries",
     q: "Search title, text or place", "f-ty": "Type", "f-a": "Source", "f-bg": "Background", "f-r": "Region", "f-tg": "Tag",
-    all: "All", reset: "Reset filters", shown: (n) => `${n} shown`, more: (n) => `… ${n} more (narrow with search or filters)`,
+    all: "All", reset: "Reset filters", shown: (n) => `${n} shown`,
     pick: "Pick a book from the list.", none: "(no text)", unknown: "Unidentified title", noSource: "Source not found",
     places: "Found at", region: "Region", how: "How", level: "Level (coords)", method: "Region match", noPlace: "Not placed on a map",
     shops: "Sold by", osiris: "Given by story script (Osiris)", tables: "Treasure tables", data: "Data",
@@ -121,10 +121,9 @@ function apply() {
     (!f.bg || b.bg.includes(f.bg)) && (!f.r || regions(b).includes(f.r)) && (!f.tg || b.tg.includes(f.tg)));
   $("count").textContent = T("shown", shown.length.toLocaleString());
   const list = $("list");
-  list.innerHTML = shown.slice(0, 600).map((b) =>
+  list.innerHTML = shown.map((b) =>
     `<li data-id="${esc(b.id)}"${current && current.id === b.id ? ' class="on"' : ""}><span class="t">${READ.has(b.id) ? "✓ " : ""}${esc(title(b))}</span>` +
-    `<span class="m">${esc(val(b.ty))} · ${esc(regions(b).slice(0, 3).join(", ") || b.a.map(val).join(", ") || T("noSource"))}</span></li>`).join("") +
-    (shown.length > 600 ? `<li class="m">${esc(T("more", shown.length - 600))}</li>` : "");
+    `<span class="m">${esc(val(b.ty))} · ${esc(regions(b).slice(0, 3).join(", ") || b.a.map(val).join(", ") || T("noSource"))}</span></li>`).join("");
   const s = new URLSearchParams(f);
   if (q) s.set("q", q);
   if (current) s.set("id", current.id);
@@ -248,9 +247,19 @@ $("detail").addEventListener("wheel", (e) => {
   if (turn(d)) { wheelAt = now; e.preventDefault(); }
 }, { passive: false });
 
-// Left/right arrow keys turn the page unless a text box or select has focus.
+// Left/right arrow keys turn the page and up/down open the next/previous book in the list,
+// unless a text box or select has focus.
 addEventListener("keydown", (e) => {
-  if (!["ArrowLeft", "ArrowRight"].includes(e.key) || (e.target instanceof Element && e.target.closest("input, select, textarea"))) return;
+  if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.key) || (e.target instanceof Element && e.target.closest("input, select, textarea"))) return;
+  if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+    const list = shown, i = list.indexOf(current);
+    const b = list[i < 0 ? 0 : i + (e.key === "ArrowDown" ? 1 : -1)];
+    if (!b) return;
+    e.preventDefault();
+    show(b);
+    document.querySelector(`#list li[data-id="${CSS.escape(b.id)}"]`)?.scrollIntoView({ block: "nearest" });
+    return;
+  }
   if (document.querySelector(".page.None") && turn(e.key === "ArrowRight" ? 1 : -1)) e.preventDefault();
 });
 

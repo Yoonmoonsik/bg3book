@@ -254,14 +254,15 @@ function toggleRead() {
   show(current);
 }
 
-// Left/right arrow keys turn the page, up/down open the next/previous book in the list and R toggles
-// the read mark, unless a text box or select has focus. The keys are listed on help.html.
+// Left/right arrow keys turn the page, up/down open the next/previous book in the list, R toggles
+// the read mark and E/K switch to English/Korean, unless a text box or select has focus. The keys are listed on help.html.
 addEventListener("keydown", (e) => {
   if (e.ctrlKey || e.metaKey || e.altKey || (e.target instanceof Element && e.target.closest("input, select, textarea"))) return;
   if (e.code === "KeyR") { // physical key, so r, R, ㄱ and ㄲ all count
     if (current) { e.preventDefault(); toggleRead(); }
     return;
   }
+  if (e.code === "KeyE" || e.code === "KeyK") { e.preventDefault(); setUi(e.code === "KeyE" ? "en" : "ko"); return; }
   if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.key)) return;
   if (e.key === "ArrowUp" || e.key === "ArrowDown") {
     const list = shown, i = list.indexOf(current);
@@ -275,11 +276,12 @@ addEventListener("keydown", (e) => {
   if (document.querySelector(".page.None") && turn(e.key === "ArrowRight" ? 1 : -1)) e.preventDefault();
 });
 
-document.querySelectorAll("[data-ui]").forEach((b) => b.addEventListener("click", () => {
-  ui = lang = b.dataset.ui;
+function setUi(v) {
+  ui = lang = v;
   try { localStorage.setItem("ui", ui); } catch (e) { /* storage blocked */ }
   applyUi();
-}));
+}
+document.querySelectorAll("[data-ui]").forEach((b) => b.addEventListener("click", () => setUi(b.dataset.ui)));
 $("detail").addEventListener("click", (e) => {
   const c = e.target.closest(".chip");
   if (c) { $(c.dataset.f).value = c.dataset.v; apply(); return; }

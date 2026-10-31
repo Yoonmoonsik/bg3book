@@ -11,7 +11,7 @@ const I18N = {
     contentHandle: "내용 핸들", titleHandle: "제목 핸들", templates: "템플릿", icon: "아이콘", bg: "배경",
     prev: "◀ 이전", next: "다음 ▶", carried: "소지", "f-ac": "막", "f-rd": "읽음", read: "읽은 책", unread: "안 읽은 책", "f-fv": "즐겨찾기", fav: "즐겨찾기한 책", notFav: "즐겨찾기 안 한 책",
     markRead: "읽음 표시", isRead: "✓ 읽음", markFav: "☆ 즐겨찾기", isFav: "★ 즐겨찾기", series: "시리즈", moved: "스토리 진행 중 획득", cutscene: "엔딩·에필로그 장면",
-    hits: (n) => `검색어 ${n}곳`, help: "도움말",
+    hits: (n) => `검색어 ${n}곳`, help: "도움말", techShow: "기술 정보 표시", techHide: "기술 정보 숨기기",
     footer: "데이터: 바닐라 게임 파일에서 추출(제목·내용 핸들, 배치, 트레저 테이블, 상점, Osiris 스크립트). 태그는 키워드로 추론한 값입니다.",
   },
   en: {
@@ -25,7 +25,7 @@ const I18N = {
     contentHandle: "Content handle", titleHandle: "Title handle", templates: "Templates", icon: "Icon", bg: "Background",
     prev: "◀ Prev", next: "Next ▶", carried: "carried", "f-ac": "Act", "f-rd": "Read", read: "Read", unread: "Unread", "f-fv": "Favorites", fav: "Favorites", notFav: "Not favorites",
     markRead: "Mark as read", isRead: "✓ Read", markFav: "☆ Favorite", isFav: "★ Favorite", series: "Series", moved: "Picked up during the story", cutscene: "Ending/epilogue scene",
-    hits: (n) => `${n} match${n === 1 ? "" : "es"}`, help: "Help",
+    hits: (n) => `${n} match${n === 1 ? "" : "es"}`, help: "Help", techShow: "Show technical info", techHide: "Hide technical info",
     footer: "Data extracted from the vanilla game files (title/content handles, placements, treasure tables, traders, Osiris scripts). Tags are inferred from keywords.",
   },
 };
@@ -109,6 +109,7 @@ function applyUi() {
   document.querySelectorAll("[data-i18n]").forEach((el) => (el.textContent = T(el.dataset.i18n)));
   document.querySelectorAll("[data-ui]").forEach((b) => b.classList.toggle("on", b.dataset.ui === ui));
   $("help").href = "help.html?lang=" + ui;
+  showTech();
   $("q").placeholder = T("q");
   if (books.length) {
     $("total").textContent = `· ${books.length.toLocaleString()} ${T("unit")}`;
@@ -151,7 +152,7 @@ function show(b) {
   const rows = b.pl.map((p) => {
     const who = ui === "en" ? p.ke : p.k || p.ke;
     return `<tr${p.cs ? ' class="cs"' : ""}><td>${esc(region(p))} <small>(${esc(val(p.a))})</small>${p.cs ? ` <small>(${T("cutscene")})</small>` : ""}</td><td>${esc(HOW[p.h]?.[ui === "en" ? 1 : 0] || p.h)}${who ? " · " + esc(who) : ""}</td>
-    <td><code>${esc(p.l)}${p.xyz ? " (" + p.xyz.map((v) => v.toFixed(0)).join(", ") + ")" : ""}</code></td><td><code>${esc(p.m)}</code></td></tr>`;
+    <td class="tech"><code>${esc(p.l)}${p.xyz ? " (" + p.xyz.map((v) => v.toFixed(0)).join(", ") + ")" : ""}</code></td><td class="tech"><code>${esc(p.m)}</code></td></tr>`;
   }).join("");
   const shops = b.s.map((s) => (ui === "en" ? s.e : s.k));
   $("detail").innerHTML = `
@@ -170,12 +171,12 @@ function show(b) {
     ${seriesNav(b)}
     <div class="pager" hidden><button data-turn="-1">${T("prev")}</button><span id="pg"></span><span id="hits"></span><button data-turn="1">${T("next")}</button></div>
     ${b.u.length && ui === "ko" ? `<p>${T("unknown")}: ${esc(b.u.join(" / "))}</p>` : ""}
-    <section><h3>${T("places")} (${b.pl.length})</h3>${rows ? `<table><tr><th>${T("region")}</th><th>${T("how")}</th><th>${T("level")}</th><th>${T("method")}</th></tr>${rows}</table>` : `<p class='empty'>${T("noPlace")}</p>`}</section>
+    <section><h3>${T("places")} (${b.pl.length})</h3>${rows ? `<table><tr><th>${T("region")}</th><th>${T("how")}</th><th class="tech">${T("level")}</th><th class="tech">${T("method")}</th></tr>${rows}</table>` : `<p class='empty'>${T("noPlace")}</p>`}</section>
     ${shops.length ? `<section><h3>${T("shops")}</h3><p>${shops.map(esc).join("<br>")}</p></section>` : ""}
     ${b.os.length ? `<section><h3>${T("osiris")}</h3><p>${(ui === "en" ? b.oe : b.os).map(esc).join("<br>")}</p></section>` : ""}
     ${b.mv.length ? `<section><h3>${T("moved")}</h3><p>${(ui === "en" ? b.mve : b.mv).map(esc).join("<br>")}</p></section>` : ""}
     ${b.tt.length ? `<section><h3>${T("tables")}</h3><p><code>${b.tt.map(esc).join(", ")}</code></p></section>` : ""}
-    <section><h3>${T("data")}</h3><dl>
+    <section class="tech"><h3>${T("data")}</h3><dl>
       <dt>BookId</dt><dd><code>${esc(b.id)}</code></dd>
       <dt>${T("contentHandle")}</dt><dd><code>${esc(b.ch)}</code></dd>
       <dt>${T("titleHandle")}</dt><dd><code>${esc(b.th.join(", "))}</code></dd>
@@ -270,14 +271,31 @@ function toggleFav() {
   show(current);
 }
 
+// Technical rows (level and coordinates, region match, the data section) start hidden; the choice lives only in this browser.
+// The button names what a click does: show while hidden, hide while shown.
+let tech = false;
+try { tech = localStorage.getItem("tech") === "1"; } catch (e) { /* storage blocked */ }
+function showTech() {
+  document.body.classList.toggle("notech", !tech);
+  $("tech").classList.toggle("on", tech);
+  $("tech").textContent = T(tech ? "techHide" : "techShow");
+}
+function toggleTech() {
+  tech = !tech;
+  try { localStorage.setItem("tech", tech ? "1" : "0"); } catch (e) { /* storage blocked */ }
+  showTech();
+}
+$("tech").onclick = toggleTech;
+
 // Left/right arrow keys turn the page, up/down open the next/previous book in the list (after scrolling a scrolling page to its end), R toggles
-// the read mark, F toggles the favorite and E/K switch the book text to English/Korean, unless a text box or select has focus. The keys are listed on help.html.
+// the read mark, F toggles the favorite, T toggles the technical info and E/K switch the book text to English/Korean, unless a text box or select has focus. The keys are listed on help.html.
 addEventListener("keydown", (e) => {
   if (e.ctrlKey || e.metaKey || e.altKey || (e.target instanceof Element && e.target.closest("input, select, textarea"))) return;
   if (e.code === "KeyR") { // physical key, so r, R, ㄱ and ㄲ all count
     if (current) { e.preventDefault(); toggleRead(); }
     return;
   }
+  if (e.code === "KeyT") { e.preventDefault(); toggleTech(); return; }
   if (e.code === "KeyF") {
     if (current) { e.preventDefault(); toggleFav(); }
     return;

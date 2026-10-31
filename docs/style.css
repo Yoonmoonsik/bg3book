@@ -15,6 +15,9 @@ header { padding: 20px 16px 8px; border-bottom: 1px solid var(--line); }
 .head-tools { display: flex; align-items: center; gap: 12px; }
 .help-link { color: var(--muted); font-size: 13px; }
 .help-link:hover { color: var(--accent); }
+.tech-btn { background: var(--panel); color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 4px 12px; cursor: pointer; font: inherit; font-size: 13px; }
+.tech-btn.on { color: var(--accent); border-color: var(--accent); }
+.notech .tech { display: none; }
 .help { max-width: 640px; padding: 16px; }
 .help table { border-collapse: collapse; width: 100%; }
 .help th, .help td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }

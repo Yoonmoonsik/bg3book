@@ -436,7 +436,7 @@ $("import-file").addEventListener("change", async (e) => {
 [...FILTERS, "f-rd", "f-fv"].forEach((id) => $(id).addEventListener("change", apply));
 let timer;
 $("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(apply, 150); });
-$("reset").addEventListener("click", () => { $("q").value = ""; [...FILTERS, "f-rd", "f-fv"].forEach((id) => ($(id).value = "")); apply(); });
+$("reset").addEventListener("click", () => { $("q").value = ""; [...FILTERS, "f-rd", "f-fv"].forEach((id) => ($(id).value = "")); $("f-rd").value = "0"; apply(); });
 
 applyUi();
 fetch("data/books.json").then((r) => r.json()).then((data) => {
@@ -448,6 +448,7 @@ fetch("data/books.json").then((r) => r.json()).then((data) => {
   const s = new URLSearchParams(location.search);
   $("q").value = s.get("q") || "";
   fillFilters();
+  $("f-rd").value = "0";
   ["ac", "ty", "a", "bg", "r", "tg", "rd", "fv"].forEach((k) => s.get(k) && ($("f-" + k).value = s.get(k)));
   current = books.find((x) => x.id === s.get("id")) || null;
   applyUi();

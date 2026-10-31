@@ -10,7 +10,7 @@ const I18N = {
     contentHandle: "내용 핸들", titleHandle: "제목 핸들", templates: "템플릿", icon: "아이콘", bg: "배경",
     prev: "◀ 이전", next: "다음 ▶", carried: "소지", "f-ac": "막", "f-rd": "읽음", read: "읽은 책", unread: "안 읽은 책",
     markRead: "읽음 표시", isRead: "✓ 읽음", series: "시리즈", moved: "스토리 진행 중 획득", cutscene: "엔딩·에필로그 장면",
-    hits: (n) => `검색어 ${n}곳`,
+    hits: (n) => `검색어 ${n}곳`, help: "도움말",
     footer: "데이터: 바닐라 게임 파일에서 추출(제목·내용 핸들, 배치, 트레저 테이블, 상점, Osiris 스크립트). 태그는 키워드로 추론한 값입니다.",
   },
   en: {
@@ -23,7 +23,7 @@ const I18N = {
     contentHandle: "Content handle", titleHandle: "Title handle", templates: "Templates", icon: "Icon", bg: "Background",
     prev: "◀ Prev", next: "Next ▶", carried: "carried", "f-ac": "Act", "f-rd": "Read", read: "Read", unread: "Unread",
     markRead: "Mark as read", isRead: "✓ Read", series: "Series", moved: "Picked up during the story", cutscene: "Ending/epilogue scene",
-    hits: (n) => `${n} match${n === 1 ? "" : "es"}`,
+    hits: (n) => `${n} match${n === 1 ? "" : "es"}`, help: "Help",
     footer: "Data extracted from the vanilla game files (title/content handles, placements, treasure tables, traders, Osiris scripts). Tags are inferred from keywords.",
   },
 };
@@ -100,6 +100,7 @@ function applyUi() {
   document.title = T("title");
   document.querySelectorAll("[data-i18n]").forEach((el) => (el.textContent = T(el.dataset.i18n)));
   document.querySelectorAll("[data-ui]").forEach((b) => b.classList.toggle("on", b.dataset.ui === ui));
+  $("help").href = "help.html?lang=" + ui;
   $("q").placeholder = T("q");
   if (books.length) {
     $("total").textContent = `· ${books.length.toLocaleString()} ${T("unit")}`;
@@ -247,10 +248,21 @@ $("detail").addEventListener("wheel", (e) => {
   if (turn(d)) { wheelAt = now; e.preventDefault(); }
 }, { passive: false });
 
-// Left/right arrow keys turn the page and up/down open the next/previous book in the list,
-// unless a text box or select has focus.
+function toggleRead() {
+  READ.has(current.id) ? READ.delete(current.id) : READ.add(current.id);
+  saveRead();
+  show(current);
+}
+
+// Left/right arrow keys turn the page, up/down open the next/previous book in the list and R toggles
+// the read mark, unless a text box or select has focus. The keys are listed on help.html.
 addEventListener("keydown", (e) => {
-  if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.key) || (e.target instanceof Element && e.target.closest("input, select, textarea"))) return;
+  if (e.ctrlKey || e.metaKey || e.altKey || (e.target instanceof Element && e.target.closest("input, select, textarea"))) return;
+  if (e.code === "KeyR") { // physical key, so r, R, ㄱ and ㄲ all count
+    if (current) { e.preventDefault(); toggleRead(); }
+    return;
+  }
+  if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.key)) return;
   if (e.key === "ArrowUp" || e.key === "ArrowDown") {
     const list = shown, i = list.indexOf(current);
     const b = list[i < 0 ? 0 : i + (e.key === "ArrowDown" ? 1 : -1)];
@@ -273,12 +285,7 @@ $("detail").addEventListener("click", (e) => {
   if (c) { $(c.dataset.f).value = c.dataset.v; apply(); return; }
   const go = e.target.closest("[data-go]");
   if (go) { e.preventDefault(); if (go.dataset.go) show(byId[go.dataset.go]); return; }
-  if (e.target.closest("[data-read]")) {
-    READ.has(current.id) ? READ.delete(current.id) : READ.add(current.id);
-    saveRead();
-    show(current);
-    return;
-  }
+  if (e.target.closest("[data-read]")) { toggleRead(); return; }
   const tb = e.target.closest("[data-turn]");
   if (tb) { turn(+tb.dataset.turn); return; }
   const l = e.target.closest("[data-lang]");

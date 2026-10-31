@@ -12,6 +12,14 @@ header { padding: 20px 16px 8px; border-bottom: 1px solid var(--line); }
 .ui-lang { display: flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
 .ui-lang button { background: var(--panel); color: var(--muted); border: 0; padding: 5px 12px; cursor: pointer; font: inherit; font-size: 13px; }
 .ui-lang button.on { background: var(--chip); color: var(--accent); }
+.head-tools { display: flex; align-items: center; gap: 12px; }
+.help-link { color: var(--muted); font-size: 13px; }
+.help-link:hover { color: var(--accent); }
+.help { max-width: 640px; padding: 16px; }
+.help table { border-collapse: collapse; width: 100%; }
+.help th, .help td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.help kbd { display: inline-block; min-width: 1.6em; padding: 1px 6px; border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; background: var(--panel); font-family: inherit; font-size: 13px; text-align: center; }
+.help a { color: var(--accent); }
 h1 { margin: 0; font-size: 24px; color: var(--accent); letter-spacing: .02em; }
 .sub { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
 .layout { display: grid; grid-template-columns: 360px 1fr; min-height: calc(100vh - 140px); }

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YX396N9MNX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YX396N9MNX');
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>도움말 · BG3 책 열람실</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="head-row">
+    <h1 data-t="title"></h1>
+    <div class="head-tools"><a id="back" class="help-link" href="index.html" data-t="back"></a>
+    <div class="ui-lang" role="group" aria-label="Language">
+      <button type="button" data-ui="ko">한국어</button><button type="button" data-ui="en">English</button>
+    </div></div>
+  </div>
+</header>
+<main class="help">
+  <h2 data-t="keys"></h2>
+  <table>
+    <tbody>
+      <tr><td><kbd>←</kbd> <kbd>→</kbd></td><td data-t="lr"></td></tr>
+      <tr><td><kbd>↑</kbd> <kbd>↓</kbd></td><td data-t="ud"></td></tr>
+      <tr><td><kbd>R</kbd></td><td data-t="r"></td></tr>
+    </tbody>
+  </table>
+  <p data-t="note"></p>
+</main>
+<script>
+const T = {
+  ko: {
+    title: "도움말", back: "◀ 책 열람실로", keys: "키보드 단축키",
+    lr: "이전 쪽·다음 쪽 (기본 책)", ud: "목록의 이전 책·다음 책 열기", r: "읽음 표시·읽음 표시 해제",
+    note: "검색창이나 필터 선택에 커서가 있을 때는 단축키가 작동하지 않습니다. 마우스 휠로도 기본 책의 쪽을 넘길 수 있습니다.",
+    doc: "도움말 · BG3 책 열람실",
+  },
+  en: {
+    title: "Help", back: "◀ Back to the library", keys: "Keyboard shortcuts",
+    lr: "Previous / next page (books)", ud: "Open the previous / next book in the list", r: "Mark / unmark as read",
+    note: "Shortcuts are off while the search box or a filter has focus. The mouse wheel also turns the pages of a book.",
+    doc: "Help · BG3 Book Library",
+  },
+};
+let ui = new URLSearchParams(location.search).get("lang");
+if (!T[ui]) { try { ui = localStorage.getItem("ui"); } catch (e) { /* storage blocked */ } }
+if (!T[ui]) ui = "ko";
+function applyUi() {
+  document.documentElement.lang = ui;
+  document.title = T[ui].doc;
+  document.querySelectorAll("[data-t]").forEach((el) => (el.textContent = T[ui][el.dataset.t]));
+  document.querySelectorAll("[data-ui]").forEach((b) => b.classList.toggle("on", b.dataset.ui === ui));
+  document.getElementById("back").href = "index.html?lang=" + ui;
+}
+document.querySelectorAll("[data-ui]").forEach((b) => b.addEventListener("click", () => {
+  ui = b.dataset.ui;
+  try { localStorage.setItem("ui", ui); } catch (e) { /* storage blocked */ }
+  applyUi();
+}));
+applyUi();
+</script>
+</body>
+</html>

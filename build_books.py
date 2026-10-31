@@ -605,12 +605,16 @@ for bid, g in sorted(groups.items(), key=lambda t: str(t[0])):
         acq.append("스토리 스크립트(Osiris) 지급")
     count = len(play) + len(osi)  # cutscene/epilogue copies are not counted
     unique = count == 1 and not g["tables"]
+    # A placed copy's own DisplayName comes before the template's: the site shows the first title, and the placed
+    # name is the one that matches the text (S_DEN_AntidoteRecipeBook: On Antidotes before Flora of the Dalelands).
+    ths = list(dict.fromkeys(sorted({p["instance_title_handle"] for p in places if p["instance_title_handle"]})
+                             + sorted({t["display_handle"] for t in tpls if t["display_handle"]})))
     en_all = " ".join([t["display_en"] for t in tpls] + [txt(ch, EN)])
     out.append({
         "book_id": bid, "book_file": b.get("file", ""), "content_handle": ch,
         "content_ko": txt(ch, KO), "content_en": txt(ch, EN),
-        "title_ko": sorted({t["display_ko"] for t in tpls if t["display_ko"]} | {p["instance_title_ko"] for p in places if p["instance_title_ko"]}),
-        "title_handles": sorted({t["display_handle"] for t in tpls if t["display_handle"]} | {p["instance_title_handle"] for p in places if p["instance_title_handle"]}),
+        "title_ko": list(dict.fromkeys(txt(h, KO) for h in ths if txt(h, KO))),
+        "title_handles": ths,
         "unknown_title_ko": sorted({t["unknown_display_ko"] for t in tpls if t["unknown_display_ko"]}),
         "templates": tpls,
         "book_type_raw": sorted({str(t["book_type_raw"]) for t in tpls if t["book_type_raw"] is not None}),
@@ -676,7 +680,7 @@ site = []
 for b in out:
     t = b["templates"]
     site.append({
-        "id": b["book_id"], "t": b["title_ko"], "te": sorted({txt(h, EN) for h in b["title_handles"] if txt(h, EN)}),
+        "id": b["book_id"], "t": b["title_ko"], "te": list(dict.fromkeys(txt(h, EN) for h in b["title_handles"] if txt(h, EN))),
         "u": b["unknown_title_ko"], "th": b["title_handles"], "ch": b["content_handle"],
         "c": b["content_ko"], "ce": b["content_en"],
         "bg": sorted({x["book_type"] for x in t}) or ["None"], "ty": b["uniqueness"], "n": b["placement_count"],

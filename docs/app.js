@@ -9,8 +9,8 @@ const I18N = {
     places: "발견 장소", region: "지역", how: "방식", level: "레벨 (좌표)", method: "지역 판정", noPlace: "맵 배치 없음",
     shops: "판매 상인", osiris: "스토리 스크립트(Osiris) 지급", tables: "트레저 테이블", data: "데이터",
     contentHandle: "내용 핸들", titleHandle: "제목 핸들", templates: "템플릿", icon: "아이콘", bg: "배경",
-    prev: "◀ 이전", next: "다음 ▶", carried: "소지", "f-ac": "막", "f-rd": "읽음", read: "읽은 책", unread: "안 읽은 책",
-    markRead: "읽음 표시", isRead: "✓ 읽음", series: "시리즈", moved: "스토리 진행 중 획득", cutscene: "엔딩·에필로그 장면",
+    prev: "◀ 이전", next: "다음 ▶", carried: "소지", "f-ac": "막", "f-rd": "읽음", read: "읽은 책", unread: "안 읽은 책", "f-fv": "즐겨찾기", fav: "즐겨찾기한 책", notFav: "즐겨찾기 안 한 책",
+    markRead: "읽음 표시", isRead: "✓ 읽음", markFav: "☆ 즐겨찾기", isFav: "★ 즐겨찾기", series: "시리즈", moved: "스토리 진행 중 획득", cutscene: "엔딩·에필로그 장면",
     hits: (n) => `검색어 ${n}곳`, help: "도움말",
     footer: "데이터: 바닐라 게임 파일에서 추출(제목·내용 핸들, 배치, 트레저 테이블, 상점, Osiris 스크립트). 태그는 키워드로 추론한 값입니다.",
   },
@@ -23,8 +23,8 @@ const I18N = {
     places: "Found at", region: "Region", how: "How", level: "Level (coords)", method: "Region match", noPlace: "Not placed on a map",
     shops: "Sold by", osiris: "Given by story script (Osiris)", tables: "Treasure tables", data: "Data",
     contentHandle: "Content handle", titleHandle: "Title handle", templates: "Templates", icon: "Icon", bg: "Background",
-    prev: "◀ Prev", next: "Next ▶", carried: "carried", "f-ac": "Act", "f-rd": "Read", read: "Read", unread: "Unread",
-    markRead: "Mark as read", isRead: "✓ Read", series: "Series", moved: "Picked up during the story", cutscene: "Ending/epilogue scene",
+    prev: "◀ Prev", next: "Next ▶", carried: "carried", "f-ac": "Act", "f-rd": "Read", read: "Read", unread: "Unread", "f-fv": "Favorites", fav: "Favorites", notFav: "Not favorites",
+    markRead: "Mark as read", isRead: "✓ Read", markFav: "☆ Favorite", isFav: "★ Favorite", series: "Series", moved: "Picked up during the story", cutscene: "Ending/epilogue scene",
     hits: (n) => `${n} match${n === 1 ? "" : "es"}`, help: "Help",
     footer: "Data extracted from the vanilla game files (title/content handles, placements, treasure tables, traders, Osiris scripts). Tags are inferred from keywords.",
   },
@@ -56,6 +56,9 @@ let books = [], shown = [], current = null, byId = {};
 let READ = new Set();
 try { READ = new Set(JSON.parse(localStorage.getItem("read") || "[]")); } catch (e) { /* storage blocked */ }
 const saveRead = () => { try { localStorage.setItem("read", JSON.stringify([...READ])); } catch (e) { /* storage blocked */ } };
+let FAV = new Set();
+try { FAV = new Set(JSON.parse(localStorage.getItem("fav") || "[]")); } catch (e) { /* storage blocked */ }
+const saveFav = () => { try { localStorage.setItem("fav", JSON.stringify([...FAV])); } catch (e) { /* storage blocked */ } };
 let ui = pickUi(), lang = ui; // ui = interface language, lang = book text language
 
 function pickUi() {
@@ -95,6 +98,9 @@ function fillFilters() {
   const rd = $("f-rd").value;
   $("f-rd").innerHTML = `<option value="">${T("all")}</option><option value="1">${T("read")}</option><option value="0">${T("unread")}</option>`;
   $("f-rd").value = rd;
+  const fv = $("f-fv").value;
+  $("f-fv").innerHTML = `<option value="">${T("all")}</option><option value="1">${T("fav")}</option><option value="0">${T("notFav")}</option>`;
+  $("f-fv").value = fv;
 }
 
 function applyUi() {
@@ -118,14 +124,15 @@ function applyUi() {
 function apply() {
   const q = $("q").value.trim().toLowerCase();
   const f = { ac: $("f-ac").value, ty: $("f-ty").value, a: $("f-a").value, bg: $("f-bg").value, r: $("f-r").value,
-    tg: $("f-tg").value, rd: $("f-rd").value };
+    tg: $("f-tg").value, rd: $("f-rd").value, fv: $("f-fv").value };
   shown = books.filter((b) => (!f.ac || b.ac.includes(f.ac)) && (!f.rd || READ.has(b.id) === (f.rd === "1")) &&
+    (!f.fv || FAV.has(b.id) === (f.fv === "1")) &&
     (!q || b._h.includes(q)) && (!f.ty || b.ty === f.ty) && (!f.a || b.a.includes(f.a)) &&
     (!f.bg || b.bg.includes(f.bg)) && (!f.r || regions(b).includes(f.r)) && (!f.tg || b.tg.includes(f.tg)));
   $("count").textContent = T("shown", shown.length.toLocaleString());
   const list = $("list");
   list.innerHTML = shown.map((b) =>
-    `<li data-id="${esc(b.id)}"${current && current.id === b.id ? ' class="on"' : ""}><span class="t">${READ.has(b.id) ? "✓ " : ""}${esc(title(b))}</span>` +
+    `<li data-id="${esc(b.id)}"${current && current.id === b.id ? ' class="on"' : ""}><span class="t">${FAV.has(b.id) ? "★ " : ""}${READ.has(b.id) ? "✓ " : ""}${esc(title(b))}</span>` +
     `<span class="m">${esc(val(b.ty))} · ${esc(regions(b).slice(0, 3).join(", ") || b.a.map(val).join(", ") || T("noSource"))}</span></li>`).join("");
   const s = new URLSearchParams(f);
   if (q) s.set("q", q);
@@ -149,7 +156,8 @@ function show(b) {
   const shops = b.s.map((s) => (ui === "en" ? s.e : s.k));
   $("detail").innerHTML = `
     <div class="head-row"><h2 class="title">${esc(title(b))}</h2>
-      <button class="readbtn${READ.has(b.id) ? " on" : ""}" data-read>${READ.has(b.id) ? T("isRead") : T("markRead")}</button></div>
+      <span class="head-btns"><button class="readbtn${FAV.has(b.id) ? " on" : ""}" data-fav>${FAV.has(b.id) ? T("isFav") : T("markFav")}</button>
+      <button class="readbtn${READ.has(b.id) ? " on" : ""}" data-read>${READ.has(b.id) ? T("isRead") : T("markRead")}</button></span></div>
     <p class="title-en">${esc(subtitle(b))}</p>
     <div class="chips">
       <span class="chip type" data-f="f-ty" data-v="${esc(b.ty)}">${esc(val(b.ty))}</span>
@@ -256,12 +264,22 @@ function toggleRead() {
   show(current);
 }
 
+function toggleFav() {
+  FAV.has(current.id) ? FAV.delete(current.id) : FAV.add(current.id);
+  saveFav();
+  show(current);
+}
+
 // Left/right arrow keys turn the page, up/down open the next/previous book in the list (after scrolling a scrolling page to its end), R toggles
-// the read mark and E/K switch the book text to English/Korean, unless a text box or select has focus. The keys are listed on help.html.
+// the read mark, F toggles the favorite and E/K switch the book text to English/Korean, unless a text box or select has focus. The keys are listed on help.html.
 addEventListener("keydown", (e) => {
   if (e.ctrlKey || e.metaKey || e.altKey || (e.target instanceof Element && e.target.closest("input, select, textarea"))) return;
   if (e.code === "KeyR") { // physical key, so r, R, ㄱ and ㄲ all count
     if (current) { e.preventDefault(); toggleRead(); }
+    return;
+  }
+  if (e.code === "KeyF") {
+    if (current) { e.preventDefault(); toggleFav(); }
     return;
   }
   if (e.code === "KeyE" || e.code === "KeyK") { // book text only; the English UI always shows English text
@@ -299,6 +317,7 @@ $("detail").addEventListener("click", (e) => {
   const go = e.target.closest("[data-go]");
   if (go) { e.preventDefault(); if (go.dataset.go) show(byId[go.dataset.go]); return; }
   if (e.target.closest("[data-read]")) { toggleRead(); return; }
+  if (e.target.closest("[data-fav]")) { toggleFav(); return; }
   const tb = e.target.closest("[data-turn]");
   if (tb) { turn(+tb.dataset.turn); return; }
   const l = e.target.closest("[data-lang]");
@@ -311,10 +330,10 @@ $("list").addEventListener("click", (e) => {
     if (innerWidth <= 820) $("detail").scrollIntoView({ behavior: "smooth" });
   }
 });
-[...FILTERS, "f-rd"].forEach((id) => $(id).addEventListener("change", apply));
+[...FILTERS, "f-rd", "f-fv"].forEach((id) => $(id).addEventListener("change", apply));
 let timer;
 $("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(apply, 150); });
-$("reset").addEventListener("click", () => { $("q").value = ""; [...FILTERS, "f-rd"].forEach((id) => ($(id).value = "")); apply(); });
+$("reset").addEventListener("click", () => { $("q").value = ""; [...FILTERS, "f-rd", "f-fv"].forEach((id) => ($(id).value = "")); apply(); });
 
 applyUi();
 fetch("data/books.json").then((r) => r.json()).then((data) => {
@@ -326,7 +345,7 @@ fetch("data/books.json").then((r) => r.json()).then((data) => {
   const s = new URLSearchParams(location.search);
   $("q").value = s.get("q") || "";
   fillFilters();
-  ["ac", "ty", "a", "bg", "r", "tg", "rd"].forEach((k) => s.get(k) && ($("f-" + k).value = s.get(k)));
+  ["ac", "ty", "a", "bg", "r", "tg", "rd", "fv"].forEach((k) => s.get(k) && ($("f-" + k).value = s.get(k)));
   current = books.find((x) => x.id === s.get("id")) || null;
   applyUi();
 });

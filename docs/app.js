@@ -173,9 +173,9 @@ function show(b) {
     ${b.u.length && ui === "ko" ? `<p>${T("unknown")}: ${esc(b.u.join(" / "))}</p>` : ""}
     <section class="tech"><h3>${T("places")} (${b.pl.length})</h3>${rows ? `<table><tr><th>${T("region")}</th><th>${T("how")}</th><th class="tech">${T("level")}</th><th class="tech">${T("method")}</th></tr>${rows}</table>` : `<p class='empty'>${T("noPlace")}</p>`}</section>
     ${shops.length ? `<section><h3>${T("shops")}</h3><p>${shops.map(esc).join("<br>")}</p></section>` : ""}
-    ${b.os.length ? `<section><h3>${T("osiris")}</h3><p>${(ui === "en" ? b.oe : b.os).map(esc).join("<br>")}</p></section>` : ""}
+    ${b.os.length ? `<section class="tech"><h3>${T("osiris")}</h3><p>${(ui === "en" ? b.oe : b.os).map(esc).join("<br>")}</p></section>` : ""}
     ${b.mv.length ? `<section class="tech"><h3>${T("moved")}</h3><p>${(ui === "en" ? b.mve : b.mv).map(esc).join("<br>")}</p></section>` : ""}
-    ${b.tt.length ? `<section><h3>${T("tables")}</h3><p><code>${b.tt.map(esc).join(", ")}</code></p></section>` : ""}
+    ${b.tt.length ? `<section class="tech"><h3>${T("tables")}</h3><p><code>${b.tt.map(esc).join(", ")}</code></p></section>` : ""}
     <section class="tech"><h3>${T("data")}</h3><dl>
       <dt>BookId</dt><dd><code>${esc(b.id)}</code></dd>
       <dt>${T("contentHandle")}</dt><dd><code>${esc(b.ch)}</code></dd>
@@ -271,7 +271,7 @@ function toggleFav() {
   show(current);
 }
 
-// Technical rows (the Found at, Picked up during the story and data sections) start hidden; the choice lives only in this browser.
+// Technical rows (the Found at, Osiris, Picked up during the story, treasure table and data sections) start hidden; the choice lives only in this browser.
 // The button names what a click does: show while hidden, hide while shown.
 let tech = false;
 try { tech = localStorage.getItem("tech") === "1"; } catch (e) { /* storage blocked */ }

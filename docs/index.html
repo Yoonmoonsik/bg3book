@@ -29,6 +29,7 @@
     </div></div>
   </div>
   <p class="sub"><span data-i18n="sub"></span> <span id="total"></span></p>
+  <div class="io-tools"><button id="export" type="button" class="tech-btn" data-i18n="exportBtn"></button><button id="import" type="button" class="tech-btn" data-i18n="importBtn"></button><span id="io-msg"></span></div>
 </header>
 <div class="layout">
   <aside class="filters">
@@ -45,9 +46,7 @@
     <button id="random" type="button" data-i18n="random"></button>
     <p class="count" id="count"></p>
     <p class="count" id="progress"></p>
-    <div class="io"><button id="export" type="button" data-i18n="exportBtn"></button><button id="import" type="button" data-i18n="importBtn"></button>
-      <input id="import-file" type="file" accept="application/json,.json" hidden></div>
-    <p class="count" id="io-msg"></p>
+    <input id="import-file" type="file" accept=".json,application/json" hidden>
     <ul id="list"></ul>
   </aside>
   <main id="detail"></main>

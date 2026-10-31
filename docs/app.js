@@ -171,7 +171,7 @@ function show(b) {
     ${seriesNav(b)}
     <div class="pager" hidden><button data-turn="-1">${T("prev")}</button><span id="pg"></span><span id="hits"></span><button data-turn="1">${T("next")}</button></div>
     ${b.u.length && ui === "ko" ? `<p>${T("unknown")}: ${esc(b.u.join(" / "))}</p>` : ""}
-    <section><h3>${T("places")} (${b.pl.length})</h3>${rows ? `<table><tr><th>${T("region")}</th><th>${T("how")}</th><th class="tech">${T("level")}</th><th class="tech">${T("method")}</th></tr>${rows}</table>` : `<p class='empty'>${T("noPlace")}</p>`}</section>
+    <section class="tech"><h3>${T("places")} (${b.pl.length})</h3>${rows ? `<table><tr><th>${T("region")}</th><th>${T("how")}</th><th class="tech">${T("level")}</th><th class="tech">${T("method")}</th></tr>${rows}</table>` : `<p class='empty'>${T("noPlace")}</p>`}</section>
     ${shops.length ? `<section><h3>${T("shops")}</h3><p>${shops.map(esc).join("<br>")}</p></section>` : ""}
     ${b.os.length ? `<section><h3>${T("osiris")}</h3><p>${(ui === "en" ? b.oe : b.os).map(esc).join("<br>")}</p></section>` : ""}
     ${b.mv.length ? `<section><h3>${T("moved")}</h3><p>${(ui === "en" ? b.mve : b.mv).map(esc).join("<br>")}</p></section>` : ""}
@@ -271,7 +271,7 @@ function toggleFav() {
   show(current);
 }
 
-// Technical rows (level and coordinates, region match, the data section) start hidden; the choice lives only in this browser.
+// Technical rows (the Found at section, the data section) start hidden; the choice lives only in this browser.
 // The button names what a click does: show while hidden, hide while shown.
 let tech = false;
 try { tech = localStorage.getItem("tech") === "1"; } catch (e) { /* storage blocked */ }

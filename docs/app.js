@@ -12,6 +12,8 @@ const I18N = {
     prev: "◀ 이전", next: "다음 ▶", carried: "소지", "f-ac": "막", "f-rd": "읽음", read: "읽은 책", unread: "안 읽은 책", "f-fv": "즐겨찾기", fav: "즐겨찾기한 책", notFav: "즐겨찾기 안 한 책",
     markRead: "읽음 표시", isRead: "✓ 읽음", markFav: "☆ 즐겨찾기", isFav: "★ 즐겨찾기", series: "시리즈", moved: "스토리 진행 중 획득", cutscene: "엔딩·에필로그 장면",
     hits: (n) => `검색어 ${n}곳`, help: "도움말", techShow: "기술 정보 표시", techHide: "기술 정보 숨기기",
+    recent: "최근 본 책", random: "무작위 책", progress: (n, t) => `읽음 ${n} / ${t}`,
+    exportBtn: "기록 내보내기", importBtn: "기록 가져오기", importBad: "읽음·즐겨찾기 기록 파일이 아닙니다.",
     footer: "데이터: 바닐라 게임 파일에서 추출(제목·내용 핸들, 배치, 트레저 테이블, 상점, Osiris 스크립트). 태그는 키워드로 추론한 값입니다.",
   },
   en: {
@@ -26,6 +28,8 @@ const I18N = {
     prev: "◀ Prev", next: "Next ▶", carried: "carried", "f-ac": "Act", "f-rd": "Read", read: "Read", unread: "Unread", "f-fv": "Favorites", fav: "Favorites", notFav: "Not favorites",
     markRead: "Mark as read", isRead: "✓ Read", markFav: "☆ Favorite", isFav: "★ Favorite", series: "Series", moved: "Picked up during the story", cutscene: "Ending/epilogue scene",
     hits: (n) => `${n} match${n === 1 ? "" : "es"}`, help: "Help", techShow: "Show technical info", techHide: "Hide technical info",
+    recent: "Recently viewed", random: "Random book", progress: (n, t) => `Read ${n} / ${t}`,
+    exportBtn: "Export marks", importBtn: "Import marks", importBad: "Not a read/favorite marks file.",
     footer: "Data extracted from the vanilla game files (title/content handles, placements, treasure tables, traders, Osiris scripts). Tags are inferred from keywords.",
   },
 };
@@ -59,6 +63,12 @@ const saveRead = () => { try { localStorage.setItem("read", JSON.stringify([...R
 let FAV = new Set();
 try { FAV = new Set(JSON.parse(localStorage.getItem("fav") || "[]")); } catch (e) { /* storage blocked */ }
 const saveFav = () => { try { localStorage.setItem("fav", JSON.stringify([...FAV])); } catch (e) { /* storage blocked */ } };
+// the last 10 opened books, newest first
+let RECENT = [];
+try { RECENT = JSON.parse(localStorage.getItem("recent") || "[]"); } catch (e) { /* storage blocked */ }
+const saveRecent = () => { try { localStorage.setItem("recent", JSON.stringify(RECENT)); } catch (e) { /* storage blocked */ } };
+// list position the open book held before a filter dropped it (R/F under a read/favorite filter); -1 while it is listed
+let gap = -1;
 let ui = pickUi(), lang = ui; // ui = interface language, lang = book text language
 
 function pickUi() {
@@ -119,6 +129,7 @@ function applyUi() {
     books.sort((a, b) => title(a).localeCompare(title(b), ui));
     apply();
     current ? show(current) : ($("detail").innerHTML = `<p class="empty">${T("pick")}</p>`);
+    renderRecent();
   }
 }
 
@@ -126,11 +137,15 @@ function apply() {
   const q = $("q").value.trim().toLowerCase();
   const f = { ac: $("f-ac").value, ty: $("f-ty").value, a: $("f-a").value, bg: $("f-bg").value, r: $("f-r").value,
     tg: $("f-tg").value, rd: $("f-rd").value, fv: $("f-fv").value };
+  const prev = current ? shown.indexOf(current) : -1;
   shown = books.filter((b) => (!f.ac || b.ac.includes(f.ac)) && (!f.rd || READ.has(b.id) === (f.rd === "1")) &&
     (!f.fv || FAV.has(b.id) === (f.fv === "1")) &&
     (!q || b._h.includes(q)) && (!f.ty || b.ty === f.ty) && (!f.a || b.a.includes(f.a)) &&
     (!f.bg || b.bg.includes(f.bg)) && (!f.r || regions(b).includes(f.r)) && (!f.tg || b.tg.includes(f.tg)));
+  if (current && shown.includes(current)) gap = -1;
+  else if (prev >= 0) gap = prev;
   $("count").textContent = T("shown", shown.length.toLocaleString());
+  renderProgress();
   const list = $("list");
   list.innerHTML = shown.map((b) =>
     `<li data-id="${esc(b.id)}"${current && current.id === b.id ? ' class="on"' : ""}><span class="t">${FAV.has(b.id) ? "★ " : ""}${READ.has(b.id) ? "✓ " : ""}${esc(title(b))}</span>` +
@@ -145,6 +160,11 @@ function apply() {
 
 function show(b) {
   current = b;
+  if (RECENT[0] !== b.id) {
+    RECENT = [b.id, ...RECENT.filter((id) => id !== b.id)].slice(0, 10);
+    saveRecent();
+    renderRecent();
+  }
   document.querySelectorAll("#list li").forEach((li) => li.classList.toggle("on", li.dataset.id === b.id));
   const bg = b.bg[0] || "None";
   if (ui === "en") lang = "en";
@@ -157,7 +177,7 @@ function show(b) {
   const shops = b.s.map((s) => (ui === "en" ? s.e : s.k));
   $("detail").innerHTML = `
     <div class="head-row"><h2 class="title">${esc(title(b))}</h2>
-      <span class="head-btns tech"><button class="readbtn${FAV.has(b.id) ? " on" : ""}" data-fav>${FAV.has(b.id) ? T("isFav") : T("markFav")}</button>
+      <span class="head-btns"><button class="readbtn${FAV.has(b.id) ? " on" : ""}" data-fav>${FAV.has(b.id) ? T("isFav") : T("markFav")}</button>
       <button class="readbtn${READ.has(b.id) ? " on" : ""}" data-read>${READ.has(b.id) ? T("isRead") : T("markRead")}</button></span></div>
     <p class="title-en">${esc(subtitle(b))}</p>
     <div class="chips tech">
@@ -187,6 +207,31 @@ function show(b) {
   turn(0);
   highlight();
   apply();
+}
+
+// Overall read count, then per act; a book in several acts counts in each.
+function renderProgress() {
+  const acts = {};
+  books.forEach((b) => b.ac.forEach((a) => {
+    acts[a] ??= [0, 0];
+    acts[a][1]++;
+    if (READ.has(b.id)) acts[a][0]++;
+  }));
+  const n = books.filter((b) => READ.has(b.id)).length;
+  $("progress").textContent = [T("progress", n.toLocaleString(), books.length.toLocaleString()),
+    ...ACT_ORDER.filter((a) => acts[a]).map((a) => `${val(a)} ${acts[a][0]}/${acts[a][1]}`)].join(" · ");
+}
+
+function renderRecent() {
+  const ids = RECENT.filter((id) => byId[id]);
+  $("recent-box").hidden = !ids.length;
+  $("recent").innerHTML = ids.map((id) => `<li><a href="#" data-id="${esc(id)}">${esc(title(byId[id]))}</a></li>`).join("");
+}
+
+function openBook(b) {
+  show(b);
+  document.querySelector(`#list li[data-id="${CSS.escape(b.id)}"]`)?.scrollIntoView({ block: "nearest" });
+  if (innerWidth <= 820) $("detail").scrollIntoView({ behavior: "smooth" });
 }
 
 function seriesNav(b) {
@@ -259,6 +304,18 @@ $("detail").addEventListener("wheel", (e) => {
   if (turn(d)) { wheelAt = now; e.preventDefault(); }
 }, { passive: false });
 
+// A horizontal swipe over a two-page book turns the page.
+let touchAt = null;
+$("detail").addEventListener("touchstart", (e) => {
+  touchAt = e.target.closest(".page.None") && e.touches.length === 1 ? [e.touches[0].clientX, e.touches[0].clientY] : null;
+}, { passive: true });
+$("detail").addEventListener("touchend", (e) => {
+  if (!touchAt) return;
+  const dx = e.changedTouches[0].clientX - touchAt[0], dy = e.changedTouches[0].clientY - touchAt[1];
+  touchAt = null;
+  if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) turn(dx < 0 ? 1 : -1);
+});
+
 function toggleRead() {
   READ.has(current.id) ? READ.delete(current.id) : READ.add(current.id);
   saveRead();
@@ -313,8 +370,9 @@ addEventListener("keydown", (e) => {
       t.scrollBy({ top: (down ? 1 : -1) * t.clientHeight * 0.2, behavior: "smooth" });
       return;
     }
+    // a book dropped by the filter leaves its slot: down opens the book now in that slot, up the one before it
     const list = shown, i = list.indexOf(current);
-    const b = list[i < 0 ? 0 : i + (e.key === "ArrowDown" ? 1 : -1)];
+    const b = i < 0 && gap >= 0 ? list[down ? gap : gap - 1] : list[i < 0 ? 0 : i + (down ? 1 : -1)];
     if (!b) return;
     e.preventDefault();
     show(b);
@@ -344,9 +402,39 @@ $("detail").addEventListener("click", (e) => {
 $("list").addEventListener("click", (e) => {
   const li = e.target.closest("li[data-id]");
   if (li) {
-    show(books.find((b) => b.id === li.dataset.id));
+    show(byId[li.dataset.id]);
     if (innerWidth <= 820) $("detail").scrollIntoView({ behavior: "smooth" });
   }
+});
+$("recent").addEventListener("click", (e) => {
+  const a = e.target.closest("a[data-id]");
+  if (a) { e.preventDefault(); openBook(byId[a.dataset.id]); }
+});
+$("random").addEventListener("click", () => shown.length && openBook(shown[Math.floor(Math.random() * shown.length)]));
+
+// Read and favorite marks go out as a JSON file and come back merged into what this browser already has.
+$("export").addEventListener("click", () => {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify({ read: [...READ], fav: [...FAV] })], { type: "application/json" }));
+  a.download = "bg3book-marks.json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+});
+$("import").addEventListener("click", () => $("import-file").click());
+$("import-file").addEventListener("change", async (e) => {
+  const f = e.target.files[0];
+  e.target.value = "";
+  if (!f) return;
+  let d;
+  try { d = JSON.parse(await f.text()); } catch (err) { d = null; }
+  const ok = (v) => Array.isArray(v) && v.every((x) => typeof x === "string");
+  if (!d || !ok(d.read) || !ok(d.fav)) { $("io-msg").textContent = T("importBad"); return; }
+  $("io-msg").textContent = "";
+  d.read.forEach((id) => READ.add(id));
+  d.fav.forEach((id) => FAV.add(id));
+  saveRead();
+  saveFav();
+  current ? show(current) : apply();
 });
 [...FILTERS, "f-rd", "f-fv"].forEach((id) => $(id).addEventListener("change", apply));
 let timer;
